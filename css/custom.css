@@ -1,0 +1,3339 @@
+
+@font-face {
+	src: url(../fonts/montserrat-light.ttf);
+    font-family: montserrat-light;
+    
+}
+@font-face {
+	src: url(../fonts/montserrat-ExtraBold.ttf);
+    font-family: montserrat-ExtraBold;
+    
+}
+@font-face {
+	src: url(../fonts/montserrat-regular.otf);
+    font-family: montserrat-regular;
+    
+}
+@font-face {
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-family: Montserrat-Bold;
+    
+}
+@font-face {
+    src: url(../fonts/Montserrat-Medium.ttf);
+    font-family: Montserrat-Medium;
+    
+}
+@font-face {
+    src: url(../fonts/Nunito-Regular.ttf);
+    font-family: Nunito-Regular;
+    
+}
+@font-face {
+    src: url(../fonts/Nunito-Bold.ttf);
+    font-family: Nunito-Bold;
+    
+}
+@font-face {
+    src: url(../fonts/Nunito-Black.ttf);
+    font-family: Nunito-Black;
+    
+}
+body{
+	width: 100%;
+	margin: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.top-nav li a{
+	color:white !important;
+	font-family: montserrat-light !important;
+	font-size: 14px;
+
+}
+.top-nav-opt{
+	margin-left: 59px;
+}
+
+.top-nav-nav{
+	background-color: #2c3437;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.top-option-left{
+	float: left
+}
+.top-option-right{
+	float: right;
+
+	
+}
+.top-font{
+font-family: montserrat-light;
+color: white;
+}
+.main-menu{
+	background-color: #ffffff;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.container1{
+	max-width: 905px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (max-width: 400px) {
+	.july-btn-btn{
+		display: none;
+	}
+    .top-option-right {
+        float: right;
+    }
+    .top-nav-option1{
+    	float: left;
+    	
+    }
+    .footer-txt4{
+	margin-left: 0px;
+	}
+	.footer-txt{
+ 	margin-top: 3px;
+	}
+	.top-marg{
+	margin-left: 0px;
+	}
+	.li1 a {
+    padding: 10px 10px;
+}
+.select-btn-package{
+	width: 23%;
+	margin-left: 40px;
+}
+.price-border{
+	border: 1px solid;
+	border-color: lightgrey;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+.contact-btn{
+margin-top: 22px;
+}
+
+}
+
+
+
+
+
+/*Main Menu*/
+
+.menu-nav-nav{
+	background-color: white;
+	padding-top: 11px;
+	padding-bottom: 8px; 
+}
+.menu-nav li a{
+	color:black !important;
+	font-family: Montserrat-Medium !important;
+
+}
+.menu-nav-bar{
+	background-color: #161a1b;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.menu-option-right{
+float: right;
+font-family: Monteserrat-Medium;
+background-color: white;
+
+}
+.toggle{
+	float: right;
+}
+
+.logo{
+	height: 30px;
+	width: 50px;
+}
+
+.rpspan{
+	font-family: Montserrat-Bold !important;
+	size: 30px;
+}
+.today{
+	margin-top: 100px;
+}
+.today-index{
+	margin-top: 100px;
+}
+.main-image{
+ background-image: url("../image/travo/11.jpg");
+ height: 537px;
+ background-repeat:no-repeat;
+ background-size: cover;
+
+
+}
+.medium{
+	font-family: Montserrat-Medium !important; 
+	color: white;
+	size: 16px;
+	margin-top: 100px;
+}
+.medium-span{
+	font-size: 19px !important;
+}
+ .star1{ 
+
+	size: 16px;
+	margin-top: 50px;
+	color:white;
+}
+.main-btn{
+	border-radius: 0px;
+	background-color: #ff3333;
+	color: #fff5f5;
+	font-family: Montserrat-Medium !important; 
+	margin-top: 30px;
+}
+.heart{
+	padding-left: 20px;
+	color: white;
+}
+li{
+	list-style: none;
+}
+.btn-deal{
+	margin-left: 0px
+}
+.btn-page{
+	border-color: none;
+	background-color: #ff3333;
+	color: white;
+	border-radius: 0px;
+}
+.heading-deal{
+	padding-top:70px;
+	text-align: center;
+	font-family: montserrat-Medium !important; 
+
+}
+.p-heading{
+	text-align: center;
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+
+}
+.deal-lahore{
+	background-image: url("../image/travo/lahore-l.jpg");
+	width: 100%;
+	height: 300px;
+	 background-repeat:no-repeat;
+     background-size: cover;
+     padding-top: 1px;
+     margin-bottom: 100px;
+
+}
+.deal-mumbai{
+	background-image: url("../image/travo/mumbai-m.jpg");
+	width: 100%;
+	height: 300px;
+	 background-repeat:no-repeat;
+     background-size: cover;
+     padding-top: 1px;
+     margin-bottom: 100px;
+
+}
+.deal-dhelli{
+	background-image: url("../image/travo/dhelli.jpg");
+	width: 100%;
+	height: 300px;
+	 background-repeat:no-repeat;
+     background-size: cover;
+     padding-top: 1px;
+     margin-bottom: 100px;
+
+}
+.deal-islamabad{
+	background-image: url("../image/travo/islamabad.jpg");
+	width: 100%;
+	height: 300px;
+	 background-repeat:no-repeat;
+     background-size: cover;
+     padding-top: 1px;
+     margin-bottom: 100px;
+
+}
+.disc{
+	background-image: url("../image/travo/discount.png");
+	width: 100%;
+	height: 100%;
+	height: 150px;
+	width: 150px;
+	 background-repeat:no-repeat;
+     background-size: cover;
+     margin-top: 150px;
+
+    
+}
+.disc-margin{
+	margin-right: 0px;
+	margin-bottom: 85px;
+}
+.dis-text{
+font-family: Nunito-Black !important;
+padding-left: 25px;
+padding-top: 67px;
+}
+.star{
+	float: right;
+	padding-top: 250px;
+	padding-right: 50px;
+}
+.arow-left{
+	padding-top:0px;
+	padding-left:3px;
+
+}
+.butn-deal{
+	margin-top:0px;
+	margin-left: 0px;
+
+}
+.buttn-deal{
+	color:grey;
+	margin-left: 0px;
+	margin-top:0px;
+}
+.slide{
+	color:grey;
+	margin-top:135px;
+	align-content: center;
+	align-items: center;
+	float: center;
+}
+
+/*BLUE BACKGROUND*/
+.logo1{
+	padding-top: 40px;
+	padding-left: 0px;
+}
+.rpspan1{
+	font-family: Montserrat-Bold !important;
+	size: 30px;
+	color: white !important;
+}
+.banner-image{
+	background-image: url("../image/travo/slider-1.jpg");
+	height: 537px;
+	margin-top: 60px;
+
+ background-repeat:no-repeat;
+ background-size: cover;
+}
+.planning-sli{
+	background-image: url("../image/travo/planning.png");
+	width: 100%;
+	 background-repeat:no-repeat;
+ background-size: cover;
+ height: 209px;
+ width: 100%;
+ margin: 3px;
+
+
+}
+.btn-offer{
+	margin-left: 0px
+	margin-bottom: 100px;
+    font-family: Montserrat-Medium !important;
+}
+.btn-font{
+	font-family: Montserrat-Medium !important;
+}
+.offer-text{
+	font-family: montserrat-ExtraBold !important;
+	color: white;
+	margin-top: 40px;
+}
+.offer-text1{
+	font-family: montserrat-Medium !important;
+	color: white;
+}
+.btn-image{
+
+background-image: url("../image/travo/air1.png");	
+height: 20%;
+width: 15%;
+margin-top: 20px;
+background-repeat:no-repeat;
+background-size: cover;
+}
+.blue-text{
+	padding-top: 200px;
+
+}
+
+/*DESTINATION*/
+.destination{
+	width: 100%;
+	height:80%;
+}
+.heading-destination{
+	font-family: montserrat-Medium !important;
+	padding-top: 15px; 
+
+}
+
+.heading-destination1{
+	font-family: montserrat-Medium !important;
+	padding-top: 15px;
+	margin-left: 0px; 
+	margin-right: 0px;
+	margin-top: 15px;
+
+}
+.heading-destination2{
+	font-family: montserrat-Medium !important;
+	padding-top: 15px;
+	margin-left: 0px; 
+	margin-right: 0px;
+	margin-top: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+.p-destination{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 11px;
+
+}
+.p-destination1{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 11px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+.btn-destination{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 16px;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	margin-top: 1534px;
+
+}
+.btn-destination-bd{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 16px;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	margin-top: 15px;
+
+}
+.btn-destination-bb{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 16px;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	    margin-left: 30px;
+	margin-top: 1543px;
+
+}
+.btn-destination-bb-b{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 16px;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	margin-top: 1543px;
+	margin-right: 500px;
+
+}
+.btn-destinat{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 16px;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	margin-left: 533px;
+	margin-bottom: 20px;
+
+}
+.btn-destination-index{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 16px;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	margin-top: 30px;
+	border: 1px solid darkgrey;
+	border-radius: 3px;
+	height: 40px;
+	width: 100px;
+	background-color: #f3f4f6;
+
+}
+.b{
+	padding-top: 20px;
+
+}
+
+/*TRAVEL PLANNING*/
+
+.heading-destination1{
+	font-family: montserrat-Medium !important;
+	padding-top: 0px; 
+	text-align: left
+
+}
+.p-destination1{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 11px;
+	text-align: left;
+
+}
+.p-destination2{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 11px;
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+.travel{
+	padding-top: 30px;
+}
+.travel-planning{
+	background-image: url("../image/travo/blue.jpg");	
+	background-repeat:no-repeat;
+	background-size: cover;
+	margin-top: 40px;
+	padding-bottom: 60px;
+	padding-top: 30px;
+}
+.travel-planning1{
+	background-color: #e3e7ea;
+	margin-top: 80px;
+	padding-bottom: 90px;
+	padding-top: 120px;
+}
+.travel-planningt{
+	width:150px;
+	background-color: #e3e7ea;
+	margin-top: 80px;
+	padding-bottom: 60px;
+	padding-top: 120px;
+}
+.imgg1{
+	height: 150px;
+	width: 150px;
+
+}
+.carou-set{
+	width:300px;
+	height:300px;
+}
+.butn-deal1{
+	margin-top:50px;
+	margin-bottom: 0px;
+	background-color: #f3f4f6;
+	    width: 100px;
+	    height: 45px;
+	    border: none;
+}
+.butn-deal1-btn{
+	margin-top:50px;
+	margin-bottom: 0px;
+	background-color: #f3f4f6;
+	    width: 90px;
+	    height: 45px;
+	    border: none;
+}
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: -30% !important;
+    margin-left: 950px !important;
+    display: block !IMPORTANT;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: -30% !important;
+    right: 720px !important;
+    display: block!IMPORTANT;
+    border:0px solid black;
+}
+
+.planning{
+	background-image: url("../image/travo/planning.png");
+	width: 100%;
+	height: 300px;
+	margin: 3px
+
+}
+.sl{
+	width: 72% !important;
+}
+.car3{
+	align-items: center;
+	padding-left: 0px;
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 154px;
+
+	
+
+}
+.five{
+	padding-top: 30px;
+}
+
+.medium1{
+	font-family: Montserrat-Medium !important; 
+	color: white;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.medium2{
+	font-family: Montserrat-Medium !important; 
+	color: white;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.planning-txt{
+ font-family: Nunito-Regular !important;
+ color: white;
+ font-size: 10px;
+}
+
+/*SPECIAL TRAVEL STORIES*/
+
+.story{
+	background-image: url("../image/travo/story-one.jpg");
+
+
+}
+.box{
+	background-color: #616161;
+	margin-top: 300px;
+	margin-left: 0px;
+	margin-bottom: 25px;
+
+}
+.france-txt{
+	float: right;
+	align-items: right;
+	align-self: right;
+	    margin-top: -45px;
+	    margin-right: 57px;
+	
+}
+.france-txt1{
+	font-size: 18px;
+	margin-right: 81px;
+	float: right;
+	align-items: right;
+	align-self: right;
+	margin-top: 300px;
+	
+}
+.special{
+	margin-top:35px;
+	background:white;
+}
+/*.planning-txt1{
+ font-family: Nunito-Regular !important;
+ color: black;
+ font-size: 10px;
+
+}*/
+
+/*SLIDER*/
+
+.img{
+	width: 92px;
+	height: 89px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 10;
+	margin-top: 200px;
+	margin-bottom: : 200px;
+}
+.div1{
+border-color: grey
+
+}
+.img1{
+	height: 201;
+	width: 180;
+}
+.planning-txt2{
+ font-family: Nunito-Regular !important;
+ color: black;
+ font-size: 10px;
+ margin-top: 20px;
+}
+.destination1{
+	width: 350px;
+	height:300px;
+	margin-top: 10px;
+}
+.planning-txt3{
+ font-family: Nunito-Regular !important;
+ color: red;
+ font-size: 10px;
+ margin-top: 0px;
+ margin-left: 16px;
+}
+.btn-slide{
+
+	margin-bottom: 0px;
+	background-color: #f3f4f6;
+	width: 100px;
+	height: 45px;
+	border: none;
+	margin-top: 0px;
+	margin-left: -70px;
+}
+.btn-slide1{
+	margin-top:0px;
+	margin-bottom: 0px;
+	background-color: #f3f4f6;
+	width: 100px;
+	height: 45px;
+	border: none;
+	margin-left: -119px;
+}
+.footer-txt{
+ font-family: Montserrat-Medium !important; 
+ color: white;
+ font-size: 18px;
+ margin-top: 20px;
+}
+.footer-txt1{
+ font-family: Nunito-Regular !important;
+ color: #767b7e;
+ font-size: 12px;
+ margin-top: 20px;
+}
+.footer1{
+	margin-top: 0px;
+	background-color: #2c3437;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+.btn-footer{
+	background-color: #2c3437;
+	border-color: #767b7e;
+	height: 25px;
+	font-size: 10px;
+	color: white;
+	margin-bottom: 5px;
+	font-family: Montserrat-Bold !important; 
+	
+
+}
+.btn-footer2{
+	margin-top: 20px;
+	
+}
+.blog{
+	width: 95px;
+	height: 90px;
+}
+.footer-txt3{
+	margin-left: 75px;
+}
+.footer-txt4{
+	margin-left: 0px;
+}
+.footer-txt4{
+	 font-family: Nunito-Regular !important;
+ color: #767b7e;
+ font-size: 12px;
+ margin-top: 0px;
+ margin-bottom: 50px
+}
+.btn-footer1{
+	width: 80px;
+	height: 25px;
+	text-align: center;
+	margin-bottom: 5px;
+	background-color: red;
+	color: white;
+	font-size: 10px;
+	font-family: Montserrat-Bold !important; 
+}
+.bb{
+	border: 1px solid lightgrey;
+	width: 100%;
+	height: 100%;
+}
+
+.imag{
+	height: 50%;
+	width: 100%;
+
+}
+.planning-txt4{
+ font-family: Nunito-Regular !important;
+ color: black;
+ font-size: 10px;
+ margin-top: 20px;
+ margin-left: 15px;
+ margin-right: 15px;
+}
+
+/*COPYRIGHT*/
+.copyright{
+	background-color: #262d30;
+}
+.copy-text{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: Nunito-Regular !important;
+	color: #4e5356;
+}
+.img-dot {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+    margin-bottom: 20px;
+   
+}
+.img-dot-s {
+    
+    width: 1%;
+    margin-bottom: 20px;
+   
+}
+.hotel{
+	color: red;
+	font-family: Montserrat-Medium !important;
+
+}
+.bx-nav-div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2c3437;
+    margin-bottom: 5px;
+}
+
+.bx-nav-div ul li {
+    float: left;
+    border-right:4px solid #bbb;
+    border-color: black;
+
+}
+
+  ul .hotel1 {
+    float: left;
+    border-right:0px;
+    border-style: none;
+    border-color: none;
+    color: green;
+    background-color: green;
+
+}
+
+li:last-child {
+    border-right: none;
+}
+
+ .bx-nav-div ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.bx-nav-div ul li a:hover:not(.active) {
+    background-color: black;
+}
+.active {
+    background-color: #e8ebf0;
+
+}
+.bx-nav{
+  color: #d0d1d1;
+  font-size: 14px;
+  font-family: Montserrat-Medium !important;
+  background-color: #2c3437;
+  color: black;
+
+
+}
+.bx-nav-div{
+	background-color: #e8ebf0;
+	padding-bottom: 20px;
+	margin-top: 45px;
+	padding-left: 50px;
+
+}
+
+
+
+/*SEARCH BAR*/
+
+
+.search-box {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  float: left;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.search-box.hovered, .search-box:hover, .search-box:active {
+  border: 1px solid #aaa;
+
+}
+.search-box input[type=text] {
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 0;
+  background: transparent;
+  margin-left: 25px;
+  font-family: Nunito-Regular !important;
+
+}
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {
+  box-shadow: none;
+  font-family: Nunito-Regular !important;
+
+}
+.search-bx1{
+	margin-left: 0px;
+
+
+}
+.search-box .search-btn {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  float: left;
+  color: #aaa;
+  border-radius: 3px;
+  font-size: 21px;
+  padding: 0px 2px 1px;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.search-font{
+	font-family: Nunito-Regular !important;
+
+}
+
+.check{
+	background-color: white;
+	padding-bottom: 12px;
+	margin-left: 0px;
+	margin-top: 21px;
+
+}
+.check1{
+	margin-left: 0px;
+	font-family: Nunito-Regular !important;
+	padding-left: 10px;
+	padding-top: 6px;
+
+}
+.srch-btn{
+	border-radius: 0px;
+	background-color: white;
+	font-family: Nunito-Regular !important;
+	margin-top: 20px;
+	height: 38px;
+	padding-left: 2px;
+}
+.srch-btn1 {
+	border-radius: 0px;
+	background-color: red;
+	font-family: Nunito-Regular !important;
+	margin: 0px;
+	color: #fff5f5;
+	height: 38px;
+	width: 100%;
+	margin-top: 0px;
+}
+.owl-prev {
+    width: 25px;
+    height: 100px;
+    position: absolute;
+    top: 92%;
+    margin-left: 860px;
+    display: block !IMPORTANT;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 25px;
+    height: 100px;
+    position: absolute;
+    top: 92%;
+    right: 920px;
+    display: block!IMPORTANT;
+    border:0px solid black;
+}
+.owl-prev1{
+	margin-top:0px;
+	background-color: #f3f4f6;
+	width: 100px;
+	height: 45px;
+    position: absolute;
+    top: 92%;
+    margin-left: 0px !important;
+    display: block !IMPORTANT;
+    border:0px solid black;
+	
+	
+}
+.owl-next1{
+	margin-top:45px;
+	background-color: #f3f4f6;
+	width: 100px;
+	height: 45px;
+    position: absolute;
+    top: 92%;
+    right: 0px !important;
+    display: block!IMPORTANT;
+    border:0px solid black;
+	
+}
+
+/*SLIDER*/
+.slide-img{
+	height: 100%;
+	width: 100%;
+}
+.top-marg{
+	margin-left: 211px;
+}
+
+
+
+/*CONTACT PAGE*/
+
+.contact-bg{
+		background-image: url("../image/contact/contact-bg.png");
+	height: 100px;
+	margin-top: 20px;
+
+ background-repeat:no-repeat;
+ background-size: cover;
+
+}
+.contact-us{
+	font-family: Montserrat-Bold !important;
+	margin-top: 28px;
+}
+.contact-btn{
+	border-radius: 0px;
+	background-color: white;
+	margin-top: 28px;
+}
+.postal{
+	margin-top: 100px;
+}
+.postal-font{
+	font-family: Nunito-Bold !important;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.postal-font1{
+font-family: Nunito-Regular !important;
+color: #a8acae;
+font-size: 15px;
+}
+
+/*CONTACT FORM*/
+
+.comment-form{
+	height: 147px;
+	border-radius: 0px;
+}
+.name-form{
+	border-radius: 0px;
+}
+.form-btn{
+	color: white;
+	background-color: #ff3333;
+	width: 110px;
+	border-radius: 2px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto; 
+	width: 140px;
+	height: 35px;
+	margin-top: 20px;
+}
+
+/*BLUE BACKGROUND*/
+
+.blue{
+	background-color: #5b2cd2;
+	height: 580px;
+}
+.blue-font{
+	font-family: Montserrat-Medium !important;
+	padding-top: 245px;
+	color: white;
+}
+.blue-btn{
+	color: white;
+	background-color: #ff3333;
+	width: 110px;
+	border-radius: 0px;
+	width: 110px;
+	height: 38px;
+	margin-top: 15px;
+}
+
+/*PACKAGE AND PRICES*/
+
+.price{
+		background-image: url("../image/02-index/luxery.jpg");
+	height: 100%;
+	width: 100%;
+
+ background-repeat:no-repeat;
+ background-size: cover;
+	
+}
+.price-one{
+		background-image: url("../image/02-index/deluxe.jpg");
+	height: 100%;
+	width: 100%;
+
+ background-repeat:no-repeat;
+ background-size: cover;
+	
+}
+.price-two{
+		background-image: url("../image/02-index/comfort.jpg");
+	height: 100%;
+	width: 100%;
+
+ background-repeat:no-repeat;
+ background-size: cover;
+	
+}
+.price-border{
+	background-color: white;
+	border-color: lightgrey solid;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	
+}
+.price-font{
+	font-family: Montserrat-Bold !important;
+	color: white;
+	padding-top: 100px;
+	text-align: center;
+}
+.night{
+	font-family: Montserrat-light !important;
+	color: white;
+	margin-left: 136px;
+	font-size: 18px;
+}
+.deluxe{
+	font-family: Nunito-Regular !important;
+	color: red;
+	text-align: center;
+	margin-top: 35px;
+}
+.deluxe-d{
+	font-family: Nunito-Regular !important;
+	color: #9ea1a3;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 30px;
+}
+.bbg{
+	background-image: url("../image/contact/price-img.png");
+	height: 200px;
+}
+.package{
+	padding-bottom: 70px;
+}
+
+
+/*Search Hotel Page*/
+
+.found-hotel-btn{
+	background-color: #6cd228;
+	color: white;
+	width: 350px;
+	height: 60px;
+	margin-top: 10px;
+
+}
+.found-btn-font{
+	text-align: left;
+	margin-left: 50px;
+
+}
+.bell{
+	align-items: center;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.car-p{
+	background-color: #757575;
+	display: block;
+}
+.lii{
+	padding-right: 20px;
+}
+.car-p-c{
+	background-color: #757575;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ccoki{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15px;
+	height: 17px;
+	width: 22px;
+}
+.ccoki-cook{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6px;
+	height: 17px;
+	width: 16px;
+}
+.mark{
+	color: red;
+	background: none;
+}
+.mug-img{
+
+	width: 30px;
+	display: block;
+
+}
+.mug-img-mm{
+
+	width: 100%;
+	height: 255px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+.mug-img-mm-m{
+
+	width: 100%;
+	height: 214px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+.dinner{
+	 display: block;
+     margin-left: auto;
+     margin-bottom: auto;
+     height: 100%;
+     width: 100%;
+}
+.mug-img1{
+	margin-right: 461px;
+	margin-left: auto;
+	width: 50px;
+}
+.mug-img1-m{
+	margin-right: auto;
+	margin-left: auto;
+	width: 175px;
+	height: 255px;
+}
+.mug-img1-m-m{
+	margin-right: auto;
+	margin-left: auto;
+	width: 175px;
+	height: 214px;
+}
+.car-search-m{
+	margin-right: auto;
+	margin-left: auto;
+	width: 238px;
+	height: 300px;
+}
+
+.mug-font{
+	font-family: Nunito-Regular !important;
+	color: #9ea1a3;
+	font-size: 12px;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+.mug-font-m{
+	font-family: Nunito-Regular !important;
+	color: #9ea1a3;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.leela-font{
+	font-family: Montserrat-Bold !important;
+	margin-top: 15px;
+}
+.leela-font-e{
+	font-family: Montserrat-Bold !important;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.lee{
+margin-left: 15px;
+}
+.bmwcar-font{
+	font-family: Montserrat-Bold !important;
+	margin-top: 15px;
+	color: black;
+	font-size: 15px;
+
+}
+.bmwcar-font-car{
+	font-family: Montserrat-Bold !important;
+	margin-top: 15px;
+	color: black;
+	font-size: 15px;
+	margin-left: 4px;
+}
+.mug-img3{
+	width: 100%;
+	height: 100%;
+}
+
+.mug-font1{
+	font-family: Nunito-Regular !important;
+	color: #9ea1a3;
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 5px;
+}
+.mug-font-e{
+	font-family: Nunito-Regular !important;
+	color: #9ea1a3;
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 15px;
+}
+.range-r-r{
+	font-family: Nunito-Regular !important;
+	color: #9ea1a3;
+	font-size: 16px;
+
+}
+.dba{
+	margin: 20px;
+}
+
+.mug-font-car{
+	font-family: Nunito-Regular !important;
+	color: #9ea1a3;
+	font-size: 9px;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 5px;
+}
+.mug-font1-f{
+	font-family: Nunito-Regular !important;
+	color: #9ea1a3;
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 15px;
+}
+.star-out{
+	margin-top: 30px;
+	margin-left: 5px;
+}
+.star-out-o{
+	margin-top: -4px;
+	margin-left: 5px;
+}
+.nine-font{
+	font-family: Montserrat-ExtraBold !important;
+	color: #6cd228;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 15px;
+	font-size: 31px;
+	
+
+}
+.nine-font-n{
+	font-family: Montserrat-ExtraBold !important;
+	color: #6cd228;
+	text-align: left;
+	font-size: 18px;
+	
+
+}
+.chat-btn{
+	margin-top: 30px;
+	height: 30px;
+	width: 130px;
+}
+.select-btn{
+	background-color: #ff3333;
+	color: white;
+	width: 132px !important;
+	margin-top: 20px;
+	
+}
+.select-btn-select{
+	background-color: #ff3333;
+	color: white;
+	width: 132px !important;
+	margin-top: 0px;
+	font-family: Montserrat-ExtraBold !important;
+}
+.footer-h{
+	margin-top: 25px;
+}
+.select-btn-select-select{
+	margin-left: 90px;
+	background-color: #ff3333;
+	color: white;
+	width: 132px !important;
+	margin-top: -29px;
+	border: none;
+}
+.select-btn-btn{
+	margin-left: 125px;
+	background-color: #ff3333;
+	color: white;
+	width: 132px !important;
+	margin-top: -76px;
+	border: none;
+}
+.register-btn{
+	background-color: #ff3333;
+	color: white;
+	width: 132px !important;
+	margin-top: -29px;
+}
+
+.select-btn-select-sm{
+	background-color: #ff3333;
+	color: white;
+	width: 132px !important;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 46px; 
+	
+}
+.select-btn-select-smal{
+	background-color: #ff3333;
+	color: white;
+	width: 132px !important;
+	margin-top: -64px;
+	margin-bottom: 40px;
+	margin-left: 144px;
+	
+}
+.select-btn-ss{
+	background-color: #ff3333;
+	color: white;
+	width: 132px !important;
+	margin-top: -17px;
+	margin-left: 90px;
+	
+}
+.select-btn-s{
+	background-color: #ff3333;
+	color: white;
+	width: 132px !important;
+	margin-top: 3px;
+	height: 36px;
+	margin-bottom: 3px;
+	
+}
+.rw-marg{
+	margin-top: 30px;
+}
+.bb1{
+	border: 1px solid lightgrey;
+	width: 100%;
+	height: 300px;
+	
+
+}
+.bb2{
+	border: 1px solid lightgrey;
+	width: 100%;
+	height: 214px;	
+}
+.load-btn{
+	background-color: #6cd228;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	color: white;
+
+}
+.main{
+	margin-top: 20px;
+}
+.bbb{
+	border: 1px solid lightgrey;
+	width: 100%;
+	margin-top: 30px;
+	border-radius: 3px;
+	padding-bottom: 29px;
+}
+.b-july-list{
+	border: 1px solid lightgrey;
+	width: 35%;
+	margin-top: 30px;
+	border-radius: 3px;
+	padding-bottom: 29px;
+	margin-right: 10px;
+
+}
+.search-border-font{
+	font-family: Montserrat-Bold !important;
+	color: #ff3333;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.search-border-font-f{
+	font-family: Montserrat-Bold !important;
+	color: black;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.search-tool{
+	
+	margin-left: 28px;
+	margin-right: 28px;
+	margin-top: 15px; 
+	margin-bottom: 35px;
+	border: none;
+	border-color: none;
+}
+.search-tool1{
+	border: none;
+	background-color: #f4f4f4;
+	height: 50px;
+	font-family: Nunito-Regular !important;
+}
+.search-form  input::placeholder{
+	font-family: Nunito-Regular !important;
+	color: #a8acae;
+	
+}
+.minus{
+	margin-top: 10px;
+	float: right;
+	margin-right: 28px;
+	margin-bottom: 10px;
+}
+.price-range{
+	border-radius: 50%;
+}
+.check-box{
+	margin-left: 20px;
+	margin-top: 0px;
+}
+.check-box-jul{
+	margin-left: 20px;
+	margin-top: 7px;
+}
+.check-font{
+	font-family: Nunito-Regular !important;
+	color: #ff3333;
+	margin-left: 10px;
+
+}
+.check-font-july{
+	font-family: Nunito-Regular !important;
+	color: #909495;
+	margin-left: 41px;
+	font-size: 15px;
+
+}
+.fifteen{
+	float: right;
+	color: grey;
+	text-align: right;
+	margin-left: 65px;
+}
+.fifteen-f{
+	float: right;
+	color: #909495;
+	font-size: 15px;
+	margin-right: 27px;
+}
+.b-table{
+	border: 1px solid lightgrey;
+	width: 100%;
+	margin-top: 30px;
+	border-radius: 5px;
+	padding-bottom: 2px;
+
+
+}
+.table-b{
+	padding: 15px;
+	border: 1px solid lightgrey;
+	width: 100%;
+	margin-top: 30px;
+	border-radius: 3px;
+	padding-bottom: 29px;
+}
+.table-b-b{
+	padding: 25px;
+	width: 100%;
+	margin-top: 30px;
+	padding-bottom: 29px;
+	border: none;
+	column-span: 80px;
+}
+
+/*ABOUT PAGE*/
+.today1{
+	margin-top: 0px;
+}
+.heading-deal-about{
+	padding-top: 100px;
+	text-align: center;
+	font-family: montserrat-Medium !important; 
+
+}
+.about-img{
+	    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+    
+}
+.about-heading{
+	font-family: Montserrat-Bold !important;
+	text-align: center;
+	color: #ff3333;
+	margin-top: 30px;
+}
+.about-p{
+	font-family: Nunito-Regular !important;
+	color: #b7babc;
+	text-align: center;
+	font-size: 14px;
+}
+.about-heading1{
+	font-family: Montserrat-Bold !important;
+	text-align: center;
+	color: #2c3437;
+	margin-top: 30px;
+}
+.about-marg{
+	margin-top: 25px;
+}
+.about-bg{
+	background-color: #e3e7ea;
+	margin-top: 5px;
+	padding-bottom: 80px;
+	padding-top: 40px;
+}
+.about-padding{
+	padding-top: 40px;
+}
+.who-font{
+	font-family: Montserrat-Bold !important;
+	color: black;
+	margin-top: 70px;
+}
+.know-font{
+	font-family: Nunito-Regular !important;
+	color: #8d9396;
+	font-size: 15px;
+}
+.know-font1{
+	font-family: Nunito-Regular !important;
+	color: #8d9396;
+	font-size: 14px;
+	margin-top: 25px;
+}
+.about-image{
+	height: 100%;
+	width: 100%;
+}
+.red-strip{
+	background-color: #ff3333;
+
+}
+.professional-image{
+	height: 100%;
+	width: 100%;
+}
+.director-font{
+	font-family: Nunito-Regular !important;
+	color: white;
+	font-size: 13px;
+	margin-left: 20px;
+	padding-top: 30px;
+	line-height: 1px;
+}
+.client-font{
+	font-family: Nunito-Regular !important;
+	color: white;
+	font-size: 16px;
+	margin-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+
+}
+.client-border{
+	border: 2px solid lightgrey;
+	width: 100%;
+	padding: 15px;
+}
+.image6 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3f4749;
+}
+
+.client-border:hover  .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #ff3333;
+  font-size: 13px;
+  font-family: Nunito-Regular !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text1 {
+  color: white;
+  font-size: 16px;
+  font-family: Nunito-Regular !important;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.fv{
+	padding-top: 450px;
+	margin-left: 150px;
+}
+.overlay-border{
+	border: 3px solid #ff3333;
+	width: 100%;
+	height: 100%;
+}
+
+/*CAR BOOKING PAGE*/
+.one-way-margin{
+	margin-top: 30px;
+}
+.one-way{
+	background-color: #f4f4f4;
+	border: 0.5px solid #bec1c1;
+	border-width: thin;
+	border-radius: 0px;
+	height: 100%;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.one-way-text{
+	padding-top: 20px;
+	font-family: Nunito-Regular !important;
+	color: #bec1c1;
+	font-size: 12px;
+	margin-left: 0px;
+}
+.delhi-font{
+
+	font-family: Nunito-Bold !important;
+	color: #2c3437;
+	font-size: 13px;
+	margin-left: 0px;
+	
+}
+.pencil{
+	float: right;
+	color: #bec1c1;
+	margin-top: -33px;
+	size: 5px;
+}
+.car-img{
+	padding-top: 51px;
+	margin-right: 10px;
+}
+.pencil1{
+	padding-top: 33px;
+}
+.twenty{
+	font-family: Nunito-Bold !important;
+	font-size: 13px;
+	color: red;
+}
+.car-img1{
+	padding-top: 61px;
+	margin-right: 10px;
+}
+.modify-search{
+	background-color: #f0b516;
+	font-size: 12px;
+	color: white;
+	width: 100%;
+	font-family: Montserrat-Medium !important;
+	margin-top: 38px;
+
+}
+.welcome{
+	font-family: Montserrat-Medium !important;
+	color: #2c3437;
+	margin-top: 10px
+}
+.welcome-margin{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.welcome-d{
+	font-family: Nunito-Regular !important;
+	color: #999d9f;
+	font-size: 14px;
+	margin-top: 75px;
+}
+.bbb-car{
+	border: 1px solid lightgrey;
+	width: 100%;
+	margin-top: 7px;
+	border-radius: 3px;
+	padding-bottom: 29px;
+margin-left: 13px;
+}
+.pick-font{
+	font-family: Montserrat-Medium !important;
+	color: #2c3437;
+	font-size: 16px;
+	margin-top: 50px;
+}
+.apply-btn{
+	background-color: #e3e7ea;
+	color: black;
+	font-family: Montserrat-Medium !important;
+	height: 100%;
+	width: 100%
+	
+
+}
+.sub-btn{
+	background-color: #ff3333;
+	color: white;
+	font-family: Montserrat-Bold !important;
+	height: 100%;
+	width: 100%;
+}
+.assistance-d{
+	font-family: Nunito-Regular !important;
+	color: #999d9f;
+	font-size: 13px;
+	margin-top: 40px;
+	text-align: justify;
+	margin-left: 30px;
+	margin-right: 40px;
+}
+.info-travo{
+	margin-left: 30px;
+	margin-top: 25px;
+	font-family: Montserrat-Bold !important;
+}
+/*FLIGHTS BOOKING*/
+.v-line{
+	border-left: 1px solid green;
+    height: 100px;
+}
+ .title {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+   
+    border: none;
+    border-bottom: 2px solid #ff3333;
+}
+ .title1 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid #e5e5e5 ;
+}
+ .sel {
+    width: 100%;
+    padding: 0px 22px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0px;
+}
+ .sel-one {
+    width: 100%;
+    padding: 0px 22px;
+    margin: 0spx 0;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0px;
+
+}
+ .selin {
+    width: 100%;
+    padding: 0px 22px;
+    margin: -13px 0;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0px;
+}
+.travel-seat-font{
+	font-family: Montserrat-Bold !important;
+	color: #2c3437;
+	font-size: 16px;
+	margin-top: 50px;
+}
+.select-seat-btn{
+	background-color: #ff3333;
+	color: white;
+	font-family: Montserrat-Medium !important;
+	height: 100%;
+	width: 100%;
+	border-radius: 0px;
+	font-size: 14px;
+}
+.container-check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+     margin-top: 8px;
+     border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.container-check:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check input:checked ~ .checkmark {
+    background-color: #ff3333;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container-check input:checked ~ .checkmark:after {
+    display: block;
+
+}
+
+/* Style the checkmark/indicator */
+.container-check .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.please{
+	font-family: Nunito-Regular !important;
+	color: black;
+	margin-left: 20px;
+	font-size: 12px;
+}
+.harry{
+	font-family: Nunito-Regular !important;
+	font-size: 15px;
+	color: black;
+}
+.subm-btn{
+	background-color: #ff3333;
+	color: white;
+	font-family: Montserrat-Bold !important;
+	height: 30%;
+	width: 100%;
+	margin-top: 100px;
+}
+.mr-option{
+	font-family: Nunito-Regular !important;
+	color: #a8acae;
+}
+/*HOTEL SINGLE*/
+.overview{
+	background-color: #f4f4f4;
+	border: 1px solid lightgrey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	border-radius: 2px;
+}
+ .over {
+	padding-right: 20px;
+}
+.overview ul li a:hover{
+color: #ff3333;
+}
+
+.overview ul li a {
+    color: #7d8081;
+    font-family: Nunito-Regular !important;
+}
+.single-img{
+	margin-top: 30px;
+	height: 410px;
+	width: 100%;
+}
+.single-syd{
+	height: 80px;
+	width: 90px;
+}
+
+.location{
+	float: right;
+}
+.location-set{
+	font-family: Nunito-Regular !important;
+	color: #999d9f;
+	margin-left: 8px;
+	margin-top: 4px;
+	font-size: 13px;
+}
+.location-h{
+font-family: Montserrat-Medium !important;
+font-size: 15px;
+margin-top: 40px;	
+}
+.star-reviews{
+	margin-top: 50px;
+	font-family: Nunito-Regular !important;
+	color: #999d9f;
+	font-size: 13px;
+}
+.star-r{
+	margin-bottom: 5px;
+}
+.hayyat-font{
+	font-family: Montserrat-Bold !important;
+	margin-top: 20px;
+	font-size: 20px;
+	color: black;
+}
+.nws{
+	font-family: Nunito-Regular !important;
+	color: #999d9f;
+	font-size: 13px;
+	margin-top: 7px;
+	text-align: right;
+	float: right;
+}
+.parking-font1{
+font-family: Montserrat-Bold !important;
+font-size: 12px;
+margin-top: 13px;
+text-align: center;
+margin-bottom: 13px;	
+}
+.park-margin{
+	margin-top: 70px;
+}
+.park-img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.google{
+	width: 100%;
+	height: 400px;
+	border: 0px;
+}
+.parrot{
+	background-color: #6cd228;
+	width: 100%;
+	height: 130px;
+}
+.forty-nine{
+	font-family: Nunito-Regular !important;
+	color: white;
+	font-size: 38px;
+	text-align: center;
+	margin-top: 25px;
+}
+.eight-reviews{
+	font-family: Nunito-Regular !important;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+.bar-5 {width: 70%; height : 4px; background-color: #6cd228;}
+.bar-6 {width: 50%; height : 4px; background-color: #6cd228;}
+.bar-7 {width: 62%; height : 4px; background-color: #6cd228;}
+.bar-8 {width: 45%; height : 4px; background-color: #ff9f00;}
+.bar-9 {width: 35%; height : 4px; background-color: #ff9f00;}
+.bar-1 {width: 25%; height : 4px; background-color: #ff6161;}
+
+
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+.middle {
+    margin-top:0px;
+    float: left;
+    width: 100%;
+}
+.value{
+	font-family: Nunito-Regular !important;
+	color: black;
+	font-size: 14px;
+	
+}
+.chat-box{
+	border: 1px solid #999d9f;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+.reply{
+	float: right;
+	color: #999d9f;
+	font-family: Nunito-Regular !important;
+	font-size: 15px;
+}
+.repy-icon{
+	color: #1872c5;
+	size: 
+}
+.nargis{
+	font-family: Nunito-Regular !important;
+	font-size: 15px;
+	color: black;
+	margin-top: 30px;
+	margin-left: 5px;
+	margin-bottom: 30px;
+}
+.two-days{
+	font-family: Nunito-Regular !important;
+	color: #999d9f;
+	font-size: 13px;
+	margin-left: 4px;
+}
+.four-point{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.chatt{
+	margin-top: 30px;
+}
+.hello-star{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.bbb-border{
+	border: 1px solid lightgrey;
+	width: 100%;
+	border-radius: 3px;
+	padding-bottom: 29px;
+}
+.search-border-font-1{
+	font-family: Montserrat-Bold !important;
+	color: black;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.sydney{
+	font-family: Montserrat-Bold !important;
+	color: black;
+	font-size: 14px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.sydny{
+	color: red;
+	font-family: Nunito-Regular !important;
+	font-size: 12px;
+	margin-left: 30px;
+	margin-top: 15px;
+	color: #999d9f; 
+}
+.sydeny-img{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.syd-margin{
+	margin-top: 20px;
+}
+/*SEARCH HOTEL GRID*/
+.grid-img{
+	height: 60%;
+	width: 100%;
+}
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+   width: 100%;
+}
+
+.li1 {
+    float: left;
+}
+.li1 {
+    float: left;
+    border-right:1px solid #bbb;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.li1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 21px;
+    text-decoration: none;
+}
+
+
+.star-out-o-grid{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.three-sixty-font{
+	font-family: Nunito-Regular !important;
+	color: #9ea1a3;
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 10px;
+}
+.nws-grid{
+	font-family: Nunito-Regular !important;
+	color: #999d9f;
+	font-size: 13px;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+.location-grid{
+	float: left;
+}
+.travel-seat-font-grid{
+	font-family: Montserrat-Bold !important;
+	color: #2c3437;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.nine-font-n-grid{
+	font-family: Montserrat-ExtraBold !important;
+	color: #6cd228;
+	text-align: left;
+	font-size: 18px;
+	float: left;
+	margin-left: 20px;
+}
+.select-btn-package{
+	background-color: #ff3333;
+	color: white;
+	width: 62%;
+	margin-top: -27px;
+	margin-left: 20px;
+	border-radius: 0px;
+
+
+	
+}
+.border-grid{
+	border: 1px solid lightgrey;
+	overflow: hidden;
+
+}
+.hr-grid{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+.nws-grid-1{
+	font-family: Nunito-Regular !important;
+	color: #999d9f;
+	font-size: 12px;
+	margin-top: -19px !important;
+	margin-left: 0px;
+}
+.margin-grid{
+margin-top: 25px;
+}
+.found-hotel-btn-grid{
+	background-color: #6cd228;
+	color: white;
+	width: 100%;
+	height: 64px;
+	margin-top: 25px;
+}
+.book-hotel{
+	background-color: #6cd228;
+	color: white;
+	width: 100%;
+	height: 64px;
+	margin-top: 25px;
+	font-family: Montserrat-ExtraBold !important;
+	font-size: 22px;
+}
+.book-hotel{
+	background-color: #6cd228;
+	color: white;
+	width: 100%;
+	height: 64px;
+	margin-top: 25px;
+	font-family: Montserrat-ExtraBold !important;
+	font-size: 22px;
+}
+
+
+
+.cross-btn{
+	margin-left: 40px;
+}
+.found-btn-font-grid{
+	text-align: left;
+	margin-left: 50px;
+	color: white;
+	text-align: justify;
+
+}
+.found-btn-font-grid-green{
+	text-align: center;
+	margin-left: 100px;
+	color: white;
+	text-align: justify;
+
+}
+.ul1:hover { 
+    background-color: #757575;
+}
+/*ELEMENT PAGE*/
+.pale1{
+	background-color: #fdae00;
+	height: 100%;
+	width: 100%;
+
+}
+.hello{
+	padding-top: 20%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 40px;
+}
+.hello-element{
+	margin-left: 20px;
+	margin-top: 50px;
+}
+.search-element{
+	background-color: #ff3333;
+	color: white;
+	width: 100% !important;
+}
+
+/*02_INDEX_PAGE*/
+.index-heading{
+	font-family: Montserrat-Bold !important;
+	text-align: center;
+	color: #ff6600;
+	margin-top: 30px;
+}
+.cloud{
+	background-image: url("../image/02-index/spain.jpg");
+	height: 100%;
+	width: 100%;
+
+ background-repeat:no-repeat;
+ background-size: cover;
+
+}
+.cloud-islamabad{
+	background-image: url("../image/travo/isb.jpg");
+	height: 100%;
+	width: 100%;
+ background-repeat:no-repeat;
+ background-size: cover;
+ border: 1px solid white;
+}
+.cloud-mumbai{
+	background-image: url("../image/travo/mumbai.jpg");
+	height: 100%;
+	width: 100%;
+ background-repeat:no-repeat;
+ background-size: cover;
+ border: 1px solid white;
+}
+.cloud-agra{
+	background-image: url("../image/travo/agra.jpg");
+	height: 100%;
+	width: 100%;
+ background-repeat:no-repeat;
+ background-size: cover;
+ border: 1px solid white;
+}
+.cloud-lahore{
+	background-image: url("../image/travo/lahore.jpg");
+	height: 100%;
+	width: 100%;
+ background-repeat:no-repeat;
+ background-size: cover;
+ border: 1px solid white;
+}
+.cloud-slide{
+	background-image: url("../image/02-index/slide.png");
+	height: 100%;
+	width: 100%;
+ background-repeat:no-repeat;
+ background-size: cover;
+ border: 1px solid white;
+}
+.cloud-1{
+	background-image: url("../image/02-index/lahore.jpg");
+	height: 100%;
+	width: 100%;
+
+ background-repeat:no-repeat;
+ background-size: cover;
+
+}
+.slider-ind{
+	background-color: #2c3437;
+	color: white;
+	font-family: Nunito-Regular !important;
+	font-size: 12px;
+	height: 50px;
+
+
+}
+.star-index{
+	margin-top: 37%;
+	
+}
+.p-destination-index{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 11px;
+	margin-bottom: 35px;
+
+}
+.overlay-index {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.cloud:hover  .overlay-index {
+  opacity: 1;
+}
+.cloud-1:hover  .overlay-index {
+  opacity: 1;
+}
+.cloud-islamabad:hover  .overlay-index {
+  opacity: 1;
+  height: 202px;
+
+}
+.cloud-mumbai:hover  .overlay-index {
+  opacity: 1;
+  height: 202px;
+}
+.cloud-agra:hover  .overlay-index {
+  opacity: 1;
+  height: 202px;
+}
+.cloud-lahore:hover  .overlay-index {
+  opacity: 1;
+  height: 202px;
+
+}
+
+
+.btn-overlay{
+	float: right;
+	margin-right: 15px;
+	margin-top: 0px;
+}
+.over-btn-1{
+	border-radius: 0px;
+	background-color: #ff6600;
+	color: white;
+	width: 100%;
+
+}
+.over-btn-2{
+	border-radius: 0px;
+	background-color: #f0b516;
+	color: white;
+	margin-top: 3px;
+	width: 100%;
+}
+.over-btn-3{
+	border-radius: 0px;
+	background-color: #2ecd26;
+	color: white;
+	margin-top: 3px;
+	width: 100%;
+}
+.btn-img-over{
+	height: 25%;
+	width: 25%;
+}
+.cloud-img-c{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.cloud-txt{
+ font-family: Montserrat-Medium !important; 
+ color: white;
+ font-size: 17px;
+ margin-top: 10px;
+ margin-left: 15px;
+}
+.star-index-over{
+	margin-top: 28%;
+	margin-left: 15px;
+	
+}
+.p-destination-index-over{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 11px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+
+}
+.footer-txt-over{
+ font-family: Montserrat-Medium !important; 
+ color: white;
+ font-size: 18px;
+ margin-top: 20px;
+ margin-left: 15px;
+}
+.background-index{
+	background-color: #5b2cd2;
+	margin-top: 100px;
+}
+.today-happy{
+	margin-top: 10px;
+}
+.heading-deal-index{
+	padding-top:45px;
+	text-align: center;
+	font-family: montserrat-Medium !important;
+	color: white; 
+}
+.heading-deal-index-s{
+	text-align: center;
+	font-family: montserrat-Bold !important;
+	font-size: 15px;
+	color: white; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.p-heading-p-index{
+	text-align: center;
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important;
+	color: white; 
+	font-size: 14px;
+}
+.img-dot-index {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+    margin-bottom: 20px;
+}
+.img-q-index{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	width: 40px;
+}
+.p-heading-p-index-p{
+	text-align: center;
+	color: #b0b3b4;
+	font-family: Nunito-Regular !important;
+	color: white; 
+	font-size: 14px;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.founder-img{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+.heading-new{
+	color: white;
+	margin-left: 20px;
+}
+.colis{
+	text-align: center;
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important;
+	color: #ff3333; 
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.founder-font{
+	text-align: center;
+	color: #b0b3b4;
+	font-family: Nunito-Regular !important;
+	color: white; 
+	font-size: 14px;
+	margin-top: 0px;
+}
+.deluxe-index{
+	font-family: Nunito-Regular !important;
+	color: #ff6600;
+	text-align: center;
+	margin-top: 35px;
+}
+.wait{
+	text-align: center;
+	color: #b0b3b4;
+	font-family: Nunito-Regular !important;
+	color: white; 
+	font-size: 14px;
+}
+.wait-index-margin{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.wait-line{
+	height: 55px;
+	width: 3px;
+	color: white;
+}
+.price-font-index{
+	font-family: Montserrat-Bold !important;
+	color: white;
+	font-size: 18px;
+}
+.wait-1{
+	text-align: center;
+	color: #b0b3b4;
+	font-family: Nunito-Regular !important;
+	color: white; 
+	font-size: 12px;
+}
+.footer-index{
+	background-color: #2c3437;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+.choice-index{
+	padding-top:150px;
+	text-align: left;
+	font-family: montserrat-Medium !important; 
+
+}
+.choice-d-index{
+	text-align: left;
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+
+}
+.img-dot-choice{
+    width: 1%;
+    margin-bottom: 20px;
+}
+.index-nav{
+	float: right;
+}
+.index-nav-one{
+	float: left;
+}
+
+ul .index-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.index-nav li {
+    float: left;
+}
+
+.index-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #999d9f;
+    height: 41px;
+    margin-top: 10px;
+}
+
+.index-nav li a:hover {
+    background-color: #ff6600;
+    color: white;
+    border-radius: 3px;
+    width: 100%;
+   
+}
+.btn-nav-index{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 16px;
+	margin-top: 10px;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	border: 1px solid darkgrey;
+	border-radius: 3px;
+	height: 40px;
+	width: 100px;
+	background-color: white;
+
+}
+.about-heading1-index{
+	font-family: Montserrat-Bold !important;
+	text-align: left;
+	color: #2c3437;
+	margin-top: 5px;
+}
+.p-index-p{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 12px;
+	margin-top: 20px;
+
+}
+.btn-v-index{
+	color: #b0b3b4;
+	font-family: montserrat-Medium !important; 
+	font-size: 16px;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	border: 1px solid darkgrey;
+	border-radius: 3px;
+	height: 40px;
+	width: 100px;
+	margin-top: 0px;
+	background-color: #f3f4f6;
+}
+.index-row-mrg{
+	margin-top: 25px;
+}
+/*SLIDER*/
+.car2{
+	margin-top: 160px;
+
+}
+.bx-nav-div ul li a .active{
+	background-color: white;
+}
+.bx-nav-div ul li button .active{
+	background-color: white;
+}
+.img-lahore{
+	background: url("../image/travo/lahore.jpg");
+	background-size:cover;
+	height: 300px;
+}
+.img-islamabad{
+	background: url("../image/travo/isb.jpg");
+	background-size:cover;
+	height: 300px;
+	
+}
+.img-agra{
+	background: url("../image/travo/agra.jpg");
+	background-size:cover;
+	height: 300px;
+	
+}
+.img-mumbai{
+	background: url("../image/travo/mumbai.jpg");
+	background-size:cover;
+	height: 300px;
+	
+}
+.icon{
+	height: 23px;
+	width: 151px !important;
+	margin: 25% auto 0px;
+	margin-top: 165px;
+}
+
+.rating{
+	height: 15px;
+	width: 94px !important;
+	margin-left: 5%;
+	margin-top: 0%;
+}
+
+.heading-h{
+	margin-left: 5%;
+}
+
+.list li{
+	list-style-image:url("../image/list-icon.png");
+	height: 4px;
+	color: white;
+}
+
+/*FLIGHT_SEARCH_LIST*/
+.july{
+	font-family: Nunito-Regular !important;
+	font-size: 15px;
+	color: #a8acae;
+	text-align: center;
+}
+.july-btn{
+	background-color: #acafb2;
+	width: 80%;
+	border-radius: 2px;
+	margin-left: 7px;
+
+}
+.july-btn-btn{
+	background-color: #acafb2;
+	width: 200%;
+	border-radius: 2px;
+	margin-top: 530px;
+	align-content: center;
+
+}
+.july-btn-btn-b{
+	background-color: #acafb2;
+	width: 200%;
+	border-radius: 2px;
+	margin-left:-284px;
+	margin-top: 530px;
+}
+.july-red{
+	font-family: Nunito-Regular !important;
+	color: #ff3333;
+	font-size: 15px;
+	text-align: center;
+}
+.july-black{
+font-family: montserrat-Medium !important; 
+font-size: 15px;
+text-align: center;
+color: black	
+}
+.july-box{
+border: 1px solid lightgrey;
+height: 100%;
+width: 100%;
+}
+.bbb-july{
+	border: 1px solid lightgrey;
+	width: 100%;
+	margin-top: 30px;
+	border-radius: 0px;
+	padding-bottom: 29px;
+	border-left: 0px;
+	padding: 0px;
+	padding-top: 20px;
+	padding-right: 5px;
+	background-color: #f4f4f4;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+.bbb-july-jul-b{
+	border: 1px solid lightgrey;
+	width: 100%;
+	margin-top: 30px;
+	border-radius: 0px;
+	padding-bottom: 29px;
+	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 0px;
+	padding-right: 0px;
+	background-color: #f4f4f4;
+	margin-bottom: 30px;
+}
+.bbb-july-b{
+	border: 1px solid lightgrey;
+	width: 100%;
+	margin-top: 30px;
+	border-radius: 0px;
+	padding-bottom: 29px;
+	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 5px;
+	background-color: #f4f4f4;
+}
+.jul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.jul-li {
+    align-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.jul-li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 5px 36px 15px ;
+    text-decoration: none;
+    color: #acafb2;
+}
+.jul-lili a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 0px 56px 0px;
+    text-decoration: none;
+    color: #acafb2;
+}
+
+.jul-li a:hover:not(.active) {
+    background-color: #ddd;
+    color: #ff3333;
+    text-underline-position: absolute;
+}
+.jul-bx{
+	height: 40px;
+	width: 55px;
+	margin-left: 5px;
+	border: 1px solid lightgrey; 
+}
+.jul-font{
+	font-family: montserrat-Bold !important; 
+	font-size: 20px;
+	color: #ff3333;
+	text-align: center;
+}
+.book-btn{
+	background-color: #6cd228;
+	width: 100%;
+	height: 40px;
+	margin-top: 0px;
+	color: white;
+	font-family: montserrat-Bold !important; 
+	border-radius: 3px; 
+
+}
+.july-black-b{
+font-family: montserrat-Medium !important; 
+font-size: 15px;
+text-align: center;
+color: black;
+margin-top: 10px;	
+}
+.bbb-july-b-b{
+	border: 1px solid lightgrey;
+	width: 100%;
+	margin-top: 30px;
+	border-radius: 0px;
+	padding-bottom: 29px;
+	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 5px;
+	background-color: white;
+}
+.jul-table{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.depart-font{
+	font-family: Montserrat-Bold !important;
+	color: black;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.july-current{
+	font-family: Nunito-Regular !important;
+	font-size: 13px;
+	color: #a8acae;
+	text-align: right;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.july-btn-btn{
+		display: none;
+	}
+	.btn-destination-bb-b{
+	display: none;
+
+}
+	.btn-destination-bb{
+	display: none;
+
+}
+	.btn-destinat{
+	display: none;
+
+}
+
+}
+
+.owl-carousel {
+position: relative;
+}
+.owl-prev,
+.owl-next {
+position: absolute;
+top: 50%;
+margin-top: -10px;
+margin-right: auto;
+margin-left: auto;
+margin-right: -72px;
+}
+.owl-prev {
+left: -345px;
+}
+.owl-next {
+right: 0;
+}
+
+
+
+/*RANGE SLIDER*/
+.slider-labels {
+  margin-top: 10px;
+}
+
+/* Functional styling;
+ * These styles are required for noUiSlider to function.
+ * You don't need to change these rules to apply your design.
+ */
+.noUi-target,.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.noUi-target {
+  position: relative;
+  direction: ltr;
+}
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+/* Fix 401 */
+}
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.noUi-handle {
+  position: relative;
+  z-index: 1;
+}
+
+.noUi-stacking .noUi-handle {
+/* This class is applied to the lower origin when
+   its values is > 50%. */
+  z-index: 10;
+}
+
+.noUi-state-tap .noUi-origin {
+  -webkit-transition: left 0.3s,top .3s;
+  transition: left 0.3s,top .3s;
+}
+
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+/* Painting and performance;
+ * Browsers can paint handles in their own layer.
+ */
+.noUi-base,.noUi-handle {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/* Slider size and handle placement;
+ */
+.noUi-horizontal {
+  height: 10px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  left: -7px;
+  top: -5px;
+  background-color: #cfd0d0;
+  border: 3px solid white;
+}
+
+/* Styling;
+ */
+.noUi-background {
+  background: #f4f4f4;
+}
+
+.noUi-connect {
+  background: #ff3333;
+  -webkit-transition: background 450ms;
+  transition: background 450ms;
+}
+
+.noUi-origin {
+  border-radius: 2px;
+}
+
+.noUi-target {
+  border-radius: 2px;
+}
+
+.noUi-target.noUi-connect {
+}
+
+/* Handles and cursors;
+ */
+.noUi-draggable {
+  cursor: w-resize;
+}
+
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize;
+}
+
+.noUi-handle {
+  cursor: default;
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+
+.noUi-handle:active {
+  border: 8px solid #345DBB;
+  border: 8px solid rgba(53,93,187,0.38);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  left: -14px;
+  top: -14px;
+}
+
+/* Disabled state;
+ */
+[disabled].noUi-connect,[disabled] .noUi-connect {
+  background: #B8B8B8;
+}
+
+[disabled].noUi-origin,[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+
+
+
+
+.slick-slide
+{
+width: 400px;
+margin-right: 10px;
+}
+
+    .slider-slider {
+        width: 50%;
+        margin: 0px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 0px;
+    }
+
+  
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .9;
+    }
+
+
+    .slick-current {
+      opacity: 2;
+    }
+
+    /*ANIMATION*/
+
+
+/*Search*/
+/* Welcome Area CSS */
+.input {
+    
+    margin:0;
+    padding-right: 30px;
+    width: 100%;
+}
+.input_img {
+    position:absolute;
+    bottom:7px;
+    right:7px;
+    width:15px;
+    height:18px;
+}
+.room-a{
+	margin-top: 5px;
+	margin-left: 10px;
+	font-family: Nunito-Regular !important;
+}
+.bb-room{
+	border: 1px solid lightgrey;
+	width: 100%;
+	height: 214px;
+	background-color: #efefed;	
+}
+.room-img{
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	margin-left: 5px;
+}
