@@ -9,11 +9,12 @@ class Backend extends CI_Controller {
 		$this->load->view('backend/content/overview');
 		$this->load->view('backend/template/footer');
 	}
-		public function hotel(){	
+		public function hotels(){	
 		$this->load->view('backend/template/header');
 		$this->load->view('backend/template/nav');
-		$this->load->view('backend/content/hotel');
+		$this->load->view('backend/content/hotels');
 		$this->load->view('backend/template/footer');
 	}
+	
 
 }
