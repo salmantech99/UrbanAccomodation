@@ -1,151 +1,255 @@
-        <!-- Page Content -->
-        <div id="page-wrapper">
-                    <!-- /.col-lg-12 -->
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
                     <div class="container-fluid">
-                        <br><br>
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="page-header">Hotel Search List</h1>
-                       <form action="hotel-search.php" method="post" enctype="multipart/form-data">
-                            <div class="row">
-                                <div class="col-md-12">
-                                     <label>Upload Hotel Image</label>
-                                         <div id="dropzone" class="form1-drop-text">
-                                            <div>
-                                                <p style="margin-top: 75px; ">Drag Your Image</p>
+                                <div class="overview-wrap">
+                                    <h2 class="title-1">overview</h2>
+                                    <button class="au-btn au-btn-icon au-btn--blue">
+                                        <i class="zmdi zmdi-plus"></i>add item</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-t-25">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c1">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-account-o"></i>
                                             </div>
-                                            <input type="file" name="hotel_custom" />
-                                        </div><br>
-                                </div>
-                                
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Hotel Name</label>
-                                        <select class="form-control" id="exampleFormControlSelect1" name="hotel_name">
-                                          <option>The Leela Palace Hotel</option>
-                                          <option>PC Hotel Lahore</option>
-                                          <option>The Le Schanze Hotel</option>
-                                          <option>The Javson Hotel</option>
-                                          <option>The Safari Hotel</option>
-                                        </select>
-                                    </div>  
-                                </div>
-                                     <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Hotel Area</label>
-                                        <select class="form-control" id="exampleFormControlSelect1" name="hotel_area">
-                                          <option>Udepur India | Map</option>
-                                          <option>Mall Road Pakistan | Map</option>
-                                          <option>Johar Town | Map</option>
-                                          <option>Kashmir Road Sialkot | Map</option>
-                                          <option>Khadim Ali Road | Map</option>
-                                        </select>
-                                    </div>  
-                                </div>
-                                        <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Hotel Description</label>
-                                      <textarea class="form-control" rows="5" name="hotel_description"></textarea>
-                                    </div>  
-                                </div>
-                                 <div class="col-md-6">
-                                      <div class="form-group">
-                                    <label>PRICE</label>
-                                    <input type="text" class="form-control" placeholder="$ PRICE" name="hotel_price">
-                                </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <h4><b>Hotel Characteristics</b></h4>
-                            <div class="row">
-                                <div class="col-md-6">
-                                      <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Hotel Location</label>
-                                      <textarea class="form-control" rows="4" name="location"></textarea>
-                                    </div>
-                                </div>
-                                  <div class="col-md-6">
-                                      <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Room Amenities</label>
-                                      <textarea class="form-control" rows="4" name="room-amenities"></textarea>
-                                    </div>
-                                </div>
-                                  <div class="col-md-6">
-                                      <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Hotel Facilities</label>
-                                      <textarea class="form-control" rows="4" name="hotel-facilities"></textarea>
-                                    </div>
-                                </div>
-                                  <div class="col-md-6">
-                                      <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Dinning</label>
-                                      <textarea class="form-control" rows="4" name="dinning"></textarea>
+                                            <div class="text">
+                                                <h2>10368</h2>
+                                                <span>members online</span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart1"></canvas>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <hr>
-                            <h4><b>Hotel Facilities Offered</b></h4>
-                            <div class="row">
-                                <div class="col-md-2">
-                                     <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Free Parking</label><br>
-                                        <input type="radio" name="gender" value="yes"> Yes<br>
-                                        <input type="radio" name="gender" value="no"> No<br>
-                                    </div> 
-                                </div>
-                                 <div class="col-md-2">
-                                     <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Free HighTea</label><br>
-                                        <input type="radio" name="tea" value="yes"> Yes<br>
-                                        <input type="radio" name="tea" value="no"> No<br>
-                                    </div> 
-                                </div>
-                                <div class="col-md-2">
-                                     <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Swimming Pool</label><br>
-                                        <input type="radio" name="swim" value="yes"> Yes<br>
-                                        <input type="radio" name="swim" value="no"> No<br>
-                                    </div> 
-                                </div>
-                                <div class="col-md-2">
-                                     <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Free Breakfast</label><br>
-                                        <input type="radio" name="breakfast" value="yes"> Yes<br>
-                                        <input type="radio" name="breakfast" value="no"> No<br>
-                                    </div> 
-                                </div>
-                                <div class="col-md-2">
-                                     <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Firstad List</label><br>
-                                        <input type="radio" name="firstad" value="yes"> Yes<br>
-                                        <input type="radio" name="firstad" value="no"> No<br>
-                                    </div> 
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c2">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-shopping-cart"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h2>388,688</h2>
+                                                <span>items solid</span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart2"></canvas>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-submit" name="hotel"> SUBMIT</button>
-                        </form>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c3">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-calendar-note"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h2>1,086</h2>
+                                                <span>this week</span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart3"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c4">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-money"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h2>$1,060,386</h2>
+                                                <span>total earnings</span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart4"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="box effect1">
+                                    <h4 class="hotel-table">HOTEL MANAGEMENT</h4>
+                                    <hr>
+                                <div class="table-responsive">
+                                    <button type="button" class="btn btn-success btn-sm btn-add btn-margin">
+                                            <i class="fas fa-plus-circle"></i>&nbsp; ADD</button>
+                                            <div class="btn-hotel">
+                                            <button type="button" class="btn btn-danger btn-sm btn-add">
+                                            <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm btn-add">
+                                            <i class="fas fa-print"></i>&nbsp; PRINT</button>
+                                            <button type="button" class="btn btn-outline-secondary btn-sm btn-add btn-marginn">
+                                            <i class="fas fa-file"></i>&nbsp; EXPORT INTO CSV</button>  
+                                            </div>
 
-
-
-<br>
-                            <table class="table table-hover">
-                            <thead>
-                              <tr>
-                                <th>ID</th>
-                                <th>HOTEL IMAGE</th>
-                                <th>HOTEL NAME</th>
-                                <th>HOTEL AREA</th>
-                                <th>HOTEL DESCRIPTION</th>
-                                <th>HOTEL PRICE</th>
-                                <th>EDIT</th>
-                                <th>DELETE</th>
-                              </tr>
-                            </thead>
-
-                          </table> 
-
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <tr>
+                                                <th>   
+                                                      <div class="form-check">
+                                                               <div class="checkbox">
+                                                            <label for="checkbox1" class="form-check-label ">
+                                                                <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input">
+                                                            </label>
+                                                        </div>
+                                                      </div>
+                                                 
+                                                </th>
+                                                <th>#</th>
+                                                <th>Image</th>
+                                                <th>Name</th>
+                                                <th>Stars</th>
+                                                <th>Owned By</th>
+                                                <th>Location</th>
+                                                <th>Gallary</th>
+                                                <th>Order</th>
+                                                <th>Status</th>
+                                                <th>Edit</th>
+                                                <th>Delete</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+00
+                                            </tr>
+                                            <tr>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div> 
+            <!-- END MAIN CONTENT-->
