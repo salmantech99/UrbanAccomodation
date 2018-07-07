@@ -250,3 +250,15 @@ margin-left: 40px;
 .btn-search{
 background-color: #f79420;
 }
+/*Hotel-Add*/
+.check-me{
+  margin-left: 10px;
+}
+.check-to{
+  margin-top: 10px;
+}
+.blue-btn{
+  border-radius: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
