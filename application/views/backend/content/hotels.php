@@ -264,7 +264,25 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <p class="execution">Execution Time 0.00030 <span class="memory"> Memory Usage 30MB</span></p>
+                                    <br><div class="card-body card-block">
+                                        <form action="" method="post" class="form-horizontal">
+                                            <div class="row form-group">
+                                                <div class="col col-md-4">
+                                                    <div class="input-group">
+                                                        <div class="input-group-btn">
+                                                            <button class="btn btn-search">
+                                                                <i class="fa fa-search"></i> Search
+                                                            </button>
+                                                        </div>
+                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Hotels" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <p class="execution">Execution Time 0.00030 <span class="memory"> Memory Usage 30MB</span></p>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                                 </div>
                             </div>
