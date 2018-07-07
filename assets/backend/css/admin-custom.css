@@ -239,5 +239,10 @@ margin-left: 40px;
   color: green;
   margin-left: 45px;
 }
-
-
+.execution{
+  text-align: right;
+  float: right;
+}
+.memory{
+  margin-left: 15px;
+}

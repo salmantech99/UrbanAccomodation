@@ -264,6 +264,7 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <p class="execution">Execution Time 0.00030 <span class="memory"> Memory Usage 30MB</span></p>
                                 </div>
                                 </div>
                             </div>
