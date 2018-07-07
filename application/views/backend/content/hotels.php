@@ -107,14 +107,10 @@
                                         <thead>
                                             <tr>
                                                 <th>   
-                                                      <div class="form-check">
-                                                        <div class="checkbox">
-                                                             <label for="checkbox1" class="form-check-label check-it">
-                                                                <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input">
-                                                            </label>
-                                                        </div>
-                                                      </div>
-                                                 
+                                                 <label class="control control--checkbox check-margin">
+                                                    <input type="checkbox"/>
+                                                    <div class="control__indicator"></div>
+                                                </label>
                                                 </th>
                                                 <th>#</th>
                                                 <th>Image</th>
@@ -131,6 +127,10 @@
                                         </thead>
                                         <tbody>
                                             <tr>
+                                                <td><label class="control control--checkbox">
+                                                    <input type="checkbox"/>
+                                                    <div class="control__indicator"></div>
+                                                </label></td>
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
@@ -139,12 +139,15 @@
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
+                                                <td><i class="fas fa-check tick"></i></td>
+                                                <td><i class="fas fa-edit edit"></i></td>
+                                                <td><i class="fas fa-times delete"></i></td>
                                             </tr>
                                             <tr>
+                                                <td><label class="control control--checkbox">
+                                                    <input type="checkbox"/>
+                                                    <div class="control__indicator"></div>
+                                                </label></td>
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
@@ -153,12 +156,15 @@
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
+                                                <td><i class="fas fa-check tick"></i></td>
+                                                <td><i class="fas fa-edit edit"></i></td>
+                                                <td><i class="fas fa-times delete"></i></td>
                                             </tr>
                                             <tr>
+                                                <td><label class="control control--checkbox">
+                                                    <input type="checkbox"/>
+                                                    <div class="control__indicator"></div>
+                                                </label></td>
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
@@ -167,12 +173,15 @@
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
+                                                <td><i class="fas fa-check tick"></i></td>
+                                                <td><i class="fas fa-edit edit"></i></td>
+                                                <td><i class="fas fa-times delete"></i></td>
                                             </tr>
                                             <tr>
+                                                <td><label class="control control--checkbox">
+                                                    <input type="checkbox"/>
+                                                    <div class="control__indicator"></div>
+                                                </label></td>
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
@@ -181,12 +190,15 @@
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
+                                                <td><i class="fas fa-check tick"></i></td>
+                                                <td><i class="fas fa-edit edit"></i></td>
+                                                <td><i class="fas fa-times delete"></i></td>
                                             </tr>
                                             <tr>
+                                                <td><label class="control control--checkbox">
+                                                    <input type="checkbox"/>
+                                                    <div class="control__indicator"></div>
+                                                </label></td>
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
@@ -195,12 +207,15 @@
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
+                                                <td><i class="fas fa-check tick"></i></td>
+                                                <td><i class="fas fa-edit edit"></i></td>
+                                                <td><i class="fas fa-times delete"></i></td>
                                             </tr>
                                             <tr>
+                                                <td><label class="control control--checkbox">
+                                                    <input type="checkbox"/>
+                                                    <div class="control__indicator"></div>
+                                                </label></td>
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
@@ -209,12 +224,15 @@
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
+                                                <td><i class="fas fa-check tick"></i></td>
+                                                <td><i class="fas fa-edit edit"></i></td>
+                                                <td><i class="fas fa-times delete"></i></td>
                                             </tr>
                                             <tr>
+                                                <td><label class="control control--checkbox">
+                                                    <input type="checkbox"/>
+                                                    <div class="control__indicator"></div>
+                                                </label></td>
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
@@ -223,12 +241,15 @@
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
+                                                <td><i class="fas fa-check tick"></i></td>
+                                                <td><i class="fas fa-edit edit"></i></td>
+                                                <td><i class="fas fa-times delete"></i></td>
                                             </tr>
                                             <tr>
+                                                <td><label class="control control--checkbox">
+                                                    <input type="checkbox"/>
+                                                    <div class="control__indicator"></div>
+                                                </label></td>
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
@@ -237,10 +258,9 @@
                                                 <td>0</td>
                                                 <td>0</td>
                                                 <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>0</td>
+                                                <td><i class="fas fa-check tick"></i></td>
+                                                <td><i class="fas fa-edit edit"></i></td>
+                                                <td><i class="fas fa-times delete"></i></td>
                                             </tr>
                                         </tbody>
                                     </table>
