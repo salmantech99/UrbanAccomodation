@@ -108,8 +108,8 @@
                                             <tr>
                                                 <th>   
                                                       <div class="form-check">
-                                                               <div class="checkbox">
-                                                            <label for="checkbox1" class="form-check-label ">
+                                                        <div class="checkbox">
+                                                             <label for="checkbox1" class="form-check-label check-it">
                                                                 <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input">
                                                             </label>
                                                         </div>
