@@ -211,7 +211,28 @@ strong {
     text-transform: capitalize;
     margin-bottom: 10px;
 }
-
+.addcar-status{
+  font-size: 14px;
+  color: black;
+}
+.addcar-status-work{
+    font-size: 14px;
+        height: 35px;
+        width: 150px;
+    color: #333;
+  border:1px solid #ccc;
+}
+.car-name-row{
+    margin-top: 20px;
+}
+.input-car-name{
+     height: 35px;
+    width: 350px;
+    border:1px solid #ccc;
+}
+.input-car-description{
+    border:1px solid #ccc;
+}
 /* ----- Links ----- */
 a {
     display: inline-block;

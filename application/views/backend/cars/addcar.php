@@ -27,7 +27,22 @@
                                     <h5>Car Description</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <textarea name="" id="" cols="30" rows="6" class="input-car-name"></textarea>
+                                    <textarea name="" id="" cols="100" rows="6" class="input-car-description"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-status">Stars</h5>
+                                </div>
+                                <div class="col-md-10">
+                                    <select class="addcar-status-work">
+                                        <option>0</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
                                 </div>
                             </div>
                         </form>
