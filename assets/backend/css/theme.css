@@ -248,6 +248,7 @@ strong {
     border: 1px solid #ccc;
 }
 .addcar-button{
+    color: white;
     width: 80px;
     height: 40px;
     background-color: #555;
@@ -294,6 +295,7 @@ strong {
   border:1px solid #ccc;
 }
 .addcar-pick-work{
+    background-color: white;
     margin-top:10px;
     font-size: 14px;
         height: 35px;

@@ -1,6 +1,6 @@
            
             <!-- MAIN CONTENT-->
-            <div class="main-content" style="background-color: white;">
+            <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <form>
@@ -463,7 +463,7 @@
                                  </div>
                                  <div class="col-md-3">
                                     <div class="form-group has-feedback car-cal-from">
-                                       <input type="text" class="form-control" id="datechecker" placeholder="From" id="input">
+                                       <input type="text" class="form-control" id="datechecker" placeholder="To" id="input">
                                     </div>
                                  </div>
                             </div>
