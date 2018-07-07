@@ -27,6 +27,12 @@ class Backend extends CI_Controller {
 		$this->load->view('backend/content/cars/addcar');
 		$this->load->view('backend/template/footer');
 	}
+	public function policy(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/cars/policy');
+		$this->load->view('backend/template/footer');
+	}
 	
 
 }
