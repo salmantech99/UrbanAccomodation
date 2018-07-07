@@ -496,12 +496,18 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2" style="margin-bottom: 30px;">
                                     <h5 class="addcar-pickup">Related Cars</h5>
                                 </div>
                                 <div class="col-md-10">
                                     <input type="" name="" class="addcar-input-related">
                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2" style="margin-bottom: 30px;">
+                                    <button type="submit" class="addcar-button">Submit</button>
+                                </div>
+                                
                             </div>
                         </form>
                     </div>
