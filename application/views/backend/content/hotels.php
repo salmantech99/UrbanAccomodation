@@ -103,7 +103,7 @@
                                             <i class="fas fa-file"></i>&nbsp; EXPORT INTO CSV</button>  
                                             </div>
 
-                                    <table class="table table-borderless table-striped table-earning">
+                                    <table class="table table-hover table-earning">
                                         <thead>
                                             <tr>
                                                 <th>   
