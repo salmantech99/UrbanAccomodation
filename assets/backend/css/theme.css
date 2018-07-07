@@ -214,12 +214,12 @@ strong {
 .addcar-status{
     margin-top: 10px;
   font-size: 14px;
-  color: black;
+  color: #555;
 }
 .addcar-pickup{
-    margin-top: 15px;
+    margin-top: 25px;
   font-size: 14px;
-  color: black;
+  color: #555;
 }
 .addcar-status-work{
     font-size: 14px;
@@ -234,7 +234,7 @@ strong {
 }
 
 .dropdown-content {
-    width: 256px !important;
+    width: 235px !important;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -244,14 +244,44 @@ strong {
     z-index: 1;
 }
 .addcar-input-pick{
-    width: 227px !important;
+    width: 205px !important;
     border: 1px solid #ccc;
+}
+.addcar-input-deposit{
+    margin-top: 20px;
+    height: 35px;
+    width: 205px !important;
+    border: 1px solid #ccc;
+}
+.addcar-input-related{
+     margin-top: 20px;
+    height: 35px;
+    width: 100% !important;
+    border: 1px solid #ccc;
+}
+#input {
+    
+    margin:0;
+    padding-right: 30px;
+    width: 100%;
+}
+#input_img {
+    position:absolute;
+    bottom:26px;
+    right:28px;
+    width:15px;
+    height:18px;
+}
+.car-cal-from{
+    height: 35px;
+    width: 205px !important;
+    margin-top: 20px;
 }
 .dropdown:hover .dropdown-content {
     display: block;
 }
 .addcar-passenger-work{
-    margin-top:10px;
+    margin-top:20px;
     font-size: 14px;
         height: 35px;
         width: 150px;
@@ -267,7 +297,7 @@ strong {
   border:1px solid #ccc;
 }
 .pick-arrow{
-    margin-left: 50px;
+    margin-left: 115px;
 }
 .car-name-row{
     margin-top: 20px;
@@ -275,6 +305,12 @@ strong {
 .input-car-name{
      height: 35px;
     width: 350px;
+    border:1px solid #ccc;
+}
+.input-car-price{
+    margin-top: 10px;
+     height: 35px;
+    width: 50px;
     border:1px solid #ccc;
 }
 .input-car-description{

@@ -1,3 +1,4 @@
+           
             <!-- MAIN CONTENT-->
             <div class="main-content" style="background-color: white;">
                 <div class="section__content section__content--p30">
@@ -16,7 +17,7 @@
                             </div>
                             <div class="row" style="margin-top: 20px;">
                                 <div class="col-md-2">
-                                    <h5>Car Name</h5>
+                                    <h5 class="addcar-status">Car Name</h5>
                                 </div>
                                 <div class="col-md-10">
                                     <input type="text" name="" class="input-car-name" placeholder="Car Name">
@@ -127,21 +128,382 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-2">
-                                    <h5 class="addcar-pickup">Car Type</h5>
+                                    <h5 class="addcar-pickup">Pick up location</h5>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     
                                     <div class="dropdown">
-                                        <p class="addcar-pick-work">Enter Your PickUp Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
                                       <div class="dropdown-content">
                                        <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
                                       </div>
                                     </div>
                                 </div>
-                            </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
 
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Pick up location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Pick up location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Pick up location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Pick up location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Pick up location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Pick up location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Pick up location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Pick up location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Pick up location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Drop off location</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown">
+                                        <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
+                                      <div class="dropdown-content">
+                                       <input type="text" name="hello" placeholder="hello" class="addcar-input-pick" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <h5 class="addcar-pickup">Price</h5>
+                                </div>
+                                <div class="col-md-1">
+                                    <input type="text" name="" class="input-car-price">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Featured</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="addcar-passenger-work">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group has-feedback car-cal-from">
+                                       <input type="text" class="form-control" id="datepicker" placeholder="From" id="input">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <div class="form-group has-feedback car-cal-from">
+                                       <input type="text" class="form-control" id="datechecker" placeholder="From" id="input">
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Deposit / Commission</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="addcar-passenger-work">
+                                        <option>Fixed</option>
+                                        <option>Percentage</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="" name="" class="addcar-input-deposit">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Var Tax</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="addcar-passenger-work">
+                                        <option>Fixed</option>
+                                        <option>Percentage</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="" name="" class="addcar-input-deposit">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5 class="addcar-pickup">Related Cars</h5>
+                                </div>
+                                <div class="col-md-10">
+                                    <input type="" name="" class="addcar-input-related">
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div> 
-            <!-- END MAIN CONTENT-->

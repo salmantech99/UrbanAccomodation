@@ -34,6 +34,22 @@
     <!-- Main CSS-->
     <link href="<?php echo base_url(); ?>assets/backend/css/theme.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/css/admin-custom.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <style>
+#input {
+    
+    margin:0;
+    padding-right: 30px;
+    width: 100%;
+}
+#input_img {
+    position:absolute;
+    bottom:26px;
+    right:28px;
+    width:15px;
+    height:18px;
+}
+</style>
 
 </head>
 
