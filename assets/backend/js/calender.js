@@ -4,3 +4,9 @@
   $(document).ready(function() {
     $("#datechecker").datepicker();
   });
+  $(document).ready(function() {
+    $("#datehere").datepicker();
+  });
+  $(document).ready(function() {
+    $("#datethere").datepicker();
+  });
