@@ -262,3 +262,21 @@ background-color: #f79420;
   margin-bottom: 10px;
   margin-left: 10px;
 }
+.addcar-button{
+    width: 80px;
+    height: 40px;
+    background-color: #466df1;
+    color: white;
+}
+.tax{
+  color: #b94a48 !important;
+}
+/*Tabs*/
+.tic{
+ color: red !important;
+ background-color: green;
+}
+.color
+{
+  color: red;
+}

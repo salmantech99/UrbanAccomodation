@@ -33,6 +33,18 @@ class Backend extends CI_Controller {
 		$this->load->view('backend/content/hotels/hotel-contact');
 		$this->load->view('backend/template/footer');
 	}
+	public function add_general(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/hotels/hotel-general');
+		$this->load->view('backend/template/footer');
+	}
+	public function hotel_one(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/hotels/hotel-one');
+		$this->load->view('backend/template/footer');
+	}
 		public function cars(){	
 		$this->load->view('backend/template/header');
 		$this->load->view('backend/template/nav');

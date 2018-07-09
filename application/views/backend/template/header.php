@@ -15,6 +15,7 @@
 
     <!-- Fontfaces CSS-->
     <link href="<?php echo base_url(); ?>assets/backend/css/font-face.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="<?php echo base_url(); ?>assets/backend/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -32,9 +33,10 @@
     <link href="<?php echo base_url(); ?>assets/backend/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <link href="<?php echo base_url(); ?>assets/backend/css/theme.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/css/admin-custom.css" rel="stylesheet" media="all">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    
         <style>
 #input {
     

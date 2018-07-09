@@ -247,11 +247,7 @@ strong {
     width: 205px !important;
     border: 1px solid #ccc;
 }
-.addcar-button{
-    width: 80px;
-    height: 40px;
-    background-color: #555;
-}
+
 .addcar-input-deposit{
     margin-top: 20px;
     height: 35px;

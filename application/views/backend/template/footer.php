@@ -33,6 +33,8 @@
     <script src="<?php echo base_url(); ?>assets/backend/vendor/chartjs/Chart.bundle.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/backend/vendor/select2/select2.min.js">
     </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Main JS-->
     <script src="<?php echo base_url(); ?>assets/backend/js/main.js"></script>
