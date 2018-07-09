@@ -130,6 +130,43 @@
                                     <input type="" name="" class="addcar-input-related">
                                 </div>
                             </div>
+                             <h4>MAP ADDRESS</h4>
+                                <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <br>
+                                           Address On Map 
+                                        </div>
+                                        <div class="col-md-8">
+                                            <br>
+                                           <input type="text" name="google" class="form-control" placeholder="Enter a query">
+                                        </div>
+                                         <div class="col-md-4">
+                                            <br>
+                                           Latitude 
+                                        </div>
+                                        <div class="col-md-8">
+                                            <br>
+                                           <input type="text" name="latitude" class="form-control">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <br>
+                                           Longitude 
+                                        </div>
+                                        <div class="col-md-8">
+                                            <br>
+                                           <input type="text" name="longitude" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d54422.736651151965!2d74.34114!3d31.512594!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1531132647096" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-md-2" style="margin-bottom: 30px;">
                                     <button type="submit" class="addcar-button">Submit</button>
