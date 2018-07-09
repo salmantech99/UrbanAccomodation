@@ -216,6 +216,11 @@ strong {
   font-size: 14px;
   color: #555;
 }
+.addcar-name{
+    margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
 .policy-status{
     margin-top: 30px;
   font-size: 14px;
@@ -320,7 +325,7 @@ strong {
   border:1px solid #ccc;
 }
 .pick-arrow{
-    margin-left: 115px;
+    margin-left: 67px;
 }
 .car-name-row{
     margin-top: 20px;
