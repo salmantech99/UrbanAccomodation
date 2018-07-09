@@ -463,7 +463,7 @@
                                  </div>
                                  <div class="col-md-3">
                                     <div class="form-group has-feedback car-cal-from">
-                                       <input type="text" class="form-control" id="datechecker" placeholder="From" id="input">
+                                       <input type="text" class="form-control" id="datechecker" placeholder="To" id="input">
                                     </div>
                                  </div>
                             </div>
