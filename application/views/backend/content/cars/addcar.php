@@ -156,7 +156,6 @@
                                 <div class="col-md-1">
                                     <input type="text" name="" class="input-car-price">
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-md-2">
