@@ -39,8 +39,10 @@
     <!-- Main JS-->
     <script src="<?php echo base_url(); ?>assets/backend/js/main.js"></script>
     <script src="<?php echo base_url(); ?>assets/backend/js/calender.js"></script>
+    <script src="<?php echo base_url(); ?>assets/backend/js/textarea.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
     
 
 </body>

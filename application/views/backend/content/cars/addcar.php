@@ -28,7 +28,7 @@
                                     <h5 class="addcar-status">Car Description</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <textarea name="" id="" cols="100" rows="6" class="input-car-description"></textarea>
+                                    <textarea name="editor1"></textarea>
                                 </div>
                             </div>
                             <div class="row">

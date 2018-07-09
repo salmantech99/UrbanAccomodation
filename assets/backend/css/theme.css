@@ -213,7 +213,7 @@ strong {
     margin-bottom: 10px;
 }
 .addcar-status{
-    margin-top: 10px;
+    margin-top: 30px;
   font-size: 14px;
   color: #555;
 }
@@ -222,12 +222,16 @@ strong {
   font-size: 14px;
   color: #555;
 }
+.back-to-page{
+    margin-right: 6px;
+}
 .addcar-pickup{
     margin-top: 25px;
   font-size: 14px;
   color: #555;
 }
 .addcar-status-work{
+    margin-top: 20px;
     font-size: 14px;
         height: 35px;
         width: 150px;
@@ -253,16 +257,13 @@ strong {
     width: 205px !important;
     border: 1px solid #ccc;
 }
-<<<<<<< HEAD
 
-=======
 .addcar-button{
     color: white;
     width: 80px;
     height: 40px;
     background-color: #555;
 }
->>>>>>> 5b73642aaf38c5f45224449dc977415d1306a268
 .addcar-input-deposit{
     margin-top: 20px;
     height: 35px;
@@ -337,6 +338,8 @@ strong {
     border:1px solid #ccc;
 }
 .input-car-description{
+    height: 150px;
+    background-color: white;
     border:1px solid #ccc;
 }
 .policy-car-description{
