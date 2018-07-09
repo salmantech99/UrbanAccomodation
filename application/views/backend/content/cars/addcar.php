@@ -28,14 +28,7 @@
                                     <h5 class="addcar-status">Car Description</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <a data-cmd="bold" href="#" class="back-to-page"><b>B</b></a>
-                                    <a data-cmd="italic" href="#" class="back-to-page"><i>I</i></a>
-                                    <a data-cmd="underline" href="#" class="back-to-page"><u>U</u></a>
-                                    <a data-cmd="strikeThrough" href="#" class="back-to-page"><s>S</s></a>
-                                    <a data-cmd="subscript'" href="#" class="back-to-page">x<sub>2</sub></a>
-                                    <a data-cmd="superscript'" href="#" class="back-to-page">x<sup>2</sup></a>
-                                    <a data-cmd="quote" href="#" class="back-to-page"><q>Q</q></a>
-                                    <div id="editable" contenteditable="true" class="input-car-description">Write Description</div>
+                                    <textarea name="editor1"></textarea>
                                 </div>
                             </div>
                             <div class="row">
