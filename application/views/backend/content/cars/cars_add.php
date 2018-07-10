@@ -1,9 +1,9 @@
 <div class="main-content">
     <div class="section__content section__content--p30">
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home" aria-expanded= "true" >Cars General</a></li>
-    <li><a data-toggle="tab" href="#menu2" aria-expanded= "false">Meta Info</a></li>
-    <li><a data-toggle="tab" href="#menu3" aria-expanded= "false">Policy</a></li>
+    <li class="active"><a data-toggle="tab" href="#home" aria-expanded= "true" class="cars-add-tabs">Cars General</a></li>
+    <li><a data-toggle="tab" href="#menu2" aria-expanded= "false" class="cars-add-tabs">Meta Info</a></li>
+    <li><a data-toggle="tab" href="#menu3" aria-expanded= "false" class="cars-add-tabs">Policy</a></li>
   </ul>
 
   <div class="tab-content">
