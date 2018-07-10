@@ -190,7 +190,7 @@
                                                                 <i class="fa fa-search"></i> Search
                                                             </button>
                                                         </div>
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Hotels" class="form-control hotel-add-form">
+                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Cars" class="form-control hotel-add-form">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
