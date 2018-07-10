@@ -55,8 +55,8 @@
 </head>
 
 <body>
+      <!-- HEADER MOBILE-->
     <div class="page-wrapper">
-        <!-- HEADER MOBILE-->
         <header class="header-mobile d-block d-lg-none">
             <div class="header-mobile__bar">
                 <div class="container-fluid">
@@ -176,8 +176,8 @@
 
 
         <!-- PAGE CONTAINER-->
+        <!-- HEADER DESKTOP-->
         <div class="page-container">
-            <!-- HEADER DESKTOP-->
             <header class="header-desktop">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
