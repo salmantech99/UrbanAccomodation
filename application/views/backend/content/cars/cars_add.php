@@ -10,8 +10,6 @@
     <div id="home" class="tab-pane fade in active fade active show">
                              
             <!-- MAIN CONTENT-->
-            <!-- <div class="main-content">
-                <div class="section__content section__content--p30"> -->
                     <div class="container-fluid">
                         <form>
                             <div class="row">
@@ -294,7 +292,6 @@
                                 <div class="col-md-1">
                                     <input type="text" name="" class="input-car-price">
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-md-2">
@@ -326,14 +323,12 @@
                                 <div class="col-md-1">
                                     <input type="text" name="" class="input-car-price">
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-md-2">
                                     <h5 class="addcar-pickup">Pick up location</h5>
                                 </div>
-                                <div class="col-md-3">
-                                    
+                                <div class="col-md-3">                                    
                                     <div class="dropdown">
                                         <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
                                       <div class="dropdown-content">
@@ -358,14 +353,12 @@
                                 <div class="col-md-1">
                                     <input type="text" name="" class="input-car-price">
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-md-2">
                                     <h5 class="addcar-pickup">Pick up location</h5>
                                 </div>
-                                <div class="col-md-3">
-                                    
+                                <div class="col-md-3">                                    
                                     <div class="dropdown">
                                         <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
                                       <div class="dropdown-content">
@@ -390,14 +383,12 @@
                                 <div class="col-md-1">
                                     <input type="text" name="" class="input-car-price">
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-md-2">
                                     <h5 class="addcar-pickup">Pick up location</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    
                                     <div class="dropdown">
                                         <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
                                       <div class="dropdown-content">
@@ -422,14 +413,12 @@
                                 <div class="col-md-1">
                                     <input type="text" name="" class="input-car-price">
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-md-2">
                                     <h5 class="addcar-pickup">Pick up location</h5>
                                 </div>
-                                <div class="col-md-3">
-                                    
+                                <div class="col-md-3">                                    
                                     <div class="dropdown">
                                         <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
                                       <div class="dropdown-content">
@@ -454,7 +443,6 @@
                                 <div class="col-md-1">
                                     <input type="text" name="" class="input-car-price">
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-md-2">
@@ -516,19 +504,14 @@
                             <div class="row">
                                 <div class="col-md-2" style="margin-bottom: 30px;">
                                     <button type="submit" class="addcar-button">Submit</button>
-                                </div>
-                                
+                                </div>                                
                             </div>
                         </form>
                     </div>
-                <!-- </div>
-            </div>  -->
             <!-- END GENERAL -->
     </div>
     <div id="menu2" class="tab-pane fade">
                     <!-- MAIN CONTENT-->
-           <!--  <div class="main-content">
-                <div class="section__content section__content--p30"> -->
                     <div class="container-fluid">
                             <form><br>
                                 <div class="row form-group">
@@ -559,14 +542,10 @@
                             </div>
                         </form>    
                     </div> 
-                   <!--  </div>
-                </div> --> 
             <!-- END MAIN CONTENT-->
     </div>
     <div id="menu3" class="tab-pane fade">
                   <!-- MAIN CONTENT-->
-            <!-- <div class="main-content">
-                <div class="section__content section__content--p30"> -->
                     <div class="container-fluid">
                             <form>
                             <div class="row">
@@ -600,9 +579,7 @@
                             </div>
                         </form>   
                     </div>
-                <!-- </div> --> 
             <!-- END MAIN CONTENT-->
-    <!-- </div> -->
   </div>
 </div>
 </div>

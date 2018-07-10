@@ -18,7 +18,6 @@
                                             <button type="button" class="btn btn-outline-secondary btn-sm btn-add btn-marginn">
                                             <i class="fas fa-file"></i>&nbsp; EXPORT INTO CSV</button>  
                                             </div>
-
                                     <table class="table table-hover table-earning">
                                         <thead>
                                             <tr>

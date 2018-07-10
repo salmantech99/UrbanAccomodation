@@ -19,7 +19,6 @@
     <link href="<?php echo base_url(); ?>assets/backend/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-
     <!-- Bootstrap CSS-->
     <link href="<?php echo base_url(); ?>assets/backend/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
