@@ -468,12 +468,12 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group has-feedback car-cal-from">
-                                       <input type="text" class="form-control" id="datepicker" placeholder="From" id="input">
+                                       <input type="text" class="form-control car-place-from" id="datepicker" placeholder="From" id="input">
                                     </div>
                                  </div>
                                  <div class="col-md-3">
                                     <div class="form-group has-feedback car-cal-from">
-                                       <input type="text" class="form-control" id="datechecker" placeholder="To" id="input">
+                                       <input type="text" class="form-control car-place-from" id="datechecker" placeholder="To" id="input">
                                     </div>
                                  </div>
                             </div>
@@ -536,25 +536,29 @@
                                     <label class=" form-control-label">Meta Title</label>
                                     </div>
                                     <div class="col-12 col-md-6">
-                                    <input name="title" placeholder="Meta Title" class="form-control" type="text">
+                                    <input name="title" placeholder="Meta Title" class="form-control car-place-from" type="text">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <label class="col-md-2 control-label text-left">Meta Keywords</label>
                                     <div class="col-md-6">
-                                      <textarea name="hotelkeywords" placeholder="Meta Keywords" class="form-control" id="" cols="30" rows="2"></textarea>
+                                      <textarea name="hotelkeywords" placeholder="Meta Keywords" class="form-control car-place-from" id="" cols="30" rows="2"></textarea>
                                     </div>
                               </div>
                               <div class="row form-group">
                                     <label class="col-md-2 control-label text-left">Meta Description</label>
                                     <div class="col-md-6">
-                                      <textarea name="hotelkeywords" placeholder="Meta Description" class="form-control" id="" cols="30" rows="4"></textarea>
+                                      <textarea name="hotelkeywords" placeholder="Meta Description" class="form-control car-place-from" id="" cols="30" rows="4"></textarea>
                                     </div>
                               </div> 
-                            </form>  
-                                <hr>
-                                <a class="btn btn-primary blue-btn" href="#" role="button">Submit</a>  
-                            </div> 
+                              <div class="row">
+                                <div class="col-md-2" style="margin-bottom: 30px;">
+                                    <button type="submit" class="addcar-button">Submit</button>
+                                </div>
+                                
+                            </div>
+                        </form>    
+                    </div> 
                    <!--  </div>
                 </div> --> 
             <!-- END MAIN CONTENT-->

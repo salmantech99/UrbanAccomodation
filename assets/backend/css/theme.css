@@ -299,9 +299,13 @@ strong {
     width:15px;
     height:18px;
 }
+.car-place-from{
+    font-size: 14px !important;
+}
 .car-cal-from{
     height: 35px;
     width: 205px !important;
+    font-size: 14px;
     margin-top: 20px;
 }
 .dropdown:hover .dropdown-content {
