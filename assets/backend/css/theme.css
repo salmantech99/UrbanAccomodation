@@ -299,6 +299,19 @@ strong {
     width:15px;
     height:18px;
 }
+.hotel-add-form{
+    margin-left: 115px;
+}
+.hotel-add-button{
+    height: 35px;
+}
+.hotel-add-indicator{
+    margin-top: -7px !important;
+    margin-left: -40px;
+}
+.hotel-add-alignment{
+    text-align: center;
+}
 .car-place-from{
     font-size: 14px !important;
 }

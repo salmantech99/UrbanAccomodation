@@ -5,7 +5,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="box effect1">
-                                    <h4 class="hotel-table">HOTEL MANAGEMENT</h4>
+                                    <h4 class="hotel-table">Car MANAGEMENT</h4>
                                     <hr>
                                 <div class="table-responsive">
                                     <button type="button" class="btn btn-success btn-sm btn-add btn-margin">
