@@ -51,6 +51,10 @@
                         </li>
                          <li>
                             <a href="map.html">
+                                <i class="fas fa-hotel"></i>Rooms</a>
+                        </li>
+                         <li>
+                            <a href="map.html">
                                 <i class="fas fa-plane"></i>Flights</a>
                         </li>
                         <li>

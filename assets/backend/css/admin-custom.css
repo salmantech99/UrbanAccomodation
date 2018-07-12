@@ -104,9 +104,7 @@
   left: 0;
   width: 100%;
 }
-.hasiba{
-  color: red;
-}
+
 /*HOTELS*/
 .effect1{
     -webkit-box-shadow: 0 10px 6px -6px #777;
@@ -278,7 +276,10 @@ background-color: #f79420;
  color: red !important;
  background-color: green;
 }
-.color
-{
-  color: red;
+
+
+.nav-tabs>li>a .here{
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border-radius: 4px 4px 0 0;
 }

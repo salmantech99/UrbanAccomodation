@@ -24,13 +24,13 @@
                                 </div>
                             </div>
                             <div class="row" style="margin-top: 20px;">
-                                <div class="col-md-2">
-                                    <h5 class="addcar-status">Hotel Description</h5>
-                                </div>
-                                <div class="col-md-10">
-                                    <textarea name="" id="" cols="100" rows="6" class="input-car-description" placeholder="Hotel Description"></textarea>
-                                </div>
+                            <div class="col-md-2">
+                                <h5 class="addcar-status">Car Description</h5>
                             </div>
+                            <div class="col-md-10">
+                                <textarea name="editor1"></textarea>
+                            </div>
+                        </div>
                             <div class="row">
                                 <div class="col-md-2">
                                     <h5 class="addcar-status">Stars</h5>

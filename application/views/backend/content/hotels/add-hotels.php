@@ -8,14 +8,14 @@
                         <h4 class="hotel-table">HOTEL MANAGEMENT</h4>
                         <hr>
                         <div class="table-responsive">
-                            <a href="<?php echo site_url('backend/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-lg btn-add btn-margin">
+                            <a href="<?php echo site_url('backend/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-md btn-add btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
-                                <button type="button" class="btn btn-danger btn-lg btn-add">
+                                <button type="button" class="btn btn-danger btn-md btn-add">
                                 <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
-                                <button type="button" class="btn btn-outline-secondary btn-lg btn-add">
+                                <button type="button" class="btn btn-outline-secondary btn-md btn-add">
                                 <i class="fas fa-print"></i>&nbsp; PRINT</button>
-                                <button type="button" class="btn btn-outline-secondary btn-lg btn-add btn-marginn">
+                                <button type="button" class="btn btn-outline-secondary btn-md btn-add btn-marginn">
                                 <i class="fas fa-file"></i>&nbsp; EXPORT INTO CSV</button>  
                             </div>
                             <table class="table table-hover table-earning">
@@ -185,7 +185,7 @@
                                         <div class="col col-md-8">
                                              <div class="search-container">
                                                 <form action="/action_page.php">
-                                                    <button type="submit" style="background-color: lightgrey; height: 42px; width: 44px;"><i class="fa fa-search"></i></button>
+                                                    <button type="submit" style="background-color: lightgrey; height: 42px; width: 44px; margin-left: 10px;"><i class="fa fa-search"></i></button>
                                                   <input type="text" placeholder="Search Hotels" name="search">
                                                 </form>
                                               </div>
