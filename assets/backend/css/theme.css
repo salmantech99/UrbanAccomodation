@@ -302,10 +302,12 @@ strong {
 .cars-add-tabs{
     color: #555;
 }
-.hotel-add-form{
-    margin-left: 115px;
+.car-add-form{
+    margin-left: 20px;
+    margin-top: 0px !important;
 }
-.hotel-add-button{
+.car-add-button{
+    margin-left: 5px;
     height: 35px;
 }
 .hotel-add-indicator{

@@ -185,11 +185,11 @@
                                         <div class="col col-md-8">
                                             <div class="input-group">
                                                 <div class="input-group-btn">
-                                                    <button class="btn btn-search hotel-add-button">
+                                                    <button class="btn btn-search car-add-button">
                                                         <i class="fa fa-search"></i> Search
                                                     </button>
                                                 </div>
-                                                <input type="text" id="input1-group2" name="input1-group2" placeholder="Cars" class="form-control hotel-add-form">
+                                                <input type="text" id="input1-group2" name="input1-group2" placeholder="Cars" class="form-control car-add-form">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
