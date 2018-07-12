@@ -216,6 +216,11 @@ strong {
   font-size: 14px;
   color: #555;
 }
+.addcar-name{
+    margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
 .policy-status{
     margin-top: 30px;
   font-size: 14px;
@@ -294,9 +299,29 @@ strong {
     width:15px;
     height:18px;
 }
+.cars-add-tabs{
+    color: #555;
+}
+.hotel-add-form{
+    margin-left: 115px;
+}
+.hotel-add-button{
+    height: 35px;
+}
+.hotel-add-indicator{
+    margin-top: -7px !important;
+    margin-left: -40px;
+}
+.hotel-add-alignment{
+    text-align: center;
+}
+.car-place-from{
+    font-size: 14px !important;
+}
 .car-cal-from{
     height: 35px;
     width: 205px !important;
+    font-size: 14px;
     margin-top: 20px;
 }
 .dropdown:hover .dropdown-content {
@@ -320,7 +345,7 @@ strong {
   border:1px solid #ccc;
 }
 .pick-arrow{
-    margin-left: 115px;
+    margin-left: 67px;
 }
 .car-name-row{
     margin-top: 20px;
