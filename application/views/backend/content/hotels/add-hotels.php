@@ -8,17 +8,16 @@
                         <h4 class="hotel-table">HOTEL MANAGEMENT</h4>
                         <hr>
                         <div class="table-responsive">
-                            <button type="button" class="btn btn-success btn-sm btn-add btn-margin">
-                            <i class="fas fa-plus-circle"></i>&nbsp; ADD</button>
+                            <a href="<?php echo site_url('backend/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-lg btn-add btn-margin">
+                            <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
-                                <button type="button" class="btn btn-danger btn-sm btn-add">
+                                <button type="button" class="btn btn-danger btn-lg btn-add">
                                 <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
-                                <button type="button" class="btn btn-outline-secondary btn-sm btn-add">
+                                <button type="button" class="btn btn-outline-secondary btn-lg btn-add">
                                 <i class="fas fa-print"></i>&nbsp; PRINT</button>
-                                <button type="button" class="btn btn-outline-secondary btn-sm btn-add btn-marginn">
+                                <button type="button" class="btn btn-outline-secondary btn-lg btn-add btn-marginn">
                                 <i class="fas fa-file"></i>&nbsp; EXPORT INTO CSV</button>  
                             </div>
-
                             <table class="table table-hover table-earning">
                                 <thead>
                                     <tr>
@@ -54,7 +53,7 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
@@ -71,7 +70,7 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
@@ -88,7 +87,7 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
@@ -105,7 +104,7 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
@@ -122,7 +121,7 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
@@ -139,7 +138,7 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
@@ -156,7 +155,7 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
@@ -173,26 +172,23 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <br>
-                            <div class="card-body card-block">
+                            <br><div class="card-body card-block">
                                 <form action="" method="post" class="form-horizontal">
                                     <div class="row form-group">
                                         <div class="col col-md-8">
-                                            <div class="input-group">
-                                                <div class="input-group-btn">
-                                                    <button class="btn btn-search hotel-add-button">
-                                                        <i class="fa fa-search"></i> Search
-                                                    </button>
-                                                </div>
-                                                <input type="text" id="input1-group2" name="input1-group2" placeholder="Hotels" class="form-control hotel-add-form">
-                                            </div>
+                                             <div class="search-container">
+                                                <form action="/action_page.php">
+                                                    <button type="submit" style="background-color: lightgrey; height: 42px; width: 44px;"><i class="fa fa-search"></i></button>
+                                                  <input type="text" placeholder="Search Hotels" name="search">
+                                                </form>
+                                              </div>
                                         </div>
                                         <div class="col-md-4">
                                             <p class="execution">Execution Time 0.00030 <span class="memory"> Memory Usage 30MB</span></p>

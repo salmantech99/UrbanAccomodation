@@ -9,10 +9,10 @@ class Backend extends CI_Controller {
 		$this->load->view('backend/content/hotels/overview');
 		$this->load->view('backend/template/footer');
 	}
-		public function hotels(){	
+		public function add_hotels(){	
 		$this->load->view('backend/template/header');
 		$this->load->view('backend/template/nav');
-		$this->load->view('backend/content/hotels/hotels');
+		$this->load->view('backend/content/hotels/add-hotels');
 		$this->load->view('backend/template/footer');
 	}
 		public function add_facilities(){	
@@ -43,6 +43,12 @@ class Backend extends CI_Controller {
 		$this->load->view('backend/template/header');
 		$this->load->view('backend/template/nav');
 		$this->load->view('backend/content/hotels/hotel-one');
+		$this->load->view('backend/template/footer');
+	}
+	public function rooms(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/hotels/rooms');
 		$this->load->view('backend/template/footer');
 	}
 		public function cars(){	
