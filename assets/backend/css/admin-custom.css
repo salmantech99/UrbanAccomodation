@@ -125,6 +125,8 @@
 .btn-add{
   border-radius: 0px;
   margin-bottom: 4px;
+  width: 200px;
+  height: 40px;
 }
 .btn-margin{
   margin-left: 6px;
