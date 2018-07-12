@@ -4,7 +4,7 @@
 <br>
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#home" aria-expanded= "true" >Hotel General</a></li>
-    <li><a data-toggle="tab" href="#menu1" aria-expanded= "false">Hotel Extras</a></li>
+    <li><a data-toggle="tab" href="#menu1" aria-expanded= "false" class="here">Hotel Extras</a></li>
     <li><a data-toggle="tab" href="#menu2" aria-expanded= "false">Hotel Meta</a></li>
     <li><a data-toggle="tab" href="#menu3" aria-expanded= "false">Hotel Contact</a></li>
     <li><a data-toggle="tab" href="#menu4" aria-expanded= "false">Hotel Policy</a></li>
@@ -39,13 +39,13 @@
                                 </div>
                             </div>
                             <div class="row" style="margin-top: 20px;">
-                                <div class="col-md-2">
-                                    <h5 class="addcar-status">Hotel Description</h5>
-                                </div>
-                                <div class="col-md-10">
-                                    <textarea name="" id="" cols="100" rows="6" class="input-car-description" placeholder="Hotel Description"></textarea>
-                                </div>
+                            <div class="col-md-2">
+                                <h5 class="addcar-status">Hotel Description</h5>
                             </div>
+                            <div class="col-md-10">
+                                <textarea name="editor1"></textarea>
+                            </div>
+                        </div>
                             <div class="row">
                                 <div class="col-md-2">
                                     <h5 class="addcar-status">Stars</h5>
@@ -347,7 +347,7 @@
             <!-- END MAIN CONTENT-->
     </div>
     <div id="menu2" class="tab-pane fade">
-                    <!-- MAIN CONTENT-->
+                <!-- MAIN CONTENT-->
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
@@ -362,17 +362,21 @@
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <label class="col-md-2 control-label text-left">Meta Keywords</label>
-                                    <div class="col-md-6">
-                                      <textarea name="hotelkeywords" placeholder="Meta Keywords" class="form-control" id="" cols="30" rows="2"></textarea>
+                                    <div class="col col-md-2">
+                                    <label class=" form-control-label">Meta Keywords</label>
                                     </div>
-                              </div>
+                                    <div class="col-12 col-md-6">
+                                    <textarea name="title" placeholder="Meta Keywords" class="form-control" type="text" rows="2"></textarea>
+                                    </div>
+                                </div>
                               <div class="row form-group">
-                                    <label class="col-md-2 control-label text-left">Meta Description</label>
-                                    <div class="col-md-6">
-                                      <textarea name="hotelkeywords" placeholder="Meta Description" class="form-control" id="" cols="30" rows="4"></textarea>
+                                    <div class="col col-md-2">
+                                    <label class=" form-control-label">Meta Description</label>
                                     </div>
-                              </div> 
+                                    <div class="col-12 col-md-6">
+                                    <textarea name="title" placeholder="Meta Description" class="form-control" type="text" rows="3"></textarea>
+                                    </div>
+                                </div> 
                             </form>  
                                 <hr>
                                 <a class="btn btn-primary blue-btn" href="#" role="button">Submit</a>  
@@ -464,7 +468,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-2" style="margin-bottom: 30px;">
-                                    <button type="submit" class="addcar-button">Submit</button>
+                                    <a class="btn btn-primary blue-btn" href="#" role="button">Submit</a>
                                 </div>
                                 
                             </div>
