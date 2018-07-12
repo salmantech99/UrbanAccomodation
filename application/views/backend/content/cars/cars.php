@@ -8,8 +8,8 @@
                         <h4 class="hotel-table">Car MANAGEMENT</h4>
                         <hr>
                         <div class="table-responsive">
-                            <button type="button" class="btn btn-success btn-sm btn-add btn-margin">
-                            <i class="fas fa-plus-circle"></i>&nbsp; ADD</button>
+                            <a href="<?php echo site_url('backend/cars_add/'); ?>"><button type="button" class="btn btn-success btn-lg btn-add btn-margin">
+                            <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
                                 <button type="button" class="btn btn-danger btn-sm btn-add">
                                 <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
