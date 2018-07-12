@@ -5,10 +5,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="box effect1">
-                        <h4 class="hotel-table">Car MANAGEMENT</h4>
+                        <h4 class="hotel-table">HOTEL MANAGEMENT</h4>
                         <hr>
                         <div class="table-responsive">
-                            <a href="<?php echo site_url('backend/cars_add/'); ?>"><button type="button" class="btn btn-success btn-lg btn-add btn-margin">
+                            <a href="<?php echo site_url('backend/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-lg btn-add btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
                                 <button type="button" class="btn btn-danger btn-sm btn-add">
@@ -18,6 +18,7 @@
                                 <button type="button" class="btn btn-outline-secondary btn-sm btn-add btn-marginn">
                                 <i class="fas fa-file"></i>&nbsp; EXPORT INTO CSV</button>  
                             </div>
+
                             <table class="table table-hover table-earning">
                                 <thead>
                                     <tr>
@@ -179,7 +180,8 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <br><div class="card-body card-block">
+                            <br>
+                            <div class="card-body card-block">
                                 <form action="" method="post" class="form-horizontal">
                                     <div class="row form-group">
                                         <div class="col col-md-8">
@@ -189,7 +191,7 @@
                                                         <i class="fa fa-search"></i> Search
                                                     </button>
                                                 </div>
-                                                <input type="text" id="input1-group2" name="input1-group2" placeholder="Cars" class="form-control hotel-add-form">
+                                                <input type="text" id="input1-group2" name="input1-group2" placeholder="Hotels" class="form-control hotel-add-form">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
