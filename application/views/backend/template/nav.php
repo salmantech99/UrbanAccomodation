@@ -58,7 +58,7 @@
                                 <i class="fas fa-plane"></i>Flights</a>
                         </li>
                         <li>
-                            <a href="map.html">
+                            <a href="<?php echo site_url('backend/car_page/'); ?>">
                                 <i class="fas fa-car"></i>Cars</a>
                         </li>
                         <li class="has-sub">
@@ -75,7 +75,7 @@
                                     <a href="forget-pass.html">Forget Password</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> 
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-desktop"></i>UI Elements</a>

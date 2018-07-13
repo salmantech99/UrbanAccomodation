@@ -978,6 +978,8 @@ section {
 }
 
 .au-btn--submit {
+    height: 57px;
+    margin-top: 7px;
     position: relative;
     right: 0;
     min-width: 65px;
