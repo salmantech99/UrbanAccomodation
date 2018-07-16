@@ -104,6 +104,10 @@
   left: 0;
   width: 100%;
 }
+input[type="file"] {
+    display: block;
+}
+
 
 /*HOTELS*/
 .effect1{
@@ -126,6 +130,19 @@
   width: 200px;
   height: 40px;
 }
+.xcrud .btn-group {
+    white-space: nowrap;
+}
+input.xcrud-upload {
+    cursor: pointer;
+    direction: ltr;
+    font-size: 100%;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 .btn-margin{
   margin-left: 6px;
 }
@@ -229,15 +246,15 @@ margin-left: 40px;
 }
 .edit{
   color:  #f79420;
-  margin-left: 45px;
+  margin-left: 0px;
 }
 .delete{
   color: red;
-  margin-left: 45px;
+  margin-left: 0px;
 }
 .tick{
   color: green;
-  margin-left: 45px;
+  margin-left: 0px !important;
 }
 .execution{
   float: right;
