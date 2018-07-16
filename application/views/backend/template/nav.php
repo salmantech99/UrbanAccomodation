@@ -46,12 +46,24 @@
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
                         </li>
                         <li>
-                            <a href="map.html">
+                            <a href="<?php echo site_url('backend/add_hotels/'); ?>">
                                 <i class="fas fa-hotel"></i>Hotels</a>
                         </li>
                          <li>
                             <a href="map.html">
                                 <i class="fas fa-hotel"></i>Rooms</a>
+                        </li>
+                         <li>
+                            <a href="map.html">
+                                <i class="fas fa-hotel"></i>Hotel Extras</a>
+                        </li>
+                         <li>
+                            <a href="map.html">
+                                <i class="fas fa-hotel"></i>Hotel Reviews</a>
+                        </li>
+                         <li>
+                            <a href="map.html">
+                                <i class="fas fa-hotel"></i>Hotel Settings</a>
                         </li>
                          <li>
                             <a href="map.html">

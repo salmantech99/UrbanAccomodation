@@ -212,10 +212,11 @@ strong {
     margin-bottom: 10px;
 }
 .addcar-status{
-    margin-top: 30px;
+    margin-top: 0px;
   font-size: 14px;
   color: #555;
 }
+
 .addcar-name{
     margin-top: 10px;
   font-size: 14px;
@@ -990,6 +991,7 @@ section {
     border-radius: 3px;
     background: #4272d7;
     margin-left: -3px;
+    margin-top: 7px;
 }
 
 .au-btn--submit:hover {

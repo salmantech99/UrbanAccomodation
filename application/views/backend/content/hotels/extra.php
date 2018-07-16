@@ -5,13 +5,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="box effect1">
-                        <h4 class="hotel-table">ROOMS MANAGEMENT</h4>
+                        <h4 class="hotel-table">EXTRAS MANAGEMENT</h4>
                         <hr>
                         <div class="table-responsive">
-                            <a href="<?php echo site_url('backend/room_one/'); ?>"><button type="button" class="btn btn-success btn-md btn-add btn-margin">
+                            <a href="<?php echo site_url('backend/extras_one/'); ?>"><button type="button" class="btn btn-success btn-md btn-add btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
-                                <button type="button" class="btn btn-danger btn-md btn-add">
+                                <button type="button" class="btn btn-danger btn-sm btn-add">
                                 <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add">
                                 <i class="fas fa-print"></i>&nbsp; PRINT</button>
@@ -28,105 +28,93 @@
                                         </label>
                                         </th>
                                         <th>#</th>
-                                        <th>Room Type</th>
-                                        <th>Hotel</th>
-                                        <th>Qty</th>
-                                        <th>Price</th>
-                                        <th>Prices</th>
-                                        <th>Availability</th>
-                                        <th>Gallery</th>
+                                        <th>Thumb</th>
+                                        <th>Name</th>
                                         <th>Status</th>
+                                        <th>Price</th>
+                                        <th>Assign</th>
+                                        <th>Search</th>
                                         <th>Edit</th>
                                         <th>Delete</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr style="text-align: center;">
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
                                         <td>0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td><i class="fas fa-check tick"></i></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td><i class="fas fa-search"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="text-align: center;">
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
                                         <td>0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td><i class="fas fa-check tick"></i></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td><i class="fas fa-search"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="text-align: center;">
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
                                         <td>0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td><i class="fas fa-check tick"></i></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td><i class="fas fa-search"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="text-align: center;">
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
                                         <td>0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td><i class="fas fa-check tick"></i></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td><i class="fas fa-search"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="text-align: center;">
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
                                         <td>0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td><i class="fas fa-check tick"></i></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td><i class="fas fa-search"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="text-align: center;">
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
@@ -134,16 +122,14 @@
                                         <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
                                         <td><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td><i class="fas fa-search"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="text-align: center;">
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
@@ -151,16 +137,14 @@
                                         <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
                                         <td><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td><i class="fas fa-search"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="text-align: center;">
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
@@ -168,12 +152,10 @@
                                         <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
                                         <td><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td><i class="fas fa-search"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
                                         <td><i class="fas fa-times delete"></i></td>
                                     </tr>

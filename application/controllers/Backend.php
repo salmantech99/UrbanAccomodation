@@ -45,10 +45,40 @@ class Backend extends CI_Controller {
 		$this->load->view('backend/content/hotels/hotel-one');
 		$this->load->view('backend/template/footer');
 	}
+	public function room_one(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/hotels/room-one');
+		$this->load->view('backend/template/footer');
+	}
 	public function rooms(){	
 		$this->load->view('backend/template/header');
 		$this->load->view('backend/template/nav');
 		$this->load->view('backend/content/hotels/rooms');
+		$this->load->view('backend/template/footer');
+	}
+	public function room_extra(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/hotels/extra');
+		$this->load->view('backend/template/footer');
+	}
+	public function extras_one(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/hotels/extras-one');
+		$this->load->view('backend/template/footer');
+	}
+	public function hotel_reviews(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/hotels/reviews');
+		$this->load->view('backend/template/footer');
+	}
+	public function hotel_settings(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/hotels/hotel-settings');
 		$this->load->view('backend/template/footer');
 	}
 		public function cars(){	
