@@ -53,10 +53,10 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-edit edit"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-times delete"></i></td>
                                     </tr>
                                     <tr>
                                         <td><label class="control control--checkbox">
@@ -70,10 +70,10 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-edit edit"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-times delete"></i></td>
                                     </tr>
                                     <tr>
                                         <td><label class="control control--checkbox">
@@ -87,10 +87,10 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-edit edit"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-times delete"></i></td>
                                     </tr>
                                     <tr>
                                         <td><label class="control control--checkbox">
@@ -104,10 +104,10 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-edit edit"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-times delete"></i></td>
                                     </tr>
                                     <tr>
                                         <td><label class="control control--checkbox">
@@ -121,10 +121,10 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-edit edit"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-times delete"></i></td>
                                     </tr>
                                     <tr>
                                         <td><label class="control control--checkbox">
@@ -138,10 +138,10 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-edit edit"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-times delete"></i></td>
                                     </tr>
                                     <tr>
                                         <td><label class="control control--checkbox">
@@ -155,10 +155,10 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-edit edit"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-times delete"></i></td>
                                     </tr>
                                     <tr>
                                         <td><label class="control control--checkbox">
@@ -172,10 +172,10 @@
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 100px;"></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-check tick"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-edit edit"></i></td>
+                                        <td class="hotel-add-alignment"><i class="fas fa-times delete"></i></td>
                                     </tr>
                                 </tbody>
                             </table>

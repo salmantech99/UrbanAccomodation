@@ -230,15 +230,12 @@ margin-left: 40px;
 }
 .edit{
   color:  #f79420;
-  margin-left: 45px;
 }
 .delete{
   color: red;
-  margin-left: 45px;
 }
 .tick{
   color: green;
-  margin-left: 45px;
 }
 .execution{
   float: right;
