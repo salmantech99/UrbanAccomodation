@@ -562,7 +562,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-2">
-                                <h5 class="policy-status">Payment Options</h5>
+                                <h5 class="policy-status">Policy and Terms</h5>
                             </div>
                             <div class="col-md-10">
                                 <textarea name="" id="" cols="80" rows="3" class="policy-car-description"></textarea>
