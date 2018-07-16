@@ -8,14 +8,14 @@
                         <h4 class="hotel-table">Car MANAGEMENT</h4>
                         <hr>
                         <div class="table-responsive">
-                            <a href="<?php echo site_url('backend/cars_add/'); ?>"><button type="button" class="btn btn-success btn-lg btn-add btn-margin">
+                            <a href="<?php echo site_url('backend/cars_add/'); ?>"><button type="button" class="btn btn-success btn-md btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
-                                <button type="button" class="btn btn-danger btn-sm btn-add">
+                                <button type="button" class="btn btn-danger btn-md">
                                 <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
-                                <button type="button" class="btn btn-outline-secondary btn-sm btn-add">
+                                <button type="button" class="btn btn-outline-secondary btn-md">
                                 <i class="fas fa-print"></i>&nbsp; PRINT</button>
-                                <button type="button" class="btn btn-outline-secondary btn-sm btn-add btn-marginn">
+                                <button type="button" class="btn btn-outline-secondary btn-md btn-marginn">
                                 <i class="fas fa-file"></i>&nbsp; EXPORT INTO CSV</button>  
                             </div>
                             <table class="table table-hover table-earning">
@@ -185,11 +185,11 @@
                                         <div class="col col-md-8">
                                             <div class="input-group">
                                                 <div class="input-group-btn">
-                                                    <button class="btn btn-search hotel-add-button">
+                                                    <button class="btn btn-search car-add-button">
                                                         <i class="fa fa-search"></i> Search
                                                     </button>
                                                 </div>
-                                                <input type="text" id="input1-group2" name="input1-group2" placeholder="Cars" class="form-control hotel-add-form">
+                                                <input type="text" id="input1-group2" name="input1-group2" placeholder="Cars" class="form-control car-add-form">
                                             </div>
                                         </div>
                                         <div class="col-md-4">

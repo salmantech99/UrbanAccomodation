@@ -123,6 +123,7 @@ input[type="file"] {
 }
 .btn-hotel{
   float: right;
+  margin-bottom: 15px;
 }
 .btn-add{
   border-radius: 0px;
