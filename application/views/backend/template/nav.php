@@ -25,14 +25,34 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
-                        </li>
-                        <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
-                        </li>
+                         
+                            <li>
+                              <a data-toggle="collapse" href="#collapse1"><i class="fas fa-hotel"></i> Hotels </a>  
+                            </li>
+                          <div id="collapse1" class="panel-collapse collapse">
+                            <ul class="list-group" style="list-style: none; text-align: left;">
+                              <li>
+                                <a href="<?php echo site_url('backend/add_hotels/'); ?>">
+                                <i class="fas fa-hotel"></i> Hotels</a>
+                              </li>
+                              <li>
+                                <a href="<?php echo site_url('backend/rooms/'); ?>">
+                                <i class="far fa-building"></i> Rooms</a>
+                              </li>
+                              <li>
+                                <a href="<?php echo site_url('backend/room_extra/'); ?>">
+                                <i class="fas fa-plus-square"></i> Hotel Extras</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo site_url('backend/hotel_reviews/'); ?>">
+                                <i class="fas fa-star"></i> Hotel Reviews</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo site_url('backend/hotel_settings/'); ?>">
+                                <i class="fas fa-cog"></i> Hotel Settings</a>
+                            </li>
+                            </ul>
+                          </div>
                         <li>
                             <a href="form.html">
                                 <i class="far fa-check-square"></i>Forms</a>
@@ -41,28 +61,25 @@
                             <a href="#">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
-                        </li>
+                     
                         <li>
                             <a href="<?php echo site_url('backend/add_hotels/'); ?>">
                                 <i class="fas fa-hotel"></i>Hotels</a>
                         </li>
                          <li>
-                            <a href="map.html">
+                            <a href="<?php echo site_url('backend/rooms/'); ?>">
                                 <i class="fas fa-hotel"></i>Rooms</a>
                         </li>
                          <li>
-                            <a href="map.html">
+                            <a href="<?php echo site_url('backend/room_extra/'); ?>">
                                 <i class="fas fa-hotel"></i>Hotel Extras</a>
                         </li>
                          <li>
-                            <a href="map.html">
+                            <a href="<?php echo site_url('backend/hotel_reviews/'); ?>">
                                 <i class="fas fa-hotel"></i>Hotel Reviews</a>
                         </li>
                          <li>
-                            <a href="map.html">
+                            <a href="<?php echo site_url('backend/hotel_settings/'); ?>">
                                 <i class="fas fa-hotel"></i>Hotel Settings</a>
                         </li>
                          <li>
