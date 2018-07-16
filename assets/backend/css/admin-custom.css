@@ -247,6 +247,14 @@ margin-left: 40px;
 }
 .edit{
   color:  #f79420;
+<<<<<<< HEAD
+}
+.delete{
+  color: red;
+}
+.tick{
+  color: green;
+=======
   margin-left: 0px;
 }
 .delete{
@@ -256,6 +264,7 @@ margin-left: 40px;
 .tick{
   color: green;
   margin-left: 0px !important;
+>>>>>>> e3772f705947a5712438770b3fbf5c45c92e9116
 }
 .execution{
   float: right;
