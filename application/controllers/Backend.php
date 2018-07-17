@@ -4,7 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Backend extends CI_Controller {
 	public function __Construct(){
 	  parent::__Construct ();
-	   $this->load->model('PostModel'); // load model 
+	   $this->load->model('PostModel'); 
+	   $this->load->model('Insert');// load model 
 	 }
  
 		public function overview(){	
@@ -99,15 +100,32 @@ class Backend extends CI_Controller {
 		$this->load->view('backend/template/footer');
 	}
 	public function cars_add(){	
-		$this->load->view('backend/template/header');
+    $this->load->library('form_validation');
+    $this->form_validation->set_rules('car_name', 'car_name', 'required|min_length[5]|max_length[15]');
+    if ($this->form_validation->run() == FALSE) {
+echo "string";
+// $this->load->view('cars_add');
+} else {
+//Setting values for tabel columns
+$options =array(
+		     'car_name'         => $this->input->post('car_name'),
+		     'car_description'  => $this->input->post('editor1'),
+		     'pickup_location1' => $this->input->post('pickup_location1'),
+			);
+//Transfering data to Model
+$this->Insert->create($options);
+$data['message'] = 'Data Inserted Successfully';
+//Loading View
+$this->load->view('backend/template/header');
 		$this->load->view('backend/template/nav');
 		$this->load->view('backend/content/cars/cars_add');
 		$this->load->view('backend/template/footer');
+}
+		
 	}
 	public function car_page(){	
 
-$data['posts'] = $this->PostModel->getPosts(); // calling Post model method getPosts()
-
+        $data['posts'] = $this->PostModel->getPosts(); // calling Post model method getPosts()
 		$this->load->view('backend/template/header');
 		$this->load->view('backend/template/nav');
 		$this->load->view('backend/content/cars/cars',$data);
