@@ -267,6 +267,12 @@ strong {
     margin-left: -5px;
     font-size: 12px !important;
 }
+.extra_car_main{
+    margin-top: 76px;
+}
+.extra_car_mainbar{
+    margin-top: 20px;
+}
 .addcar-button{
     color: white;
     width: 80px;

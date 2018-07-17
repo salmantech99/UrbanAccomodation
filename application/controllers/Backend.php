@@ -2,6 +2,10 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Backend extends CI_Controller {
+	public function __Construct(){
+	  parent::__Construct ();
+	   $this->load->model('PostModel'); // load model 
+	 }
  
 		public function overview(){	
 		$this->load->view('backend/template/header');
@@ -101,9 +105,25 @@ class Backend extends CI_Controller {
 		$this->load->view('backend/template/footer');
 	}
 	public function car_page(){	
+
+$data['posts'] = $this->PostModel->getPosts(); // calling Post model method getPosts()
+
 		$this->load->view('backend/template/header');
 		$this->load->view('backend/template/nav');
-		$this->load->view('backend/content/cars/cars');
+		$this->load->view('backend/content/cars/cars',$data);
 		$this->load->view('backend/template/footer');
 	}
+	public function extra_car(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/cars/extra_car');
+		$this->load->view('backend/template/footer');
+	}
+	public function extra_car_one(){	
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/template/nav');
+		$this->load->view('backend/content/cars/extra_car_one');
+		$this->load->view('backend/template/footer');
+	}
+
 }

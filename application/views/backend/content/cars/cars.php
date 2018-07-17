@@ -41,6 +41,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php foreach($posts as $post){?>
                                     <tr>
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>
@@ -48,9 +49,9 @@
                                         </label></td>
                                         <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment"><?php echo $post->car_name;?></td>
+                                        <td class="hotel-add-alignment"><?php echo $post->stars;?></td>
+                                        <td class="hotel-add-alignment"><?php echo $post->car_description;?></td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment"><input class="form-control input-sm" type="number" id="order_37" value="1" min="1" style="width: 100px; margin-left: 50px;"></td>
@@ -58,6 +59,7 @@
                                         <td class="hotel-add-alignment"><i class="fas fa-edit edit"></i></td>
                                         <td class="hotel-add-alignment"><i class="fas fa-times delete"></i></td>
                                     </tr>
+                                    <?php } ?>
                                     <tr>
                                         <td><label class="control control--checkbox">
                                             <input type="checkbox"/>

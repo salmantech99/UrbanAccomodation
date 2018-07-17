@@ -26,7 +26,7 @@
                                 <h5 class="addcar-name">Car Name</h5>
                             </div>
                             <div class="col-md-10">
-                                <input type="text" name="" class="input-car-name" placeholder="Car Name">
+                                <input type="text" name="car_name" class="input-car-name" placeholder="Car Name">
                             </div>
                         </div>
                         <div class="row" style="margin-top: 20px;">
@@ -141,7 +141,8 @@
                                 <div class="dropdown">
                                     <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
                                   <div class="dropdown-content">
-                                   <input type="text" name="hello" placeholder="Location" class="addcar-input-pick" />
+                                   <input type="text" name="pickup_location1" placeholder="Location" class="addcar-input-pick" />
+                                   
                                   </div>
                                 </div>
                             </div>
@@ -152,7 +153,7 @@
                                 <div class="dropdown">
                                     <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
                                   <div class="dropdown-content">
-                                   <input type="text" name="hello" placeholder="Location" class="addcar-input-pick" />
+                                   <input type="text" name="dropoff_location1" placeholder="Location" class="addcar-input-pick" />
                                   </div>
                                 </div>
                             </div>
@@ -173,7 +174,7 @@
                                 <div class="dropdown">
                                     <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
                                   <div class="dropdown-content">
-                                   <input type="text" name="hello" placeholder="Location" class="addcar-input-pick" />
+                                   <input type="text" name="pickup_location2" placeholder="Location" class="addcar-input-pick" />
                                   </div>
                                 </div>
                             </div>
@@ -205,7 +206,7 @@
                                 <div class="dropdown">
                                     <p class="addcar-pick-work">Enter Location<i class="fas fa-sort-down pick-arrow"></i></p>
                                   <div class="dropdown-content">
-                                   <input type="text" name="hello" placeholder="Location" class="addcar-input-pick" />
+                                   <input type="text" name="pickup_location3" placeholder="Location" class="addcar-input-pick" />
                                   </div>
                                 </div>
                             </div>
