@@ -18,7 +18,7 @@
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
-                        <form>
+                        <form action="hotel-one.php" method="post">
                             <div class="row">
                                 <div class="col-md-2">
                                     <h5 class="addcar-status">Status</h5>
@@ -35,7 +35,7 @@
                                     <h5 class="addcar-status">Hotel Name</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <input type="text" name="" class="input-car-name" placeholder="Hotel Name">
+                                    <input type="text" name="hotel_name" class="input-car-name" placeholder="Hotel Name">
                                 </div>
                             </div>
                             <div class="row" style="margin-top: 20px;">
@@ -183,7 +183,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-md-2" style="margin-bottom: 30px;">
-                                    <button type="submit" class="addcar-button">Submit</button>
+                                    <button type="submit" class="addcar-button" name="hotel_gen">Submit</button>
                                 </div>
                                 
                             </div>

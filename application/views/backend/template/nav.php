@@ -62,26 +62,20 @@
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                      
-                        <li>
-                            <a href="<?php echo site_url('backend/add_hotels/'); ?>">
-                                <i class="fas fa-hotel"></i>Hotels</a>
-                        </li>
+                       
                          <li>
-                            <a href="<?php echo site_url('backend/rooms/'); ?>">
+                            <a href="#">
                                 <i class="fas fa-hotel"></i>Rooms</a>
                         </li>
                          <li>
-                            <a href="<?php echo site_url('backend/room_extra/'); ?>">
+                            <a href="#">
                                 <i class="fas fa-hotel"></i>Hotel Extras</a>
                         </li>
                          <li>
-                            <a href="<?php echo site_url('backend/hotel_reviews/'); ?>">
+                            <a href="#">
                                 <i class="fas fa-hotel"></i>Hotel Reviews</a>
                         </li>
-                         <li>
-                            <a href="<?php echo site_url('backend/hotel_settings/'); ?>">
-                                <i class="fas fa-hotel"></i>Hotel Settings</a>
-                        </li>
+                         
                          <li>
                             <a href="map.html">
                                 <i class="fas fa-plane"></i>Flights</a>
