@@ -1,4 +1,5 @@
 <div class="main-content">
+  <form method="post" action="<?php echo base_url(); ?>backend/insert_car">
     <div class="section__content section__content--p30">
         <ul class="nav nav-tabs">
             <li class="active"><a data-toggle="tab" href="#home" aria-expanded= "true" class="cars-add-tabs">Cars General</a></li>
@@ -9,8 +10,6 @@
         <div class="tab-content">                                 
             <div id="home" class="tab-pane fade in active fade active show">
                 <div class="container-fluid">
-                    <form method="post" action="<?php echo base_url(); ?>backend/insert_car">
-                    
                         <div class="row">
                             <div class="col-md-2">
                                 <h5 class="addcar-status">Status</h5>
@@ -501,12 +500,7 @@
                                 <input type="" name="related" class="addcar-input-related">
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-2" style="margin-bottom: 30px;">
-                                <button type="submit" class="addcar-button">Submit</button>
-                            </div>                                
-                        </div>
-                    </form>
+                        
                 </div>
             </div>
                 <!-- END GENERAL -->
@@ -514,7 +508,7 @@
                 <!-- MAIN CONTENT-->
             <div id="menu2" class="tab-pane fade">
                 <div class="container-fluid">
-                    <form><br>
+                    <br>
                         <div class="row form-group">
                             <div class="col col-md-2">
                             <label class=" form-control-label">Meta Title</label>
@@ -534,13 +528,7 @@
                             <div class="col-md-6">
                               <textarea name="meta_description" placeholder="Meta Description" class="form-control car-place-from" id="" cols="30" rows="4"></textarea>
                             </div>
-                        </div> 
-                        <div class="row">
-                            <div class="col-md-2" style="margin-bottom: 30px;">
-                                <button type="submit" class="addcar-button">Submit</button>
-                            </div>
-                        </div>
-                    </form>    
+                        </div>  
                 </div> 
             </div>
                 <!-- END MAIN CONTENT-->
@@ -553,7 +541,7 @@
                                 <h5 class="policy-status">Payment Options</h5>
                             </div>
                             <div class="col-md-10">
-                                <input list="hosting-plan" type="text" class="policy-input">
+                                <input name="payment" list="hosting-plan" type="text" class="policy-input">
                                     <datalist  id="hosting-plan">
                                         <option value="Cash"/>
                                         <option value="Pay on Arrival"/>
@@ -567,18 +555,19 @@
                                 <h5 class="policy-status">Policy and Terms</h5>
                             </div>
                             <div class="col-md-10">
-                                <textarea name="" id="" cols="80" rows="3" class="policy-car-description"></textarea>
+                                <textarea name="policy" id="" cols="80" rows="3" class="policy-car-description"></textarea>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-2" style="margin-bottom: 30px;">
-                                <button type="submit" class="addcar-button">Submit</button>
-                            </div>                                
-                        </div>
-                    </form>   
+                      
                 </div>
             </div>
                 <!-- END MAIN CONTENT-->
         </div>
     </div>
+                         <div class="row">
+                            <div class="col-md-2" style="margin-bottom: 30px;">
+                                <button type="submit" class="addcar-button">Submit</button>
+                            </div>                                
+                        </div>
+  </form> 
 </div>

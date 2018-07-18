@@ -164,6 +164,8 @@ class Backend extends CI_Controller {
 		     'meta_title'        => $this->input->post('title'),
 		     'meta_keywords'     => $this->input->post('meta_keywords'),
 		     'meta_description'  => $this->input->post('meta_description'),
+		     'policy_options'    => $this->input->post('payment'),
+		     'policy_and_terms'  => $this->input->post('policy'),
 
 			);
 			//Transfering data to Model
