@@ -165,7 +165,7 @@
                             </div>
 
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Pick up location</h5>
                             </div>
@@ -197,7 +197,7 @@
                             </div>
 
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Pick up location</h5>
                             </div>
@@ -229,7 +229,7 @@
                             </div>
 
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Pick up location</h5>
                             </div>
@@ -261,7 +261,7 @@
                             </div>
 
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Pick up location</h5>
                             </div>
@@ -292,7 +292,7 @@
                                 <input type="text" name="price5" class="input-car-price">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Pick up location</h5>
                             </div>
@@ -323,7 +323,7 @@
                                 <input type="text" name="price6" class="input-car-price">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Pick up location</h5>
                             </div>
@@ -353,7 +353,7 @@
                                 <input type="text" name="price7" class="input-car-price">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Pick up location</h5>
                             </div>
@@ -383,7 +383,7 @@
                                 <input type="text" name="price8" class="input-car-price">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Pick up location</h5>
                             </div>
@@ -413,7 +413,7 @@
                                 <input type="text" name="price9" class="input-car-price">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Pick up location</h5>
                             </div>
@@ -443,7 +443,7 @@
                                 <input type="text" name="price10" class="input-car-price">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row cars_add_rows">
                             <div class="col-md-2">
                                 <h5 class="addcar-pickup">Featured</h5>
                             </div>

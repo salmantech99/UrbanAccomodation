@@ -384,6 +384,9 @@ strong {
     margin-top: 20px;
     border:1px solid #ccc;
 }
+.cars_add_rows{
+    margin-top: 50px;
+}
 /* ----- Links ----- */
 a {
     display: inline-block;
