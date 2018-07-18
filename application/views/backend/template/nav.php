@@ -53,6 +53,8 @@
                             </li>
                             </ul>
                           </div>
+
+
                         <li>
                             <a href="form.html">
                                 <i class="far fa-check-square"></i>Forms</a>
@@ -81,9 +83,25 @@
                                 <i class="fas fa-plane"></i>Flights</a>
                         </li>
                         <li>
-                            <a href="<?php echo site_url('backend/car_page/'); ?>">
-                                <i class="fas fa-car"></i>Cars</a>
+                            <a data-toggle="collapse" href="#collapse2"><i class="fas fa-car"></i> Cars </a>  
                         </li>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <ul class="list-group" style="list-style: none; text-align: left;">
+                                <li>
+                                    <a href="<?php echo site_url('backend/car_page/'); ?>">
+                                    <i class="fas fa-car"></i> Cars</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('backend/extra_car/'); ?>">
+                                    <i class="far fa-building"></i> Extras</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('backend/room_extra/'); ?>">
+                                    <i class="fas fa-plus-square"></i> Cars Settings</a>
+                                </li>
+                            </ul>
+                        </div>
+
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Pages</a>

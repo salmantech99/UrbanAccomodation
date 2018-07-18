@@ -212,7 +212,7 @@ strong {
     margin-bottom: 10px;
 }
 .addcar-status{
-    margin-top: 0px;
+        margin-top: 27px;
   font-size: 14px;
   color: #555;
 }
@@ -249,7 +249,8 @@ strong {
 }
 
 .dropdown-content {
-    width: 235px !important;
+    width: 185px !important;
+        height: 50px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -259,10 +260,19 @@ strong {
     z-index: 1;
 }
 .addcar-input-pick{
-    width: 205px !important;
+    width: 162px !important;
     border: 1px solid #ccc;
+    margin-top: -3px !important;
+    height: 30px;
+    margin-left: -5px;
+    font-size: 12px !important;
 }
-
+.extra_car_main{
+    margin-top: 76px;
+}
+.extra_car_mainbar{
+    margin-top: 20px;
+}
 .addcar-button{
     color: white;
     width: 80px;
@@ -359,6 +369,7 @@ strong {
     border:1px solid #ccc;
 }
 .input-car-price{
+    font-size: 10px !important;
     margin-top: 10px;
      height: 35px;
     width: 50px;
@@ -372,6 +383,9 @@ strong {
 .policy-car-description{
     margin-top: 20px;
     border:1px solid #ccc;
+}
+.cars_add_rows{
+    margin-top: 50px;
 }
 /* ----- Links ----- */
 a {
