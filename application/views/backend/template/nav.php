@@ -96,7 +96,7 @@
                                     <i class="far fa-building"></i> Extras</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo site_url('backend/room_extra/'); ?>">
+                                    <a href="<?php echo site_url('backend/car_settings/'); ?>">
                                     <i class="fas fa-plus-square"></i> Cars Settings</a>
                                 </li>
                             </ul>
