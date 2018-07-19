@@ -337,6 +337,9 @@ strong {
     font-size: 14px;
     margin-top: 20px;
 }
+.car_set{
+    margin-top: 76px;
+}
 .dropdown:hover .dropdown-content {
     display: block;
 }
