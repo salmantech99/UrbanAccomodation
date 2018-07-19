@@ -10,5 +10,9 @@ class Insert extends CI_Model {
  	$this->db->insert("cars",$options);
  	return $this->db->insert_id();
  }
+ public function create_hotels($options = array()){
+ 	$this->db->insert("cars",$options);
+ 	return $this->db->insert_id();
+ }
 }
 ?>

@@ -50,6 +50,49 @@ class Backend extends CI_Controller {
 		$this->load->view('backend/content/hotels/hotel-one');
 		$this->load->view('backend/template/footer');
 	}
+		public function insert_hotel(){
+		$this->load->library('form_validation');
+
+    	$this->form_validation->set_rules('hotel_name', 'hotel_name', 'required|min_length[5]|max_length[15]');
+    	if($this->form_validation->run() == FALSE) {
+			$this->load->view('hotel_one');
+		}else{
+			//Setting values for tabel columns
+			$values =array(
+			 'status'              => $this->input->post('status'),
+		     'hotel_name'          => $this->input->post('hotel_name'),
+		     'car_description'     => $this->input->post('editor1'),
+		     'stars'               => $this->input->post('stars'),
+			 'hotel_type'          => $this->input->post('hotel_type'),
+			 'location'            => $this->input->post('location'),
+			 'airport_pickup'      => $this->input->post('airport_pickup'),
+			 'featured'            => $this->input->post('featured'),
+			 'featured_to'         => $this->input->post('featured_to'),
+			 'featured_from'       => $this->input->post('featured_from'),
+		     'var_tax'       	   => $this->input->post('var_tax'),
+		     'related_hotels'  	   => $this->input->post('related_hotels'),
+		     'hotel_area'  		   => $this->input->post('google'),
+		     'latitude'  		   => $this->input->post('latitude'),
+		     'longitude'  		   => $this->input->post('longitude'),
+		     'hotel_extras'  	   => $this->input->post('check1'),
+		     'meta_title'  		   => $this->input->post('meta_title'),
+		     'meta_keyword'  	   => $this->input->post('meta_keyword'),
+		     'hotel_email'  	   => $this->input->post('hotel_email'),
+		     'hotel_website' 	   => $this->input->post('hotel_website'),
+		     'hotel_contact' 	   => $this->input->post('hotel_phone'),
+		     'check_in' 		   => $this->input->post('check_in'),
+		     'check_out' 		   => $this->input->post('check_out'),
+			);
+			//Transfering data to Model
+			$this->Insert->create_hotels($values);
+			$data['message'] = 'Data Inserted Successfully';
+			//Loading View
+			$this->load->view('backend/template/header');
+			$this->load->view('backend/template/nav');
+			$this->load->view('backend/content/hotels/hotel_one');
+			$this->load->view('backend/template/footer');
+		}
+	}
 	public function room_one(){	
 		$this->load->view('backend/template/header');
 		$this->load->view('backend/template/nav');

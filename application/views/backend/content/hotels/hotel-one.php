@@ -1,6 +1,5 @@
-
-  <h2>Dynamic Tabs</h2>
-  <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+<br>
+<br>
 <br>
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#home" aria-expanded= "true" >Hotel General</a></li>
@@ -11,22 +10,19 @@
   </ul>
 
   <div class="tab-content">
-    <div id="home" class="tab-pane fade in active fade active show">
-                             
-                       
+    <div id="home" class="tab-pane fade in active fade active show">                  
             <!-- MAIN CONTENT-->
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
-                        <form action="hotel-one.php" method="post">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <h5 class="addcar-status">Status</h5>
+                                    <h5 class="addcar-status" name="status">Status</h5>
                                 </div>
                                 <div class="col-md-10">
                                     <select class="addcar-status-work">
-                                        <option>Enabled</option>
-                                        <option>Disabled</option>
+                                        <option value="1">Enabled</option>
+                                        <option value="2">Disabled</option>
                                     </select>
                                 </div>
                             </div>
@@ -51,13 +47,13 @@
                                     <h5 class="addcar-status">Stars</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <select class="addcar-status-work">
-                                        <option>0</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
+                                    <select class="addcar-status-work" name="stars">
+                                        <option value="1">0</option>
+                                        <option value="2">1</option>
+                                        <option value="3">2</option>
+                                        <option value="4">3</option>
+                                        <option value="5">4</option>
+                                        <option value="6">5</option>
                                     </select>
                                 </div>
                             </div>
@@ -66,16 +62,16 @@
                                     <h5 class="addcar-pickup">Hotel Type</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <select class="addcar-passenger-work">
-                                        <option>Apartment</option>
-                                        <option>Hotel</option>
-                                        <option>Guest Room</option>
-                                        <option>Motel</option>
-                                        <option>Residence</option>
-                                        <option>Resort</option>
-                                        <option>Time Share</option>
-                                        <option>Extended Stay</option>
-                                        <option>Villa</option>
+                                    <select class="addcar-passenger-work" name="hotel_type">
+                                        <option value="1">Apartment</option>
+                                        <option value="2">Hotel</option>
+                                        <option value="3">Guest Room</option>
+                                        <option value="4">Motel</option>
+                                        <option value="5">Residence</option>
+                                        <option value="6">Resort</option>
+                                        <option value="7">Time Share</option>
+                                        <option value="8">Extended Stay</option>
+                                        <option value="9">Villa</option>
                                     </select>
                                 </div>
                             </div>
@@ -84,10 +80,10 @@
                                     <h5 class="addcar-pickup">Location</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <select class="addcar-passenger-work">
-                                        <option>Auto</option>
-                                        <option>Manual</option>
-                                        <option>Other</option>
+                                    <select class="addcar-passenger-work" name="location">
+                                        <option value="1">Auto</option>
+                                        <option value="2">Manual</option>
+                                        <option value="3">Other</option>
                                     </select>
                                 </div>
                             </div>
@@ -96,9 +92,9 @@
                                     <h5 class="addcar-pickup">Airport Pickup</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <select class="addcar-passenger-work">
-                                        <option>Yes</option>
-                                        <option>No</option>
+                                    <select class="addcar-passenger-work" name="airport_pickup">
+                                        <option value="1">Yes</option>
+                                        <option value="2">No</option>
                                     </select>
                                 </div>
                             </div>
@@ -107,19 +103,19 @@
                                     <h5 class="addcar-pickup">Featured</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <select class="addcar-passenger-work">
-                                        <option>No</option>
-                                        <option>Yes</option>
+                                    <select class="addcar-passenger-work" name="featured">
+                                        <option value="1">No</option>
+                                        <option value="2">Yes</option>
                                     </select>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group has-feedback car-cal-from">
-                                       <input type="text" class="form-control" id="datepicker" placeholder="From" id="input">
+                                       <input type="text" class="form-control" id="datepicker" placeholder="From" id="input" name="featured_to">
                                     </div>
                                  </div>
                                  <div class="col-md-3">
                                     <div class="form-group has-feedback car-cal-from">
-                                       <input type="text" class="form-control" id="datechecker" placeholder="From" id="input">
+                                       <input type="text" class="form-control" id="datechecker" placeholder="From" id="input" name="featured_from">
                                     </div>
                                  </div>
                             </div>
@@ -128,9 +124,9 @@
                                     <h5 class="addcar-pickup tax">Var Tax</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <select class="addcar-passenger-work">
-                                        <option>Fixed</option>
-                                        <option>Percentage</option>
+                                    <select class="addcar-passenger-work" name="var_tax">
+                                        <option value="1">Fixed</option>
+                                        <option value="2">Percentage</option>
                                     </select>
                                 </div>
                                 <div class="col-md-3">
@@ -142,7 +138,7 @@
                                     <h5 class="addcar-pickup">Related Hotels</h5>
                                 </div>
                                 <div class="col-md-8">
-                                    <input type="" name="" class="addcar-input-related">
+                                    <input type="" name="" class="addcar-input-related" name="related_hotels">
                                 </div>
                             </div>
                             <hr>
@@ -188,7 +184,6 @@
                                 
                             </div>
                             <hr>
-                        </form>
                     </div>
                 </div>
             </div> 
@@ -204,7 +199,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <label class="control control--checkbox check-me check-to"> Select All
-                                                    <input type="checkbox"/ >
+                                                    <input type="checkbox" name="check1" / >
                                                     <div class="control__indicator"></div>
                                         </label>
                                         <hr>
@@ -212,127 +207,127 @@
                                     <!-- ONE LINE -->
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Airport Transport
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check2"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Night Club
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check3"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Business Center
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check4"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Disabled Facilities
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check5"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Restaurant
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check6"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Laundry Service
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check8"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Swimming Pool
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check9"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Bar Lounge
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check10"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Wi-Fi Internet
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check11"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Fitness Center
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check12"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Shuttle Bus Service
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check13"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Inside Parking
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check14"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> SPA
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check15"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Bissiness Class Traveling
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check16"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Fitness Center
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check17"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Banquet Hall
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check18"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Children Activites
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check19"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Air Conditioner
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check20"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Pets Allowed
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check21"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Cards Accepted
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check22"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
                                     <div class="col-md-4">
                                       <label class="control control--checkbox check-me"> Elevator
-                                                    <input type="checkbox"/>
+                                                    <input type="checkbox" name="check23"/>
                                                     <div class="control__indicator"></div>
                                         </label>  
                                     </div>
@@ -352,13 +347,13 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                             <h4>Add Hotel</h4>
-                            <form><br>
+<br>
                                 <div class="row form-group">
                                     <div class="col col-md-2">
                                     <label class=" form-control-label">Meta Title</label>
                                     </div>
                                     <div class="col-12 col-md-6">
-                                    <input name="title" placeholder="Meta Title" class="form-control" type="text">
+                                    <input name="meta_title" placeholder="Meta Title" class="form-control" type="text">
                                     </div>
                                 </div>
                                 <div class="row form-group">
@@ -366,7 +361,7 @@
                                     <label class=" form-control-label">Meta Keywords</label>
                                     </div>
                                     <div class="col-12 col-md-6">
-                                    <textarea name="title" placeholder="Meta Keywords" class="form-control" type="text" rows="2"></textarea>
+                                    <textarea name="meta_keyword" placeholder="Meta Keywords" class="form-control" type="text" rows="2"></textarea>
                                     </div>
                                 </div>
                               <div class="row form-group">
@@ -374,10 +369,9 @@
                                     <label class=" form-control-label">Meta Description</label>
                                     </div>
                                     <div class="col-12 col-md-6">
-                                    <textarea name="title" placeholder="Meta Description" class="form-control" type="text" rows="3"></textarea>
+                                    <textarea name="meta_description" placeholder="Meta Description" class="form-control" type="text" rows="3"></textarea>
                                     </div>
                                 </div> 
-                            </form>  
                                 <hr>
                                 <a class="btn btn-primary blue-btn" href="#" role="button">Submit</a>  
                             </div> 
@@ -391,28 +385,27 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                             <h4>Add Hotel</h4>
-                            <form><br>
+<br>
                                 <div class="row form-group">
                                     <div class="col col-md-2">
                                     <label class=" form-control-label">Hotel's Email</label>
                                     </div>
                                     <div class="col-12 col-md-6">
-                                    <input name="email" placeholder="Email" class="form-control" type="text">
+                                    <input name="hotel_email" placeholder="Email" class="form-control" type="text">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <label class="col-md-2 control-label text-left">Hotel's Website</label>
                                     <div class="col-md-6">
-                                      <input name="website" placeholder="Website" class="form-control" type="text">
+                                      <input name="hotel_website" placeholder="Website" class="form-control" type="text">
                                     </div>
                               </div>
                               <div class="row form-group">
                                     <label class="col-md-2 control-label text-left">Phone</label>
                                     <div class="col-md-6">
-                                      <input name="phone" placeholder="Phone" class="form-control" type="text">
+                                      <input name="hotel_phone" placeholder="Phone" class="form-control" type="text">
                                     </div>
                               </div> 
-                            </form>  
                                 <hr>
                                 <a class="btn btn-primary blue-btn" href="#" role="button">Submit</a>  
                             </div> 
@@ -425,7 +418,6 @@
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
-                        <form>
                             <div class="row">
                                 <div class="col-md-2">
                                     <h5 class="policy-status">Check in</h5>
@@ -433,14 +425,14 @@
                                 <br> 
                                 <div class="col-md-3">
                                     <br>
-                                   <input type="text" class="form-control hi" id="datethere" placeholder="Check in">  
+                                   <input type="text" class="form-control hi" id="datethere" placeholder="Check in" name="check_in">  
                                 </div>
                                 <div class="col-md-1">
                                     <h5 class="policy-status">Check out</h5>
                                 </div>
                                 <div class="col-md-3">
                                     <br>
-                                   <input type="text" class="form-control hi" id="datehere" placeholder="Check out">
+                                   <input type="text" class="form-control hi" id="datehere" placeholder="Check out" name="check_out">
                                 </div>
                             </div>
                             <div class="row">
@@ -448,7 +440,7 @@
                                     <h5 class="policy-status">Payment Options</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <input list="hosting-plan" type="text" class="policy-input">
+                                    <input list="hosting-plan" type="text" class="policy-input" name="payment_options">
  
                                         <datalist id="hosting-plan">
                                             <option value="Cash"/>
@@ -463,7 +455,7 @@
                                     <h5 class="policy-status">Payment Options</h5>
                                 </div>
                                 <div class="col-md-10">
-                                    <textarea name="" id="" cols="100" rows="3" class="policy-car-description"></textarea>
+                                    <textarea name="" id="" cols="100" rows="3" class="policy-car-description" name="payment_option"></textarea>
                                 </div>
                             </div>
                             <div class="row">
@@ -472,11 +464,9 @@
                                 </div>
                                 
                             </div>
-                        </form>
                     </div>
                 </div>
             </div>
             <!-- Hotel Policy -->
-
     </div>
   </div>
