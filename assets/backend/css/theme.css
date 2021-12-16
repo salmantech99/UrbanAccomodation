@@ -3,7 +3,7 @@
 
 Project:  CoolAdmin
 Version:	1.0
-Last change:	08/10/2018 [Add Define a table of contents Link]
+Last change:	08/10/2021 [Add Define a table of contents Link]
 Assigned to:	Hau Nguyen
 Primary use:	Open Source
 -------------------------------------------------------------------*/
@@ -47,16 +47,13 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 ul {
     margin: 0;
 }
-
 button,
 input[type='button'] {
     cursor: pointer;
 }
-
 button:focus,
 input:focus,
 textarea:focus {
@@ -72,10 +69,10 @@ button {
     background: none;
 }
 
-img {
+/*img {
     max-width: 100%;
     height: auto;
-}
+}*/
 
 p {
     margin: 0;
@@ -96,7 +93,32 @@ p {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
-
+.tabs_content_list{
+    margin-left: 45px;
+    border: 1px solid grey;
+}
+.tabs_content_lists{
+ border: 1px solid grey;
+}
+.nav-tabs>li.active{
+    border: none !important;
+}
+.about-heading1:hover{
+ color: #ff6600;
+}
+.tabs_content_ul{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main_index_icons{
+    border: 3px solid #e8ebf0;
+    font-size: 45px;
+    margin-top: 6px;
+    padding: 35px;
+}
+.main_index_icons:hover{
+    color:#ff6600;
+}
 /* ----- Typography ----- */
 body {
     font-family: "Poppins", sans-serif;
@@ -184,7 +206,9 @@ strong {
     margin-right: 13px;
     vertical-align: baseline;
 }
-
+.form-label{
+    margin-top: -10px;
+}
 .title-4 {
     font-weight: 500;
     font-size: 30px;
@@ -227,6 +251,21 @@ strong {
   font-size: 14px;
   color: #555;
 }
+.policy-status-hotel{
+    margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+.policy-status-work{
+    margin-top: 70px;
+    font-size: 14px;
+  color: #555;
+}
+.policy-status-work1{
+    margin-top: 45px;
+    font-size: 14px;
+  color: #555;
+}
 .back-to-page{
     margin-right: 6px;
 }
@@ -236,18 +275,29 @@ strong {
   color: #555;
 }
 .addcar-status-work{
-    margin-top: 20px;
-    font-size: 14px;
+    margin-top: 20px !important;
+    font-size: 14px !important;
         height: 35px;
-        width: 150px;
+        width: 150px !important;
     color: #333;
   border:1px solid #ccc;
+}
+.copyright1 {
+    background-color: #262d30;
 }
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
+.box1{
+    height: 0% !important;
+}
+.navbar-icons-alignment{
+    margin-left: 40px;
+}
+.admin-login-form{
+    margin-top: 95px;
+}
 .dropdown-content {
     width: 185px !important;
         height: 50px;
@@ -259,12 +309,32 @@ strong {
     padding: 12px 16px;
     z-index: 1;
 }
+.route-drop{
+    width: 164px !important;
+    height: 50px !important;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: -63px !important;
+}
 .addcar-input-pick{
     width: 162px !important;
     border: 1px solid #ccc;
     margin-top: -3px !important;
     height: 30px;
     margin-left: -5px;
+    font-size: 12px !important;
+}
+.addcar-input-pick2{
+    width: 146px !important;
+    border: 1px solid #ccc;
+    margin-top: 0px !important;
+    height: 28px;
+    margin-left: -7px;
     font-size: 12px !important;
 }
 .extra_car_main{
@@ -280,19 +350,51 @@ strong {
     background-color: #555;
 }
 .addcar-input-deposit{
-    margin-top: 20px;
+    margin-top: 20px !important;
     height: 35px;
     width: 205px !important;
     border: 1px solid #ccc;
 }
+.invoice-table-work{
+    margin-top: 100px !important;
+}
+.invoice-table-first-heading{
+    border:2px solid #ddd;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 80px;
+    padding-left: 50px;
+}
+.invoice-table-second-heading{
+    border:2px solid #ddd;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.invoice-table-third-heading{
+    border:2px solid #ddd;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 90px;
+    padding-left: 65px;
+}
+.invoice-table-work{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.invoice-logo{
+    margin-top: 20px;
+    margin-left: 10px;
+}
 .addcar-input-related{
-     margin-top: 20px;
+    margin-top: 15px !important;
     height: 35px;
     width: 100% !important;
     border: 1px solid #ccc;
 }
 .policy-input{
-     margin-top: 20px;
+    margin-top: 20px !important;
     height: 35px;
     width: 480px !important;
     border: 1px solid #ccc;
@@ -360,8 +462,63 @@ strong {
     color: #333;
   border:1px solid #ccc;
 }
+.profile-heading{
+    margin-left: 30px;
+}
+.addcar-location-work{
+    background-color: white;
+    margin-top:10px;
+    font-size: 14px;
+        height: 35px;
+        width: 109%;
+    color: #333;
+  border:1px solid #ccc;
+}
+.list{
+    margin-left: 44px;
+    margin-top: 20px;
+}
+.list10{
+    margin-top: 20px;
+}
+.list5{
+    margin-top: 20px;
+}
+.list6{
+    margin-top: 20px;
+}
+.list7{
+    margin-top: 20px;
+}
+.list8{
+    margin-top: 20px;
+}
+.list9{
+    margin-top: 20px;
+}
+.profile-admin{
+    margin-top: 77px;
+}
+.select-form-profile{
+       width: 100%;
+    margin-top: 8px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+.addcar-pick-work1{
+    background-color: white;
+    font-size: 14px;
+    height: 27px;
+    width: 217%;
+    color: #333;
+    border: 1px solid #ccc;
+    margin-left: -63px;
+}
 .pick-arrow{
     margin-left: 67px;
+}
+.pick-arrow1{
+    margin-left: 29px;
 }
 .car-name-row{
     margin-top: 20px;
@@ -485,9 +642,13 @@ section {
 }
 
 .main-content {
-    padding-top: 116px;
+    padding-top: 116px !important;
     min-height: 100vh;
 }
+/*.main-content1 {
+
+    min-height: 100vh;
+}*/
 
 @media (max-width: 991px) {
     .main-content {
@@ -502,6 +663,14 @@ section {
 .page-content--bge5 {
     background: #e5e5e5;
     height: 100vh;
+}
+.page-content--bge-page {
+    background: #e5e5e5;
+    height: 80vh;
+}
+.page-content--bge-page-1 {
+    background: #e5e5e5;
+    height: 70vh;
 }
 
 .login-wrap {
@@ -1614,7 +1783,9 @@ section {
 .account-item > .content > a:hover {
     color: #666;
 }
-
+.navbar-icons-alignment:hover{
+    background-color:#e5e5e5;
+}
 .account-dropdown {
     min-width: 305px;
     position: absolute;
@@ -14638,6 +14809,301 @@ section {
     .menu-sidebar{
         display: none;
     }
+    .room-img {
+    height: 100%;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 5px;
+    }
+    .bb-room {
+    border: 1px solid lightgrey;
+    width: 100%;
+    height: 100%;
+    background-color: #efefed;
+    }
+    .details {
+    border-radius: 0px !important;
+    border-color: #ccc !important;
+    background-color: #fff !important;
+    color: black;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 20px; 
+    font-size: 12px !important;
+    font-family: Nunito-Regular !important;
+    }
+    .dollars {
+    color: #767b7e;
+    margin-top: 20px;
+    }
+    .book-hotel-one {
+    background-color: #6cd228 !important;
+    color: white;
+    width: 120px;
+    height: 74px;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: Montserrat-ExtraBold !important;
+    font-size: 15px !important;
+    margin-right: 20px;
+    border-radius: 0px !important;
+    }
+    .avail {
+    border-radius: 0px !important;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    width: 80px;
+    font-size: 12px !important;
+    font-family: Nunito-Regular !important;
+    }
+    .rw-marg{
+        margin-bottom: 50px;
+    }
+    .ccoki {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: 17px;
+    width: 22px;
+    }
+    .today-index{
+       margin-top: 428px;
+    }
+    .small-screen-icon{
+        display: none;
+    }
+    .single-img{
+        width: 110%;
+    }
+    .border-grid{
+                margin-left: 3px;
+    }
+    .tabs_content_list{
+        margin-left: 18px !important;
+    }
+    .list1{
+        width: 140px;
+        margin-left: 20px;
+    }
+    .list3{
+            width: 150px;
+    margin-top: 10px;
+    margin-left: 21px;
+    }
+    .list4{
+            margin-left: 19px;
+    width: 140px;
+    margin-top: 10px;
+    }
+    .list2{
+           margin-left: 19px;
+    width: 140px;
+    margin-top: 10px;
+    }
+    .list5{
+        width: 140px;
+        margin-left: 85px;
+    }
+    .list7{
+            width: 182px;
+    margin-top: 10px;
+    margin-left: 41px;
+    }
+    .list8{
+            margin-left: 1px;
+    width: 162px;
+    margin-top: 10px;
+    }
+    .list9{
+            margin-left: 19px;
+    width: 166px;
+    margin-top: 10px;
+    }
+    .list6{
+           margin-left: 1px;
+    width: 140px;
+    margin-top: 10px;
+    }
+    .list{
+        margin-left: 0px !important;
+    }
+    .btn-hotel{
+        margin-top: 15px;
+    }
+    .btn-danger{
+        margin-left: 5px;
+    }
+    .flight-management{
+        width: 100% !important;
+    }
+    .flight-hours{
+        width: 310px !important;
+    }
+    .flight-option{
+        width: 350px !important;
+        height: 35px;
+    }
+    .select-airline-work{
+         width: 350px !important;
+        height: 35px;
+    }
+    .cross-btn{
+        margin-left: 45px;
+    }
+    .found-btn-font-grid{
+        margin-left: 92px;
+    }
+    /*.hotel_single_icon{
+        margin-left: 40px;
+    }*/
+    .test svg{
+            margin-left: 276px !important;
+    }
+    .postal{
+        margin-top: 40px !important;
+    }
+    .cloud{
+        width: 93% !important;
+    margin-left: 14px !important;
+    margin-bottom: 20px;
+    }
+    .deal-lahore{
+            margin-left: 0px;
+    width: 94%;
+    }
+    .res-index-work{
+        margin-left: 20px;
+    }
+    .disc{
+        height: 130px;
+    width: 133px;
+    margin-top: 169px;
+    }
+    .heading-deal{
+            padding-top: 43px;
+    }
+    .btn-destination-index{
+        height: 36px;
+        font-size: 14px;
+    }
+    .dealright{
+        margin-left: 5px;
+    }
+    .choice-index{
+            padding-top: 50px;
+    }
+    .jul-bx-flight{
+           height: 25px;
+    width: 55px;
+    margin-left: 50px;
+    }
+    .flight-serch-page{
+        margin-left: 5px;
+    }
+    .index-slider-work{
+        margin-left: 0px;
+    /* height: 100% !important; */
+    width: 87% !important;
+    }
+    .index-slider-text{
+        margin-right: 25px;
+    }
+    .footer-txt1{
+        margin-top: 5px !important;
+    }
+    .dashboard-email{
+        margin-left: 30px !important;
+    }
+    .contact-us-dashboard{
+        margin-top: 140px !important;
+    }
+    .policy-input {
+    width: 345px !important;
+    }.policy-car-description{
+        width: 345px !important;
+    }
+    .customer-location-sm-invoice{
+        margin-left: 130px !important;
+    }
+    .customer-location-sm-invoice1{
+        margin-left: 157px;
+    }
+    .invoice-res-work{
+        margin-left: 0px !important;
+    }
+    .customer-location-sm-invoice2{
+        margin-left: 154px;
+    }
+    .customer-location-sm-invoice3{
+        margin-left: 137px;
+    }
+    .customer-location-sm-invoice4{
+            margin-left: 132px;
+    }
+    .customer-location-sm-invoice6{
+        margin-left: 98px;
+    }
+    .customer-location-sm-invoice5{
+        margin-left: 96px;
+    }
+    .customer-location-sm-invoice7{
+        margin-left: 100px;
+    }
+    .invoice-table-first-sm-heading{
+        padding-right: 10px;
+        padding-left: 10px;
+        border:2px solid #ddd;
+    }
+    .invoice-table-second-sm-heading{
+        border:2px solid #ddd;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .invoice-table-third-sm-heading{
+        border:2px solid #ddd;
+        padding-right: 10px;
+    padding-left: 10px;
+    }
+    .invoice-respons-sm-work{
+        margin-left: 73px;
+    }
+    .res-screen-work{
+        display: none !important;
+    }
+    .res-head-work{
+        width: 100%;
+    }
+    .res-header-work-list{
+        border-top: 2px solid #767b7e;
+    }
+    .vacation-order-booking-border2{
+      width: 100%;
+    }
+    .vacation-order-booking-border{
+        width: 100%;
+    }
+    .flight-airline-list{
+        margin-left: 283px;
+    }
+    .flight-airline-list-price{
+        margin-top: -29px;
+    }
+    .page-content--bge-page {
+        background: #e5e5e5;
+        height: 130vh;
+    }
+    .page-content--bge-page-1 {
+        background: #e5e5e5;
+        height: 97vh;
+    }
+    .about-marg-small{
+        margin-bottom: 20px;
+    }
     .p-md-b-250 {
         padding-bottom: 250px;
     }
@@ -14841,8 +15307,8 @@ section {
 input[type=text] {
   padding: 6px;
   margin-top: 8px;
-  font-size: 17px;
-  border: 1px solid lightgrey;
+  font-size: 15px;
+ /* border: 1px solid lightgrey;*/
 }
 
 .topnav .search-container button {

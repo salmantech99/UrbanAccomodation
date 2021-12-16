@@ -9,7 +9,7 @@
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2017-03-20T18:59Z
+ * Date: 2021-03-20T18:59Z
  */
 ( function( global, factory ) {
 
@@ -10259,7 +10259,7 @@ return jQuery;
  * More info:
  * http://lokeshdhakar.com/projects/lightbox2/
  *
- * Copyright 2007, 2018 Lokesh Dhakar
+ * Copyright 2007, 2021 Lokesh Dhakar
  * Released under the MIT license
  * https://github.com/lokesh/lightbox2/blob/master/LICENSE
  *

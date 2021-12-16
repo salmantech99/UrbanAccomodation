@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
@@ -9,10 +8,8 @@
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-
     <!-- Title Page-->
     <title>Dashboard</title>
-
     <!-- Fontfaces CSS-->
     <link href="<?php echo base_url(); ?>assets/backend/css/font-face.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -20,8 +17,6 @@
     <link href="<?php echo base_url(); ?>assets/backend/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <!-- Bootstrap CSS-->
-    <!-- <link href="<?php echo base_url(); ?>assets/backend/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all"> -->
-
     <!-- Vendor CSS-->
     <link href="<?php echo base_url(); ?>assets/backend/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
@@ -30,29 +25,27 @@
     <link href="<?php echo base_url(); ?>assets/backend/vendor/slick/slick.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/vendor/select2/select2.min.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url(); ?>assets/backend/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
-
     <!-- Main CSS-->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <link href="<?php echo base_url(); ?>assets/backend/css/theme.css" rel="stylesheet" media="all">
-    <link href="<?php echo base_url(); ?>assets/backend/css/admin-custom.css" rel="stylesheet" media="all">
-    
-        <style>
-#input {
-    
-    margin:0;
-    padding-right: 30px;
-    width: 100%;
-}
-#input_img {
-    position:absolute;
-    bottom:26px;
-    right:28px;
-    width:15px;
-    height:18px;
-}
-</style>
+    <link href="<?php echo base_url(); ?>assets/theme/theme.css" rel="stylesheet" media="all">
+    <link href="<?php echo base_url(); ?>assets/backend/css/admin-custom.css" rel="stylesheet" media="all"> 
+    <style>
+        #input {
+            
+            margin:0;
+            padding-right: 30px;
+            width: 100%;
+        }
+        #input_img {
+            position:absolute;
+            bottom:26px;
+            right:28px;
+            width:15px;
+            height:18px;
+        }
+    </style>
 </head>
-
 <body>
       <!-- HEADER MOBILE-->
     <div class="page-wrapper">
@@ -76,104 +69,146 @@
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                                <i class="fas fa-hotel"></i>Hotels</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="index.html">Dashboard 1</a>
+                                    <a href="<?php echo site_url('Hotels/add_hotels/'); ?>">
+                                Hotels</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">Dashboard 2</a>
+                                    <a href="<?php echo site_url('Hotels/rooms/'); ?>">
+                                Rooms</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">Dashboard 3</a>
+                                    <a href="<?php echo site_url('Hotels/room_extra/'); ?>">
+                                Hotel Extras</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">Dashboard 4</a>
+                                    <a href="<?php echo site_url('Hotels/hotel_reviews/'); ?>">
+                                Hotel Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Hotels/hotel_settings/'); ?>">
+                                Hotel Settings</a>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-plane"></i>Flights</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="<?php echo site_url('Flights/flights_add/'); ?>">
+                                ROUTES</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Flights/airport_add/'); ?>">
+                                AIRPORTS</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Flights/flight_settings/'); ?>">
+                                SETTINGS</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Flights/airlines_add/'); ?>">
+                                AIRLINES</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Flights/countries_add/'); ?>">
+                                COUNTRIES</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Flights/flight_slider/'); ?>">
+                                FLIGHTS SLIDER</a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-car"></i>Cars</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="<?php echo site_url('Car/car_page/'); ?>">
+                                    Cars</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Car/extra_car/'); ?>">
+                                    Extras</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Car/car_settings/'); ?>">
+                                    Cars Settings</a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="form.html">
-                                <i class="far fa-check-square"></i>Forms</a>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-suitcase"></i>Vacation</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="<?php echo site_url('Vacation/vacations/'); ?>">
+                                    Vacations</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Vacation/vacations_add/'); ?>">
+                                    Add New</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Vacation/vacations_extra/'); ?>">
+                                    Extras</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Vacation/vacation_settings/'); ?>">
+                                    Settings</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="#">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
-                        </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-copy"></i>Pages</a>
+                                <i class="fas fa-copy"></i>Reports And Orders</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="login.html">Login</a>
+                                    <a href="<?php echo site_url('Hotels/hotel_orders/'); ?>">Hotel Orders</a>
                                 </li>
                                 <li>
-                                    <a href="register.html">Register</a>
+                                    <a href="<?php echo site_url('Flights/flight_orders/'); ?>">Flight Orders</a>
                                 </li>
                                 <li>
-                                    <a href="forget-pass.html">Forget Password</a>
+                                    <a href="<?php echo site_url('Car/car_orders/'); ?>">Car Orders</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('Vacation/vacation_orders/'); ?>">Vacation Orders</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-desktop"></i>UI Elements</a>
+                                <i class="fas fa-copy"></i>Login User Orders</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="button.html">Button</a>
+                                    <a href="<?php echo site_url('Hotels/user_hotel_orders/'); ?>">Hotel Orders</a>
                                 </li>
                                 <li>
-                                    <a href="badge.html">Badges</a>
+                                    <a href="<?php echo site_url('Flights/user_flight_orders/'); ?>">Flight Orders</a>
                                 </li>
                                 <li>
-                                    <a href="tab.html">Tabs</a>
+                                    <a href="<?php echo site_url('Car/user_car_orders/'); ?>">Car Orders</a>
                                 </li>
                                 <li>
-                                    <a href="card.html">Cards</a>
-                                </li>
-                                <li>
-                                    <a href="alert.html">Alerts</a>
-                                </li>
-                                <li>
-                                    <a href="progress-bar.html">Progress Bars</a>
-                                </li>
-                                <li>
-                                    <a href="modal.html">Modals</a>
-                                </li>
-                                <li>
-                                    <a href="switch.html">Switchs</a>
-                                </li>
-                                <li>
-                                    <a href="grid.html">Grids</a>
-                                </li>
-                                <li>
-                                    <a href="fontawesome.html">Fontawesome Icon</a>
-                                </li>
-                                <li>
-                                    <a href="typo.html">Typography</a>
+                                    <a href="<?php echo site_url('Vacation/user_vacation_orders/'); ?>">Vacation Orders</a>
                                 </li>
                             </ul>
                         </li>
+                        <li> <a class="js-arrow" href="<?php echo site_url('Hotels/logout/'); ?>"><i class="zmdi zmdi-power"></i>Logout</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         <!-- END HEADER MOBILE-->
-
-
-
         <!-- PAGE CONTAINER-->
         <!-- HEADER DESKTOP-->
         <div class="page-container">
@@ -252,7 +287,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <p>Meeting about new dashboard...</p>
-                                                    <span>Cynthia Harvey, April 12,,2018</span>
+                                                    <span>Cynthia Harvey, April 12,,2021</span>
                                                 </div>
                                             </div>
                                             <div class="email__footer">
@@ -273,7 +308,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <p>You got a email notification</p>
-                                                    <span class="date">April 12, 2018 06:50</span>
+                                                    <span class="date">April 12, 2021 06:50</span>
                                                 </div>
                                             </div>
                                             <div class="notifi__item">
@@ -282,7 +317,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <p>Your account has been blocked</p>
-                                                    <span class="date">April 12, 2018 06:50</span>
+                                                    <span class="date">April 12, 2021 06:50</span>
                                                 </div>
                                             </div>
                                             <div class="notifi__item">
@@ -291,7 +326,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <p>You got a new file</p>
-                                                    <span class="date">April 12, 2018 06:50</span>
+                                                    <span class="date">April 12, 2021 06:50</span>
                                                 </div>
                                             </div>
                                             <div class="notifi__footer">
@@ -305,9 +340,11 @@
                                         <div class="image">
                                             <img src="<?php echo base_url(); ?>assets/backend/images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
+                                        <?php foreach($posts as $post){?>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <a class="js-acc-btn" href="#"><?php echo $post->username;?></a>
                                         </div>
+                                        <?php } ?>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
@@ -316,28 +353,22 @@
                                                     </a>
                                                 </div>
                                                 <div class="content">
-                                                    <h5 class="name">
-                                                        <a href="#">john doe</a>
-                                                    </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <?php foreach($posts as $post){?>
+                                                        <h5 class="name">
+                                                            <a href="#"><?php echo $post->username;?></a>
+                                                        </h5>
+                                                        <span class="email"><?php echo $post->email_address;?></span>
+                                                    <?php } ?>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="#">
+                                                    <a href="<?php echo site_url('Login/profile/'); ?>">
                                                         <i class="zmdi zmdi-account"></i>Account</a>
-                                                </div>
-                                                <div class="account-dropdown__item">
-                                                    <a href="#">
-                                                        <i class="zmdi zmdi-settings"></i>Setting</a>
-                                                </div>
-                                                <div class="account-dropdown__item">
-                                                    <a href="#">
-                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="#">
+                                                <a href="<?php echo site_url('Hotels/logout/'); ?>">
                                                     <i class="zmdi zmdi-power"></i>Logout</a>
                                             </div>
                                         </div>

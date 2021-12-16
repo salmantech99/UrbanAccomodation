@@ -2633,6 +2633,9 @@ margin-top: 25px;
 .today-happy{
 	margin-top: 10px;
 }
+.Founders{
+	display: flex;
+}
 .heading-deal-index{
 	padding-top:45px;
 	text-align: center;

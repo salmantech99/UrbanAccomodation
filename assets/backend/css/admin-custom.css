@@ -61,7 +61,7 @@
     font-family: Montserrat-ExtraBold !important;
 }
 #dropzone {
-            background-color: #fff;
+  background-color: #fff;
   position: relative;
   border: 1px dotted #00b22d;;
   color: white;
@@ -74,7 +74,12 @@
   border: 1px solid #555;
   color:#00b22d ;
 }
-
+.check-box-marg{
+  margin-left: 32px;
+}
+.check_box_work{
+  margin-top: 4px;
+}
 #dropzone.dropped {
   border: 1px solid #00b22d;
 }
@@ -121,6 +126,101 @@ input[type="file"] {
     background:#FFF;
     margin:40px auto;
 }
+.box1 {
+    width:100%;
+    background:#FFF;
+}
+.box2 {
+    width:100%;
+    background:#FFF;
+}
+.testing-mode{
+  margin-top: 50px;
+}
+.flight-option{
+  width: 300px;
+  font-size: 15px;
+}
+.flight-management{
+  height: 35px;
+   width: 143px;
+  font-size: 15px;
+}
+.flight-hours{
+  margin-top: 0px !important;
+  height: 35px;
+ width: 105px;
+  font-size: 15px; 
+}
+.routes-one{
+  margin-top: 40px;
+}
+.routes-flight{
+   background-color: #eeeeee;
+  border: 1px solid #ccc;
+    padding: 20px;
+}
+.routes-flight3{
+   background-color: #eeeeee;
+  border: 1px solid #ccc;
+    padding: 5px;
+}
+.routes-departure{
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+    padding: 7px;
+}
+.one-way-route{
+  margin-top: 3px;
+}
+.routes-flight1{
+   background-color: #eeeeee;
+  border: 1px solid #ccc;
+    padding: 13px;
+    text-align: center;
+}
+.routes-flight2{
+   background-color: #eeeeee;
+  border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+.input-route{
+  padding:0px !important;
+  margin-top: 0px !important;
+  width: 250px;
+}
+.route-infant{
+  font-size: 13px !important;
+  padding:0px !important;
+  margin-top: 0px !important;
+  width: 160px;
+}
+/* vacation style starts*/
+.vacation-route{
+  padding:0px !important;
+  margin-top: 0px !important;
+  width: 100%;
+}
+.vacation-route1{
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+    padding: 6px;
+}
+.vacation-location-style{
+  border:2px solid #ccc;
+}
+.vacation-text-styling{
+  text-align: center;
+}
+.routes-manage{
+  margin-top: 20px;
+}
+.hours-work{
+  border: 1px solid #ccc;
+  padding: 8px;
+    background-color: #eeeeee;
+}
 .btn-hotel{
   float: right;
   margin-bottom: 15px;
@@ -155,6 +255,11 @@ input.xcrud-upload {
 padding-top: 15px;
 padding-left: 10px;
 }
+.flight-table{
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 10px;
+}
 .table-earning thead th {
     background: #333;
     font-size: 16px;
@@ -187,7 +292,6 @@ padding-left: 10px;
 .control {
   display: block;
   position: relative;
-  padding-left: 30px;
   margin-bottom: 15px;
   cursor: pointer;
   font-size: 18px;
@@ -246,25 +350,25 @@ padding-left: 10px;
 margin-left: 40px;
 }
 .edit{
+  margin-left: 7px;
   color:  #f79420;
-<<<<<<< HEAD
+}
+.search{
+  color: #5bc0de;
 }
 .delete{
   color: red;
 }
 .tick{
   color: green;
-=======
   margin-left: 0px;
 }
-.delete{
-  color: red;
-  margin-left: 0px;
+.delete a{
+  color: red !important;
 }
 .tick{
   color: green;
-  margin-left: 0px !important;
->>>>>>> e3772f705947a5712438770b3fbf5c45c92e9116
+  margin-left: 18px !important;
 }
 .execution{
   float: right;
@@ -292,6 +396,13 @@ background-color: #f79420;
 .addcar-button{
   margin-left: 47px;
     width: 80px;
+    height: 40px;
+    background-color: #466df1;
+    color: white;
+}
+.airport-button{
+  margin-top:20px; 
+  width: 80px;
     height: 40px;
     background-color: #466df1;
     color: white;

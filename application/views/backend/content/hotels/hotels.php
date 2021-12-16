@@ -8,7 +8,7 @@
                         <h4 class="hotel-table">HOTEL MANAGEMENT</h4>
                         <hr>
                         <div class="table-responsive">
-                            <a href="<?php echo site_url('backend/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-lg btn-add btn-margin">
+                            <a href="<?php echo site_url('Hotels/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-lg btn-add btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
                                 <button type="button" class="btn btn-danger btn-sm btn-add">
@@ -47,24 +47,7 @@
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
-                                        <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="control control--checkbox">
-                                            <input type="checkbox"/>
-                                            <div class="control__indicator"></div>
-                                        </label></td>
-                                        <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
@@ -81,24 +64,7 @@
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
-                                        <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="control control--checkbox">
-                                            <input type="checkbox"/>
-                                            <div class="control__indicator"></div>
-                                        </label></td>
-                                        <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
@@ -115,24 +81,7 @@
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
-                                        <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
-                                        <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="control control--checkbox">
-                                            <input type="checkbox"/>
-                                            <div class="control__indicator"></div>
-                                        </label></td>
-                                        <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
@@ -149,7 +98,7 @@
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
-                                        <td>0</td>
+                                        <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
@@ -166,7 +115,58 @@
                                             <input type="checkbox"/>
                                             <div class="control__indicator"></div>
                                         </label></td>
-                                        <td>0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td><i class="fas fa-check tick"></i></td>
+                                        <td><i class="fas fa-edit edit"></i></td>
+                                        <td><i class="fas fa-times delete"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="control control--checkbox">
+                                            <input type="checkbox"/>
+                                            <div class="control__indicator"></div>
+                                        </label></td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td><i class="fas fa-check tick"></i></td>
+                                        <td><i class="fas fa-edit edit"></i></td>
+                                        <td><i class="fas fa-times delete"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="control control--checkbox">
+                                            <input type="checkbox"/>
+                                            <div class="control__indicator"></div>
+                                        </label></td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td class="hotel-add-alignment">0</td>
+                                        <td><i class="fas fa-check tick"></i></td>
+                                        <td><i class="fas fa-edit edit"></i></td>
+                                        <td><i class="fas fa-times delete"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="control control--checkbox">
+                                            <input type="checkbox"/>
+                                            <div class="control__indicator"></div>
+                                        </label></td>
+                                        <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
