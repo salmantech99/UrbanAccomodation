@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Travo</title>
+  <title>Urban Accomodation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/fontawesome-all.css">
@@ -33,7 +33,7 @@
                   <p class="customer-detail"><?php echo $customer_name;?></p>
                   <p class="customer-detail"><?php echo $address;?></p>
                   <p class="customer-detail"><?php echo $email;?></p>
-                  <p class="customer-detail">0<?php echo $mobile_number;?></p>
+                  <p class="customer-detail"><?php echo $mobile_number;?></p>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@
                 <div class="row">
                   <div class="col-md-6 col-sm-6">
                     <img src="<?php echo base_url('uploads/'.$post->thumb); ?>" class="invoice-img-car">
-                    <p class="customer-order-car-detail">Paasport Number</p>
+                    <p class="customer-order-car-detail">CNIC Number</p>
                     <p class="customer-order-car-detail">Departure City</p>
                     <p class="customer-order-car-detail">Departure Date</p>
                     <p class="customer-order-car-detail">Departure Time</p>
