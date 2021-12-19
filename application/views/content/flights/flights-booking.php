@@ -1,3 +1,6 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
+
 <!-- _______________________________________CONTACT BACKGROUND IMAGE________________________________ -->
 <div class="contact-bg">
   <div class="container">
@@ -95,7 +98,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-4 harry col-form-label">*Name</label>
           <div class="col-md-8 col-sm-12">
-            <input class=" title" type="text" name="fullname">
+            <input class=" title" type="text" name="fullname" required pattern="[A-Za-z]{3,16}" title="*Please enter the correct Name">
             <span class="focus-input2"></span>
           </div>
         </div>
@@ -105,7 +108,7 @@
             <div class="form-group">
               <div class="col-xs-5 date">
                 <div class="input-group input-append date">
-                  <input type="text" class="form-control" name="date" / id="datepickerdate">
+                  <input type="date" class="form-control" name="date" / id="datepickerdate" required>
                 </div>
               </div>
             </div>
@@ -114,7 +117,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-4 harry col-form-label">*Gender</label>
           <div class="col-md-3 col-sm-12">
-            <select class="form-control mr-option sel" name="gender">
+            <select class="form-control mr-option sel" name="gender" required>
               <option>Male</option>
               <option>Female</option>
               <option>Others</option>
@@ -124,7 +127,7 @@
         <div class="form-group row">
           <label for="Address" class="col-md-3 harry col-form-label">* Address</label>
           <div class="col-md-6 col-sm-12">
-            <input class="selin" type="text" name="address" required>
+            <input class="selin" type="text" name="address" required pattern="[A-Za-z0-9'\.\-\s\,]{15,}" title="*Please enter correct Address">
           </div>
         </div>
         <li class="travel-seat-font"><img src="<?php echo base_url(); ?>assets/image/search-hotel/red.png"> Primary Travel Document </li>
@@ -134,7 +137,7 @@
           <label for="staticEmail" class="col-md-4 harry col-form-label">Type</label>
           <div class="col-md-3 col-sm-12">
             <select class="form-control mr-option sel" id="sel6" name="passport_type">
-              <option>Passport</option>
+              <option>CNIC</option>
               <option>Others</option>
             </select>
           </div>
@@ -143,42 +146,48 @@
           <label for="staticEmail" class="col-md-4 harry col-form-label">Nationality</label>
           <div class="col-md-3 col-sm-12">
             <select class="form-control mr-option sel" id="sel6" name="nationality">
-              <option>India</option>
               <option>Pakistan</option>
+              <option>USA</option>
+              <option>UK</option>
+              <option>UAE</option>
+              <option>CHINA</option>
             </select>
           </div>
         </div>
         <div class="form-group row">
-          <label for="staticEmail" class="col-md-4 harry col-form-label">Passport issue Country</label>
+          <label for="staticEmail" class="col-md-4 harry col-form-label">CNIC issue Country</label>
           <div class="col-md-3 col-sm-12">
             <select class="form-control mr-option sel" id="sel6" name="issue_country">
-              <option>India</option>
               <option>Pakistan</option>
+              <option>USA</option>
+              <option>UK</option>
+              <option>UAE</option>
+              <option>CHINA</option>
             </select>
           </div>
         </div>
         <div class="form-group row">
-          <label for="staticEmail" class="col-md-4 harry col-form-label">*Passport Expiry</label>
+          <label for="staticEmail" class="col-md-4 harry col-form-label">*CNIC Expiry</label>
           <div class="col-md-8 col-sm-12">
             <div class="form-group">
               <div class="col-xs-5 date">
                 <div class="input-group input-append date" id="datePicker">
-                  <input type="text" class="form-control" name="expiry_date" / id="datepicker">
+                  <input type="date" class="form-control" name="expiry_date" / id="datepicker" required>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="form-group row">
-          <label for="staticEmail" class="col-md-4 harry col-form-label">Passport Number</label>
+          <label for="staticEmail" class="col-md-4 harry col-form-label">CNIC Number (format: xxxxx-xxxxxxx-x)</label>
           <div class="col-md-8 col-sm-12">
-            <input class="sel" type="text" name="passport_number">
+          <input type="text"  data-inputmask="'mask': '99999-9999999-9'"  placeholder="XXXXX-XXXXXXX-X"  name="passport_number" required="">
           </div>
         </div>
         <div class="form-group row">
           <label for="staticEmail" class="col-md-4 harry col-form-label">Meal Preference</label>
           <div class="col-md-8 col-sm-12">
-            <select class="form-control mr-option sel" id="sel11" name="mpreference">
+            <select class="form-control mr-option sel" id="sel11" name="mpreference" required>
               <option>No Meal Preference</option>
               <option>Meal Preference</option>
             </select>
@@ -187,7 +196,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-4 harry col-form-label">Special Assistance</label>
           <div class="col-md-8 col-sm-12">
-            <select class="form-control mr-option sel" id="sel11" name="special_assistance">
+            <select class="form-control mr-option sel" id="sel11" name="special_assistance" required>
               <option>No Special Assistance Required</option>
               <option>Special Assistance Required</option>
             </select>
@@ -196,7 +205,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-4 harry col-form-label">Frequent Flayer Number</label>
           <div class="col-md-2 col-sm-12">
-             <input class="selin mr-option" type="text" name="flayer_number">
+          <input type="text" name="flayer_number" class="selin mr-option"  data-inputmask="'mask': ''" required=""  type = "number"  maxlength = "5">
           </div>
           <div class="col-md-6 col-sm-12">
             <select class="form-control mr-option selin" id="sel11" name="flayer-number">
@@ -221,33 +230,33 @@
           <label for="staticEmail" class="col-md-3  harry col-form-label">*Telephone</label>
           <div class="col-md-3 col-sm-12">
             <select class="form-control mr-option selin" name="country_code">
-              <option>Australia-61</option>
               <option>Pakistan-92</option>
+              <option>Australia-61</option>
               <option>Italy-72</option>
               <option>England-62</option>
               <option>Spain-32</option>
             </select>
           </div>
           <div class="col-md-3 col-sm-12">
-            <input class="selin" type="text" name="area_code" placeholder="Area Code">
+          <input type="text" name="area_code" class="selin" placeholder="Area Code" data-inputmask="'mask': ''" required=""  type = "number"  maxlength = "5">
           </div>
           <div class="col-md-3 col-sm-12">
-            <input class="selin" type="text" name="telephone" placeholder="Number">
+          <input type="text" class="selin" name="telephone" placeholder="Number" data-inputmask="'mask': '0399-99999999'" required=""  type = "number" maxlength = "12">
           </div>
         </div>
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">Mobile Telephone</label>
           <div class="col-md-3 col-sm-12">
             <select class="form-control selin mr-option" name="mobile_telephone">
-              <option>Australia-61</option>
               <option>Pakistan-92</option>
+              <option>Australia-61</option>
               <option>Spain-61</option>
               <option>Dubai-61</option>
               <option>Italy-61</option>
             </select>
           </div>
           <div class="col-md-4 col-sm-12">
-            <input class="selin" type="text" name="mobile" placeholder="Number">
+          <input type="text" class="selin" name="mobile" placeholder="Number" data-inputmask="'mask': '0399-99999999'" required=""  type = "number" maxlength = "12">
           </div>
         </div>
         <div class="form-group row">
@@ -261,7 +270,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">Email Address</label>
           <div class="col-md-9 col-sm-12">
-            <input class="selin" type="text" name="detail_email">
+          <input type="email" class="selin"  name="detail_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Your email should be e.g 'salman@gmail.com'" />
           </div>
         </div>
         <div class="row">
@@ -312,6 +321,8 @@
   </div>
 </div>
 <script>
+  $(":input").inputmask();
+
   $(document).ready(function() {
     $("#datepicker").datepicker();
   });
