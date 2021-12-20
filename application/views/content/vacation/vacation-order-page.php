@@ -25,7 +25,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">*Name</label>
           <div class="col-md-6 col-sm-12">
-            <input class="selin" type="text" name="fullname">
+            <input class="selin" type="text" name="fullname" required>
           </div>
           <input type="hidden" name="vacation_id" value="<?php echo $vacation_id;?>" />
           <input type="hidden" name="vacation_name" value="<?php echo $post->vacation_name;?>" />
@@ -45,11 +45,11 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">* Phone Number</label>
           <div class="col-md-3 col-sm-12">
-            <input class="selin" type="text" name="fnumber">
+            <input class="selin" type="number" name="fnumber" required>
           </div>
-          <label for="staticEmail" class="col-md-2 harry col-form-label"> Email</label>
+          <label for="staticEmail" class="col-md-2 harry col-form-label"> *Email</label>
           <div class="col-md-4 col-sm-12">
-            <input class="selin" type="text" name="email">
+            <input class="selin" type="email" name="email" required>
           </div>
         </div>
         <div class="form-group row">
@@ -61,7 +61,7 @@
         <li class="travel-seat-font"><img src="<?php echo base_url(); ?>assets/image/search-hotel/red.png"> Offers </li>
          <hr>
         <div class="form-group row">
-          <label for="staticEmail" class="col-md-3 harry col-form-label">* Coupon Code</label>
+          <label for="staticEmail" class="col-md-3 harry col-form-label">Coupon Code</label>
           <div class="col-md-9 col-sm-12">
             <input class="selin" type="text" name="coupon_id">
           </div>
