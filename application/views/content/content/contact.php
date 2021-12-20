@@ -26,8 +26,8 @@
   			<img src="<?php echo base_url(); ?>assets/image/contact/email.png">
   		</div>
   		<div class="col-md-3 col-sm-6 col-xs-6">
-  			<p class="postal-font">PHONE & EMAILS<br><span class="postal-font1">+61 3 8376 6284
-			Info@xpertcoders.com</span></p>
+  			<p class="postal-font">PHONE & EMAILS<br><span class="postal-font1">+92 305 5454048
+			Info@urbanaccomodation.com</span></p>
   		</div>
   		<div class="col-md-1 col-sm-6 col-xs-6 d-md-block d-none">
   			<img src="<?php echo base_url(); ?>assets/image/contact/business.png">
@@ -45,13 +45,13 @@
   		<div class="row">
   			<div class="col-md-6">
   			  <div class="form-group">
-  			    <input type="text" class="form-control name-form" id="exampleFormControlFile1" placeholder="Your Name*" name="c_name">
+				<input class="form-control name-form" type="text" id="exampleFormControlFile1" placeholder="Your Name*" name="c_name" required pattern="[A-Za-z]{3,16}" title="*Please enter the correct Name">
   			  </div>
   			  <div class="form-group">
-  			    <input type="text" class="form-control name-form" id="exampleFormControlFile1" placeholder="Subject" name="c_subject">
+				<input class="form-control name-form" type="text" id="exampleFormControlFile1" placeholder="Subject*" name="c_subject" required pattern="[A-Za-z]{3,16}" title="*Please enter the correct Name">
   			  </div>
   			  <div class="form-group">
-  			    <input type="text" class="form-control name-form" id="exampleFormControlFile1" placeholder="Your Email*" name="c_email">
+				<input type="email" class="form-control name-form"  name="c_email" id="exampleFormControlFile1" placeholder="Your Email*" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Your email should be e.g 'salman@gmail.com'"/>
   			  </div>
   			</div>
   			<div class="col-md-6">

@@ -27,7 +27,7 @@
   		</div>
   		<div class="col-md-3 col-sm-6 col-xs-6">
   			<p class="postal-font">PHONE & EMAILS<br><span class="postal-font1">+61 3 8376 6284
-			Info@xpertcoders.com</span></p>
+			Info@urbanaccomodation.com</span></p>
   		</div>
   		<div class="col-md-1 col-sm-6 col-xs-6 d-md-block d-none">
   			<img src="<?php echo base_url(); ?>assets/image/contact/business.png">
