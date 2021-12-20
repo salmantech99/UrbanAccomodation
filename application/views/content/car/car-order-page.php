@@ -1,3 +1,5 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
 <!-- _______________________________________CONTACT BACKGROUND IMAGE________________________________ -->
   <div class="contact-bg">
     <div class="container">
@@ -11,7 +13,7 @@
       </div>
     </div>
   </div>
-<!--  _________________________DELHI TO MUMBAI___________________________ -->
+<!--  _________________________LAHORE TO ISLAMABAD___________________________ -->
 <!--  _______________________WELCOME TO THE ONLINE PASSENGER_______________________________ -->
 <div class="container welcome-margin">
   <div class="row">
@@ -25,7 +27,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">*Name</label>
           <div class="col-md-6 col-sm-12">
-            <input class="selin" type="text" name="fullname">
+          <input class=" selin" type="text" name="fullname" required pattern="[A-Za-z]{3,16}" title="*Please enter the correct Name">
           </div>
            <input type="hidden" name="car_id" value="<?php echo $post->id;?>" />
            <input type="hidden" name="car_name" value="<?php echo $post->Car_name;?>" />
@@ -46,17 +48,18 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">* Phone Number</label>
           <div class="col-md-3 col-sm-12">
-            <input class="selin" type="text" name="fnumber">
+          <input type="text" class="selin" name="fnumber" placeholder="Number" data-inputmask="'mask': '0399-99999999'" required=""  type = "number" maxlength = "12">
+
           </div>
           <label for="staticEmail" class="col-md-2 harry col-form-label"> Email</label>
           <div class="col-md-4 col-sm-12">
-            <input class="selin" type="text" name="email">
+          <input type="email" class="selin"  name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Your email should be e.g 'salman@gmail.com'"/>
           </div>
         </div>
         <div class="form-group row">
           <label for="Address" class="col-md-3 harry col-form-label">* Address</label>
           <div class="col-md-6 col-sm-12">
-            <input class="selin" type="text" name="address" required>
+          <input class="selin" type="text" name="address" required pattern="[A-Za-z0-9'\.\-\s\,]{15,}" title="*Please enter correct Address">
           </div>
         </div>
         <li class="travel-seat-font"><img src="<?php echo base_url(); ?>assets/image/search-hotel/red.png"> Offers </li>
@@ -64,7 +67,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">* Coupon Code</label>
           <div class="col-md-9 col-sm-12">
-            <input class="selin" type="text" name="coupon_id">
+            <input class="selin" type="text" name="coupon_id" required>
           </div>
         </div>
         <div class="row">
@@ -104,6 +107,8 @@
   </div>
 </div>
 <script>
+    $(":input").inputmask();
+
   $(document).ready(function() {
     $("#datepicker").datepicker();
   });

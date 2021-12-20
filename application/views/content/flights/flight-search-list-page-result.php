@@ -11,7 +11,7 @@
     </div>
   </div>
 </div>
- <!--  _________________________DELHI TO MUMBAI___________________________ -->
+ <!--  _________________________LAHORE TO ISLAMABAD___________________________ -->
 <div class="container one-way-margin">
   <div class="row">
     <div class="col-md-4">

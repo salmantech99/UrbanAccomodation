@@ -11,7 +11,7 @@
     </div>
   </div>
 </div> 
- <!--  _________________________DELHI TO MUMBAI___________________________ -->
+ <!--  _________________________LAHORE TO ISLAMABAD___________________________ -->
 <div class="container one-way-margin">
   <form action="<?php echo site_url('Hotels/modify_search_by_form/'); ?>" method="post">
     <div class="row search_modify_work">
