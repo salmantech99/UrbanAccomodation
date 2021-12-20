@@ -25,7 +25,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">*Name</label>
           <div class="col-md-6 col-sm-12">
-            <input class="selin" type="text" name="fullname" value="<?php echo $posts->register_name;?>">
+            <input class="selin" type="text" name="fullname" required value="<?php echo $posts->register_name;?>">
           </div>
           <input type="hidden" name="vacation_id" value="<?php echo $vacation_id;?>" />
           <input type="hidden" name="vacation_name" value="<?php echo $post->vacation_name;?>" />
@@ -45,11 +45,11 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">* Phone Number</label>
           <div class="col-md-3 col-sm-12">
-            <input class="selin" type="text" name="fnumber" value="<?php echo $posts->phone_number;?>">
+            <input class="selin" type="number" name="fnumber" required value="<?php echo $posts->phone_number;?>">
           </div>
-          <label for="staticEmail" class="col-md-2 harry col-form-label"> Email</label>
+          <label for="staticEmail" class="col-md-2 harry col-form-label"> *Email</label>
           <div class="col-md-4 col-sm-12">
-            <input class="selin" type="text" name="email" value="<?php echo $posts->register_email;?>">
+            <input class="selin" type="email" name="email" value="<?php echo $posts->register_email;?>" required>
           </div>
         </div>
         <div class="form-group row">
