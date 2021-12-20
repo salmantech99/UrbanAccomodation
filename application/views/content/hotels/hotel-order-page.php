@@ -71,7 +71,7 @@
         <div class="form-group row form-label">
           <label for="staticEmail" class="col-md-3 harry col-form-label">*Name</label>
           <div class="col-md-3 col-sm-12">
-            <input class="selin" type="text" name="fullname" required="required">
+            <input class="selin" type="text" name="fullname" required>
           </div>
           <input type="hidden" name="hotel_id" value="<?php echo $post->hotel_id;?>" />
           <input type="hidden" name="hotel_name" value="<?php echo $post->hotel_name;?>" />
@@ -83,11 +83,11 @@
         <div class="form-group row form-label">
           <label class="col-md-3 harry col-form-label">* Phone Number</label>
           <div class="col-md-3 col-sm-12">
-            <input class="selin" type="number" name="fnumber" required="required">
+            <input class="selin" type="number" name="fnumber" required>
           </div>
-          <label for="staticEmail" class="col-md-1 harry col-form-label"> Email</label>
+          <label for="staticEmail" class="col-md-1 harry col-form-label"> *Email</label>
           <div class="col-md-5 col-sm-12">
-            <input class="selin" type="text" name="email">
+            <input class="selin" type="email" name="email" required>
           </div>
         </div>
         <div class="form-group row">
@@ -99,9 +99,9 @@
         <li class="travel-seat-font"><img src="<?php echo base_url(); ?>assets/image/search-hotel/red.png"> Offers </li>
         <hr>
         <div class="form-group row form-label">
-          <label for="staticEmail" class="col-md-3 harry col-form-label">* Coupon Code</label>
+          <label for="staticEmail" class="col-md-3 harry col-form-label">Coupon Code</label>
           <div class="col-md-9 col-sm-12">
-            <input class="selin" type="text" name="coupon_id" required="required">
+            <input class="selin" type="text" name="coupon_id">
           </div>
         </div>
         <div class="row">
