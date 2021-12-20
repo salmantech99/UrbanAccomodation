@@ -106,7 +106,7 @@
                   </div>
                   <div class="col-md-10 col-md-10 invoice-respons-work">
                     <div class="invoice-owner-detail">
-                      <h5>Travo</h5>
+                      <h5>Urban Accomodation</h5>
                       <h6><i class="fas fa-map-marker-alt mark"></i> Office# 815 Floor# 8 Al Hafeez Heights Gulberg 3 Lahore.</h6>
                       <h6><i class="fas fa-envelope mark"></i> info@xpertcoders.com</h6>
                       <h6><i class="fas fa-phone-volume mark"></i> 03164774149</h6>
