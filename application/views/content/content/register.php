@@ -46,23 +46,22 @@
                         <form action="<?php echo base_url(); ?>Login/login_user" method="post">
                             <div class="form-group">
                                 <label>Name</label>
-                                <input class="au-input au-input--full" type="text" name="name" placeholder="Name" id="name"  required pattern="[A-Za-z]{3,16}" title="*Please enter the correct Name">
+                                <input class="au-input au-input--full" type="text" name="name" placeholder="Name" id="name" required>
                             </div>
                             <div class="form-group">
                                 <label>Email Address</label>
-                                <input type="email" class="au-input au-input--full"  name="email" placeholder="Email" id="email"  required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Your email should be e.g 'salman@gmail.com'"/>
+                                <input class="au-input au-input--full" type="email" name="email" placeholder="Email" id="email" required>
                             </div>
                              <?php if (isset($error_file1)) {
                                         echo "$error_file1";
                                     } ?>
                             <div class="form-group">
                                 <label>Password</label>
-                                <input class="au-input au-input--full" type="password" name="password" placeholder="Password" id="password" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g">
-                                <div class=""></div>
+                                <input class="au-input au-input--full" type="password" name="password" placeholder="Password" id="password" required>
                             </div>
                             <div class="form-group">
                                 <label>Confirm Password</label>
-                                <input class="au-input au-input--full" type="password" name="confirm_password" placeholder="Confirm Password" id="email"  required>
+                                <input class="au-input au-input--full" type="password" name="confirm_password" placeholder="Confirm Password" id="email" required>
                             </div>
                             <?php echo $this->session->flashdata("error"); ?>
                             <button class="au-btn au-btn--block au-btn--green m-b-20 register-btn-signin" type="submit"><i class="fa fa-user-md"></i> Register</button>

@@ -11,7 +11,7 @@
       </div>
     </div>
   </div>
-<!--  _________________________LAHORE TO ISLAMABAD___________________________ -->
+<!--  _________________________DELHI TO MUMBAI___________________________ -->
 <!--  _______________________WELCOME TO THE ONLINE PASSENGER_______________________________ -->
   <div class="container welcome-margin">
     <div class="row">

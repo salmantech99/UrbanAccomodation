@@ -14,7 +14,7 @@
     </div>
   </div>
 </div>
- <!--  _________________________LAHORE TO ISLAMABAD___________________________ -->
+ <!--  _________________________DELHI TO MUMBAI___________________________ -->
 <div class="container one-way-margin">
   <div class="row search_modify_work">
     <div class="col-md-3 one-way">
@@ -167,7 +167,7 @@
           </div>
         </div>
         <div class="form-group row">
-          <label for="staticEmail" class="col-md-4 harry col-form-label">*CNIC Issue Date</label>
+          <label for="staticEmail" class="col-md-4 harry col-form-label">*CNIC Expiry</label>
           <div class="col-md-8 col-sm-12">
             <div class="form-group">
               <div class="col-xs-5 date">
@@ -270,7 +270,7 @@
         <div class="form-group row">
           <label for="staticEmail" class="col-md-3 harry col-form-label">Email Address</label>
           <div class="col-md-9 col-sm-12">
-          <input type="email" class="selin"  name="detail_email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Your email should be e.g 'salman@gmail.com'" />
+          <input type="email" class="selin"  name="detail_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Your email should be e.g 'salman@gmail.com'" />
           </div>
         </div>
         <div class="row">
@@ -313,7 +313,7 @@
         <li class="depart-font"><img src="<?php echo base_url(); ?>assets/image/search-hotel/red.png"> Need Assistance? <a href="#"><img src="<?php echo base_url(); ?>assets/image/search-hotel/minus.png" class="minus"></a></li>
         <p class="assistance-d">We would be more than happy to help you. Our team advisor are 24/7 at your service to help you.</p>
         <div class="info-travo">
-          <li><img src="<?php echo base_url(); ?>assets/image/car-single/phone.png">  +92 305 5454048</li>
+          <li><img src="<?php echo base_url(); ?>assets/image/car-single/phone.png">  +61 3 8376 6284</li>
           <li><img src="<?php echo base_url(); ?>assets/image/car-single/message.png"> info@UrbanAccomodation.com</li>
         </div>
       </div>

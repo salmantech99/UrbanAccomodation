@@ -108,8 +108,8 @@
                     <div class="invoice-owner-detail">
                       <h5>Urban Accomodation</h5>
                       <h6><i class="fas fa-map-marker-alt mark"></i> Office# 815 Floor# 8 Al Hafeez Heights Gulberg 3 Lahore.</h6>
-                      <h6><i class="fas fa-envelope mark"></i> Info@urbanaccomodation.com</h6>
-                      <h6><i class="fas fa-phone-volume mark"></i> +92 305 5454048</h6>
+                      <h6><i class="fas fa-envelope mark"></i> info@xpertcoders.com</h6>
+                      <h6><i class="fas fa-phone-volume mark"></i> 03164774149</h6>
                     </div>
                   </div>
                 </div>
