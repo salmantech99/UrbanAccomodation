@@ -69,7 +69,7 @@
                   <div class="col-md-4">
                     <div class="vacation-single-page-detail">
                       <p class="car_single_text vacation-date"><b>SELECT DATE</b></p>
-                      <input class="car_single_input vacation-single-input" id="datepicker" type="" name="pickupdate" placeholder="Enter Date">
+                      <input class="car_single_input vacation-single-input" id="datepicker" type="" name="pickupdate" placeholder="Enter Date" required>
                       <input type="hidden" name="vacation_id" value="<?php echo $post->id;?>" />
                     </div>
                   </div>
