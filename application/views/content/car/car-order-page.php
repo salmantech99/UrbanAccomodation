@@ -65,9 +65,9 @@
         <li class="travel-seat-font"><img src="<?php echo base_url(); ?>assets/image/search-hotel/red.png"> Offers </li>
          <hr>
         <div class="form-group row">
-          <label for="staticEmail" class="col-md-3 harry col-form-label">* Coupon Code</label>
+          <label for="staticEmail" class="col-md-3 harry col-form-label">Coupon Code</label>
           <div class="col-md-9 col-sm-12">
-            <input class="selin" type="text" name="coupon_id" required>
+            <input class="selin" type="text" name="coupon_id" maxlength="5" placeholder="12345">
           </div>
         </div>
         <div class="row">

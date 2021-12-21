@@ -73,7 +73,7 @@
 				<img src="<?php echo base_url(); ?>assets/image/about/work.jpg" class="about-image">
 			</div>
 			<div class="col-md-6">
-				<h3 class="who-font">How Travo Works?</h3>
+				<h3 class="who-font">How Urban Accomodation Works?</h3>
 				<p class="know-font">KNOW ABOUT US<br><img src="<?php echo base_url(); ?>assets/image/travo/dot-line.png"></p>
 				<p class="know-font1">Vestibulum dapibus urna id eros posuere, sit amet molestie metus malesuada. Sed maximus, tortor in ullamcorper mollis 
 				elit orci ornare purus, sit amet semper augue est ut duienean eget ante a mi pulvinar faucibus quis a elit. </p>			

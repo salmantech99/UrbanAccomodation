@@ -73,7 +73,7 @@
                         <option value=1><?php echo $post->pickup_location1;?></option>
                       </select>
                       <input type="hidden" name="car_id" value="<?php echo $post->id;?>" />
-                      <input type="hidden" name="pick_location" value="<?php echo $post->pickup_location1;?>" />
+                      <input type="hidden" name="pick_location" value="<?php echo $post->pickup_location1;?>"/>
                       <input type="hidden" name="location1" value="<?php echo $post->dropoff_location1;?>" />
                       <input type="hidden" name="price1_equality" value="<?php echo $post->price1;?>" />
                       <input type="hidden" name="location2" value="<?php echo $post->dropoff_location2;?>" />
@@ -97,11 +97,11 @@
                       <div class="row">
                         <div class="col-md-6">
                           <p class="car_single_text"><i class="fas fa-calendar-alt"></i> <b>pick up Date</b></p>
-                          <input class="car_single_input" id="datepicker" type="" name="pickupdate" placeholder="Enter Date">
+                          <input class="car_single_input" id="datepicker" type="" name="pickupdate" placeholder="Enter Date" required>
                         </div>
                         <div class="col-md-6">
                           <p class="car_single_text"><i class="fas fa-clock"></i> <b>pick up Time</b></p>
-                          <select class="car_single_input" name="pickuptime">
+                          <select class="car_single_input" name="pickuptime" required>
                             <option value="00:00">00:00</option>
                             <option value="00:30">00:30</option>
                             <option value="01:00">01:00</option>
@@ -172,11 +172,11 @@
                       <div class="row">
                         <div class="col-md-6">
                           <p class="car_single_text"><i class="fas fa-calendar-alt"></i> <b>Drop off Date</b></p>
-                          <input class="car_single_input" id="datepickerdate" type="" name="dropoffdate" placeholder="Enter Date">
+                          <input class="car_single_input" id="datepickerdate" type="" name="dropoffdate" placeholder="Enter Date" required>
                         </div>
                         <div class="col-md-6">
                           <p class="car_single_text"><i class="fas fa-clock"></i> <b>Drop off Time</b></p>
-                          <select class="car_single_input" name="dropofftime">
+                          <select class="car_single_input" name="dropofftime" required>
                             <option value="00:00">00:00</option>
                             <option value="00:30">00:30</option>
                             <option value="01:00">01:00</option>
