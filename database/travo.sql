@@ -43,8 +43,7 @@ CREATE TABLE `admin_user` (
 --
 
 INSERT INTO `admin_user` (`id`, `username`, `dob`, `email_address`, `password`, `mobile_number`, `country`) VALUES
-(1, 'ahmed javed', '22-08-1998', 'mahmedjaved17@gmail.com', 'ahmedcui', '03364646305', 'pakistan'),
-(2, 'salman sajid', '12-05-1998', 'salmansajid348@gmail.com', 'salmancui', '03055454048', 'pakistan');
+(1, 'ahmed javed', '22-08-1998', 'mahmedjaved17@gmail.com', 'ahmedcui', '03364646305', 'pakistan');
 
 -- --------------------------------------------------------
 
