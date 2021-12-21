@@ -57,15 +57,16 @@
                                     } ?>
                             <div class="form-group">
                                 <label>Password</label>
-                                <input class="au-input au-input--full" type="password" name="password" placeholder="Password" id="password" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g">
-                                <div class=""></div>
-                            </div>
+                                <input class="au-input au-input--full" type="password" name="password" placeholder="Password" id="password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" title="Password must have One Uppercase letter, Special Character and lenght should be 8 characters or longer">
+                                <span id="passwordspan"></span>
+                              </div>
                             <div class="form-group">
                                 <label>Confirm Password</label>
-                                <input class="au-input au-input--full" type="password" name="confirm_password" placeholder="Confirm Password" id="email"  required>
-                            </div>
+                                <input class="au-input au-input--full" type="password" name="confirm_password" placeholder="Confirm Password" id="Cpassword" required>
+                                <span id="Cpasswordspan"></span>
+                              </div>
                             <?php echo $this->session->flashdata("error"); ?>
-                            <button class="au-btn au-btn--block au-btn--green m-b-20 register-btn-signin" type="submit"><i class="fa fa-user-md"></i> Register</button>
+                            <button class="au-btn au-btn--block au-btn--green m-b-20 register-btn-signin" type="submit" onclick="return passwordcheck()"><i class="fa fa-user-md"></i> Register</button>
                         </form>
                     </div>
                 </div>
@@ -148,6 +149,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+  function passwordcheck(){
+    var password=document.getElementById('password').value;
+    var Cpassword=document.getElementById('Cpassword').value;
+    if(password!= Cpassword){
+        document.getElementById('Cpasswordspan').innerHTML="**Password Don't match. Please Enter again.";
+        return false;
+    }
+}
+</script>
+
 <script type="text/javascript">
     $(document).ready(function(){
 
