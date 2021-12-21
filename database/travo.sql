@@ -35,7 +35,7 @@ CREATE TABLE `admin_user` (
   `email_address` varchar(191) NOT NULL,
   `password` varchar(191) NOT NULL,
   `mobile_number` varchar(191) NOT NULL,
-  `country` varchar(191) NOT NULL
+  `country` varchar(191) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --

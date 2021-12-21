@@ -54,10 +54,10 @@
                 <div class="row">
                   <div class="col-md-6 col-sm-6">
                     <img src="<?php echo base_url('uploads/'.$post->thumb); ?>" class="invoice-img-car">
-                    <p class="customer-order-car-detail">Departure City</p>
+                    <p class="customer-order-car-detail">Departure Country</p>
                     <p class="customer-order-car-detail">Departure Date</p>
                     <p class="customer-order-car-detail">Departure Time</p>
-                    <p class="customer-order-car-detail">Arrival City</p>
+                    <p class="customer-order-car-detail">Arrival Country</p>
                     <p class="customer-order-car-detail">Arrival Date</p>
                     <p class="customer-order-car-detail">Arrival Time</p>
                     <p class="customer-order-car-detail">Total Hours</p>
