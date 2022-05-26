@@ -326,6 +326,19 @@
 </div>
 <!-- ____________________________SLIDER____________________________________ -->
 <div class="container-fluid today-index">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-12">
+      <div class="row">
+        <?php foreach($posts as $post){?>
+          <div class="col-lg-4 col-md-4 col-6">
+            
+          </div>
+        <?php } ?>
+       </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid today-index">
   <div class="responsive">
     <?php foreach($posts as $post){?>
     <div class="col-md-12 col-sm-12 col-xs-12">

@@ -30,11 +30,11 @@ class Login extends CI_Controller {
 	} 
 	public function profile(){
 		if ($this->session->userdata('email_address') != '') {
-			$data['posts'] = $this->login_module->get_admin_data();
+			// $data['posts'] = $this->login_module->get_admin_data();
 			$data1['posts'] = $this->login_module->get_profile_data(); 
 	    	$this->load->view('backend/template/header',$data1);
 			$this->load->view('backend/template/nav');
-			$this->load->view('backend/content/login/profile-user',$data);
+			$this->load->view('backend/content/login/profile-user',$data1);
 			$this->load->view('backend/template/footer');
 		}else
 		{
@@ -65,7 +65,7 @@ class Login extends CI_Controller {
 				$this->session->set_flashdata('error','Invalid email and password');
 				$this->load->view('templates/header');
 				$this->load->view('content/content/login');
-				$this->load->view('templates/footer');
+// 				$this->load->view('templates/footer');
 			}
 		}else
 		{
@@ -155,7 +155,7 @@ class Login extends CI_Controller {
 			$error1 = array('error_title' => 'Give title' , 'error_file1' => 'Email Already Exists');
 			$this->load->view('templates/header');
 			$this->load->view('content/content/register',$error1);
-			$this->load->view('templates/footer');
+// 			$this->load->view('templates/footer');
 		}else{
 			$pass         = $this->input->post('password');
 			$confirm_pass = $this->input->post('confirm_password');
@@ -173,13 +173,13 @@ class Login extends CI_Controller {
 				//Loading View
 			    $this->load->view('templates/header');
 			    $this->load->view('content/content/login');
-			    $this->load->view('templates/footer');
+// 			    $this->load->view('templates/footer');
 			}else
 			{
 				$error = array('error_title' => 'Give title' , 'error_file' => 'Your Password Not Matched');
 				$this->load->view('templates/header');
 				$this->load->view('content/content/register',$error);
-				$this->load->view('templates/footer');
+// 				$this->load->view('templates/footser');
 			}
 		}
 	}

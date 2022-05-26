@@ -1,8 +1,8 @@
 
   <ul class="nav nav-tabs car_set">
     <li class="active tabs_content_lists list"><a data-toggle="tab" href="#home" aria-expanded= "true" >General</a></li>
-    <li class="tabs_content_lists list10"><a data-toggle="tab" href="#menu2" aria-expanded= "false">Types</a></li>
-    <li class="tabs_content_lists list10"><a data-toggle="tab" href="#menu3" aria-expanded= "false">Payment Methods</a></li>
+<!--     <li class="tabs_content_lists list10"><a data-toggle="tab" href="#menu2" aria-expanded= "false">Types</a></li>
+    <li class="tabs_content_lists list10"><a data-toggle="tab" href="#menu3" aria-expanded= "false">Payment Methods</a></li> -->
   </ul>
 
   <div class="tab-content">

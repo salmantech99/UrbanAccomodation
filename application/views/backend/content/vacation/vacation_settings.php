@@ -1,8 +1,8 @@
 <div style="margin-top: 77px;">
   <ul class="nav nav-tabs">
     <li class="active tabs_content_lists list"><a data-toggle="tab" href="#home" aria-expanded= "true" >General</a></li>
-    <li class="tabs_content_lists list5"><a data-toggle="tab" href="#menu1" aria-expanded= "false" class="here">Types</a></li>
-    <li class="tabs_content_lists list7"><a data-toggle="tab" href="#menu3" aria-expanded= "false">Payment Methods</a></li>
+<!--     <li class="tabs_content_lists list5"><a data-toggle="tab" href="#menu1" aria-expanded= "false" class="here">Types</a></li>
+    <li class="tabs_content_lists list7"><a data-toggle="tab" href="#menu3" aria-expanded= "false">Payment Methods</a></li> -->
     <!-- <li class="tabs_content_lists list9"><a data-toggle="tab" href="#menu5" aria-expanded= "false">Room Amenities</a></li> -->
   </ul>
 </div>
@@ -162,8 +162,8 @@
                                     <a href=""><button type="button" class="btn btn-success btn-md btn-add btn-margin">
                                     <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                                     <div class="btn-hotel">
-                                        <button type="button" class="btn btn-danger btn-md btn-add">
-                                        <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
+<!--                                         <button type="button" class="btn btn-danger btn-md btn-add">
+                                        <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button> -->
                                         <button type="button" class="btn btn-outline-secondary btn-md btn-add">
                                         <i class="fas fa-print"></i>&nbsp; PRINT</button>
                                         <button type="button" class="btn btn-outline-secondary btn-md btn-add btn-marginn">
@@ -180,9 +180,9 @@
                                                 </th>
                                                 <th>#</th>
                                                 <th>Name</th>
-                                                <th>Status</th>
+<!--                                                 <th>Status</th>
                                                 <th>Edit</th>
-                                                <th>Delete</th>
+                                                <th>Delete</th> -->
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -193,9 +193,9 @@
                                                 </label></td>
                                                 <td>0</td>
                                                 <td class="hotel-add-alignment">0</td>
-                                                <td><i class="fas fa-check tick"></i></td>
+<!--                                                 <td><i class="fas fa-check tick"></i></td>
                                                 <td><i class="fas fa-edit edit"></i></td>
-                                                <td><i class="fas fa-times delete"></i></td>
+                                                <td><i class="fas fa-times delete"></i></td> -->
                                             </tr>
                                         </tbody>
                                     </table>

@@ -7,6 +7,13 @@
                 <h4 class="contact-us-reg" style="text-align: center;">LOGIN HERE</h4>
                 <div class="login-content admin-login-form">
                     <div class="login-form">
+                      <?php
+                      if(!empty($this->session->flashdata("error")))
+                      {
+                        echo $this->session->flashdata("error"); 
+                        unset($_SESSION['error']);
+                      }
+                      ?>
                         <form action="<?php echo base_url(); ?>Login/login_validation" method="post">
                             <div class="form-group">
                                 <label>Email Address</label>
@@ -16,7 +23,7 @@
                                 <label>Password</label>
                                 <input class="au-input au-input--full" type="password" name="password" placeholder="Password" id="password" required>
                             </div>
-                            <?php echo $this->session->flashdata("error"); ?>
+                            
                             <button class="au-btn au-btn--block au-btn--green m-b-20 register-btn-signin" type="submit"><i class="fa fa-user-md"></i> sign in</button>
                         </form>
                     </div>
@@ -25,7 +32,7 @@
         </div>
     </div>
 </div>
-
+<br><br><br><br>
 
 <!-- _________________________________FOOTER________________________________ -->
 <div class="footer-reg">

@@ -42,6 +42,7 @@ class Hotels extends CI_Controller {
 				$session_data = array(
                     'email_address'    => $email,
                     'password' => $password,
+					'id' => $result[0]->id
 				);
 				$this->session->set_userdata($session_data);
 				redirect(base_url() . 'Hotels/add_hotels');

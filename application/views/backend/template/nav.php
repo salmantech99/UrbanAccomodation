@@ -23,6 +23,16 @@
                                 </li>
                             </ul>
                         </div>
+						<li>
+                          <a data-toggle="collapse" href="#collapse10"><i class="fas fa-users"></i>Admins</a>  
+                        </li>
+                        <div id="collapse10" class="panel-collapse collapse">
+                            <ul class="list-group" style="list-style: none; text-align: left;">
+                                <li>
+                                    <a class="navbar-icons-alignment" href="<?php echo site_url('Admin/manage'); ?>">Manage Admins</a>
+                                </li>
+                            </ul>
+                        </div>
                         <li>
                           <a data-toggle="collapse" href="#collapse1"><i class="fas fa-hotel"></i> Hotels </a>  
                         </li>

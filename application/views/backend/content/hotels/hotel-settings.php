@@ -180,8 +180,8 @@
                             <a href="<?php echo site_url('Hotels/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-md btn-add btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
-                                <button type="button" class="btn btn-danger btn-md btn-add">
-                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
+<!--                                 <button type="button" class="btn btn-danger btn-md btn-add">
+                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button> -->
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add">
                                 <i class="fas fa-print"></i>&nbsp; PRINT</button>
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add btn-marginn">
@@ -198,9 +198,9 @@
                                         </th>
                                         <th>#</th>
                                         <th>Name</th>
-                                        <th>Status</th>
+<!--                                         <th>Status</th>
                                         <th>Edit</th>
-                                        <th>Delete</th>
+                                        <th>Delete</th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -212,9 +212,9 @@
                                         </label></td>
                                         <td><?php echo $post->id;?></td>
                                         <td class="hotel-add-alignment"><?php echo $post->hotel_name;?></td>
-                                        <td><i class="fas fa-check tick"></i></td>
+<!--                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td><i class="fas fa-times delete"></i></td> -->
                                     </tr>
                                     <?php } ?>
                                 </tbody>
@@ -259,8 +259,8 @@
                             <a href="<?php echo site_url('Hotels/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-md btn-add btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
-                                <button type="button" class="btn btn-danger btn-md btn-add">
-                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
+<!--                                 <button type="button" class="btn btn-danger btn-md btn-add">
+                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button> -->
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add">
                                 <i class="fas fa-print"></i>&nbsp; PRINT</button>
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add btn-marginn">
@@ -277,9 +277,9 @@
                                         </th>
                                         <th>#</th>
                                         <th>Name</th>
-                                        <th>Status</th>
+<!--                                         <th>Status</th>
                                         <th>Edit</th>
-                                        <th>Delete</th>
+                                        <th>Delete</th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -291,9 +291,9 @@
                                         </label></td>
                                         <td><?php echo $post->id;?></td>
                                         <td class="hotel-add-alignment"><?php echo $post->hotel_type;?></td>
-                                        <td><i class="fas fa-check tick"></i></td>
+<!--                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td><i class="fas fa-times delete"></i></td> -->
                                     </tr>
                                     <?php } ?>
                                 </tbody>
@@ -338,8 +338,8 @@
                             <a href="<?php echo site_url('Hotels/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-md btn-add btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
-                                <button type="button" class="btn btn-danger btn-md btn-add">
-                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
+<!--                                 <button type="button" class="btn btn-danger btn-md btn-add">
+                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button> -->
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add">
                                 <i class="fas fa-print"></i>&nbsp; PRINT</button>
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add btn-marginn">
@@ -357,9 +357,9 @@
                                         <th>#</th>
                                         <th>Name</th>
                                         <th>Selected</th>
-                                        <th>Status</th>
+<!--                                         <th>Status</th>
                                         <th>Edit</th>
-                                        <th>Delete</th>
+                                        <th>Delete</th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -372,9 +372,9 @@
                                         <td><?php echo $post->id;?></td>
                                         <td class="hotel-add-alignment"><?php echo $post->payment_option;?></td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
+<!--                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td><i class="fas fa-times delete"></i></td> -->
                                     </tr>
                                     <?php } ?>
                                 </tbody>
@@ -419,8 +419,8 @@
                             <a href="<?php echo site_url('Hotels/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-md btn-add btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
-                                <button type="button" class="btn btn-danger btn-md btn-add">
-                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
+<!--                                 <button type="button" class="btn btn-danger btn-md btn-add">
+                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button> -->
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add">
                                 <i class="fas fa-print"></i>&nbsp; PRINT</button>
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add btn-marginn">
@@ -439,9 +439,9 @@
                                         <th>Icons</th>
                                         <th>Name</th>
                                         <th>Selected</th>
-                                        <th>Status</th>
+<!--                                         <th>Status</th>
                                         <th>Edit</th>
-                                        <th>Delete</th>
+                                        <th>Delete</th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -454,9 +454,9 @@
                                         <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
+<!--                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td><i class="fas fa-times delete"></i></td> -->
                                     </tr>
                                 </tbody>
                             </table>
@@ -500,8 +500,8 @@
                             <a href="<?php echo site_url('Hotels/hotel_one/'); ?>"><button type="button" class="btn btn-success btn-md btn-add btn-margin">
                             <i class="fas fa-plus-circle"></i>&nbsp; ADD</button></a>
                             <div class="btn-hotel">
-                                <button type="button" class="btn btn-danger btn-md btn-add">
-                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button>
+<!--                                 <button type="button" class="btn btn-danger btn-md btn-add">
+                                <i class="fas fa-times-circle"></i>&nbsp;DELETE SELECTED</button> -->
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add">
                                 <i class="fas fa-print"></i>&nbsp; PRINT</button>
                                 <button type="button" class="btn btn-outline-secondary btn-md btn-add btn-marginn">
@@ -520,9 +520,9 @@
                                         <th>Icons</th>
                                         <th>Name</th>
                                         <th>Selected</th>
-                                        <th>Status</th>
+<!--                                         <th>Status</th>
                                         <th>Edit</th>
-                                        <th>Delete</th>
+                                        <th>Delete</th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -535,9 +535,9 @@
                                         <td>0</td>
                                         <td class="hotel-add-alignment">0</td>
                                         <td class="hotel-add-alignment">0</td>
-                                        <td><i class="fas fa-check tick"></i></td>
+<!--                                         <td><i class="fas fa-check tick"></i></td>
                                         <td><i class="fas fa-edit edit"></i></td>
-                                        <td><i class="fas fa-times delete"></i></td>
+                                        <td><i class="fas fa-times delete"></i></td> -->
                                     </tr>
                                 </tbody>
                             </table>

@@ -69,6 +69,7 @@ class hotel_module extends CI_Model {
  		$query = $this->db->get();
 	 	return $query->result();
     }
+	
     function get_singlehotel($id){
 	  	$this->db->select('h.*,r.*');
         $this->db->from('hotels as h');

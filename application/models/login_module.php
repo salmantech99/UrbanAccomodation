@@ -16,6 +16,12 @@ class login_module extends CI_Model {
  		$query = $this->db->get();
 	 	return $query->result();
     }
+	public function getAdmins(){
+		$this->db->select("*");
+		$this->db->where_not_in('id',$this->session->userdata('id'));
+		$query = $this->db->from('admin_user')->get()->result();
+		return $query;
+	}
     public function edit_user_profile($user_edit  ,$user_email){
 		$this->db->where('register_email', $user_email);
 		$this->db->update('travo_register', $user_edit);
@@ -66,7 +72,7 @@ class login_module extends CI_Model {
     function get_profile_data(){
     	$this->db->select('*');
     	$this->db->from('admin_user');
-    	$this->db->where('id' ,'1');
+    	$this->db->where('id' ,$this->session->userdata('id'));
     	$query = $this->db->get();
 	  	return $query->result();
     }
@@ -78,6 +84,33 @@ class login_module extends CI_Model {
  		$query = $this->db->get();
 	 	return $query->result(); 
 	}
+
+	public function insertAdmin($data = array()){
+		$this->db->insert('admin_user',$data);
+		return true;
+	}
+
+	public function getAdmin($id){
+		$this->db->select('*');
+		$this->db->from('admin_user');
+		$admin = $this->db->where('id',$id)->get()->result();
+		return $admin;
+	}
+
+	public function updateAdmin($id,$data)
+	{
+		$this->db->where('id',$id);
+		$this->db->update('admin_user',$data);
+		return true;
+	}
+
+	public function deleteAdmin($id)
+	{
+		$this->db->where('id',$id);
+		$this->db->delete('admin_user');
+		return true;
+	}
+
     function mail_exists($key)
 	{
 	    $this->db->where('email',$key);
